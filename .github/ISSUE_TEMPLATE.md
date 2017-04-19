@@ -11,7 +11,7 @@ Explanation of your *issue* in arbitrary form goes here. Please make sure the de
 ---
 
 ### Make sure you are using the *latest* version: pull latest commits before reporting any issues.
-- [ ] I've **verified** and **I assure** that I'm looking at the latest version of Trump Tracker.
+- [ ] I've **verified** and **I assure** that I'm looking at the latest version of StarCitizen Tracker.
 
 ### Before submitting an *issue* make sure you have:
 - [ ] At least skimmed through [README](https://github.com/StarCitizenTracker/startcitizentracker.github.io/blob/master/README.md) and **most notably** the [To Do List](https://github.com/StarCitizenTracker/startcitizentracker.github.io#to-do-list) section.
