@@ -14,8 +14,8 @@
 - [ ] I've **verified** and **I assure** that I'm looking at the latest version of Trump Tracker.
 
 ### Before submitting a *Pull Request* make sure you have:
-- [ ] At least skimmed through [README](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/README.md) and **most notably** the [To Do List](https://github.com/TrumpTracker/trumptracker.github.io#to-do-list) and [CONTRIBUTING.md](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/CONTRIBUTING.md) pages.
-- [ ] [Searched](https://github.com/TrumpTracker/trumptracker.github.io/pulls?utf8=%E2%9C%93&q=) through previous Pull Requests for similar issues including closed ones or just looking at the promises template
+- [ ] At least skimmed through [README](https://github.com/StarCitizenTracker/startcitizentracker.github.io/blob/master/README.md) and **most notably** the [To Do List](https://github.com/StarCitizenTracker/startcitizentracker.github.io#to-do-list) and [CONTRIBUTING.md](https://github.com/StarCitizenTracker/startcitizentracker.github.io/blob/master/CONTRIBUTING.md) pages.
+- [ ] [Searched](https://github.com/StarCitizenTracker/startcitizentracker.github.io/pulls?utf8=%E2%9C%93&q=) through previous Pull Requests for similar issues including closed ones or just looking at the promises template
 
 ---
 
@@ -36,8 +36,8 @@ Where did you find out about the promise getting updated? These news articles sh
 Note: Please try to keep the articles bias free, since we are not trying to lean any way. Executive Orders are the best option.
 
 Please test after setting up to see if the promise got updated. Use the search function to check if the color got applied.
-Setup instructions in [Read Me](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/README.md).
+Setup instructions in [Read Me](https://github.com/StarCitizenTracker/startcitizentracker.github.io/blob/master/README.md).
 
 After you're done with all of this you're ready to go! Send over the Pull Request and we will get back to you in one business day, if not sooner.
 
-Thank you for your immense contribution, you're helping improve TrumpTracker everyday.
+Thank you for your immense contribution, you're helping improve StarCitizenTracker everyday.

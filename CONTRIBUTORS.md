@@ -1,28 +1,30 @@
 ##### Generated with `git shortlog -sn | cut -c8-`, which sorts by commits, manually ordered the first four authors, merged duplicates
 
 - Viren Mohindra
+- StarCitizenTracker
 - MrLuit
 - Alan Friedman
 - Matt Sandy
+- Sidd
 - Kyle Hodgetts
 - TrumpTracker
-- Sidd
-- octos
+- Ayoungcoder
+- Christian Oliff
 - Jay Ravaliya
 - MPs
 - Mike Hume
 - Petr Bena
 - Rasikh Morani
 - Tim Cason
-- Ayoungcoder
-- Christian Oliff
-- Evan Lovely
-- The Gitter Badger
+- octos
+- Bardi Harborow
+- Chris Bloom
 - Christopher Bloom
+- Evan Lovely
+- Jacob Ford
 - John White
 - Joshua Berenhaus
-- Jacob Ford
-- Scott Jones
-- Chris Bloom
 - Michael Henry
-- Bardi Harborow
+- Scott Jones
+- Sean Dwyer
+- The Gitter Badger
