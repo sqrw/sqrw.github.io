@@ -2,6 +2,8 @@
 
 [![license](https://img.shields.io/github/license/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/LICENSE.md)[![RSS](https://img.shields.io/badge/RSS-v2.0-brightgreen.svg?style=flat-square)](https://luithollander.nl/trumptracker/rss.php)
 
+StarCitzen Tracker is based on TrumpTracker, which can be obtained at the address above.
+
 # Setup
 
 Install [Jekyll](https://jekyllrb.com/) and Bundler:
@@ -18,7 +20,7 @@ Site is now running at [localhost:4000](http://localhost:4000)
 
 # Contributing
 
-We'd love to get contributions from you! For a quick guide to getting your system setup for developing TrumpTracker take a look at the setup above. Once you are up and running, check out the [contributing guide](.github/PULL_REQUEST_TEMPLATE.md) to see how to get your changes and pull requests merged in.
+We'd love to get contributions from you! For a quick guide to getting your system setup for developing StarCitizen Tracker take a look at the setup above. Once you are up and running, check out the [contributing guide](.github/PULL_REQUEST_TEMPLATE.md) to see how to get your changes and pull requests merged in.
 
 # To Do List
 1. ~~Cleaner way to add and handle policies (not hardcode it...)~~
