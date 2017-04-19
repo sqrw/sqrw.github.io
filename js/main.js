@@ -64,15 +64,15 @@
       // Wipe all filters
       promiseList.search();
       promiseList.filter();
+
+      // Select and replace maintained by name
+        var maintainers = ["Bitter about EvE Goons", "Derek's Smarties", "Goons who know nothing about game development", "Goons stuck in checkmate", "Goonrathi [FLJK]", "T-posed Goons", "The Fourth Stimpire", "Ryan Archer"]
+        var maintainer = maintainers[Math.floor(Math.random() * maintainers.length)];
+        $('.maintainer-name').html('Maintained by' + maintainer);
     }
 
     // Hard reset all the buttons
     $('.promises__category--reset').on('click', resetFilter);
-
-    // Select and replace maintained by name
-    var maintainers = ["Bitter about EvE Goons", "Derek's Smarties", "Goons who know nothing about game development", "Goons stuck in checkmate", "Goonrathi [FLJK]", "T-posed Goons", "The Fourth Stimpire", "Ryan Archer"]
-    var maintainer = maintainers[Math.floor(Math.random() * maintainers.length)];
-    $('#maintainer-name').html(maintainer);
 
     // Any facet filter button
     $facets.on('click', function(e) {
