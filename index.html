@@ -9,6 +9,8 @@ layout: page
 
 {% assign categories = promises | map: 'category' | uniq %}
 
+{% assign confidence = site.data.data.confidence %}
+
 <div class="container promises-header page-header" id="promises-header">
     <div class="row">
 
