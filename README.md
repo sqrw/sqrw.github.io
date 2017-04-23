@@ -4,6 +4,11 @@
 
 StarCitzen Tracker is forked from TrumpTracker on github.
 
+# Open Data
+### All Data: [coming soon]
+### Submitted Promises:     https://docs.google.com/spreadsheets/d/17zTsSlyybT_AXkJQJczquEeDuRu9EsMlSVHmrBmmj4k/edit?usp=sharing
+### Disputed Promises:      https://docs.google.com/spreadsheets/d/1filYl5XipGHrbggNDPMp-dHYVo8CaOOatVVeeQwaNhs/edit?usp=sharing
+
 # Placeholder FAQ
 ### How is Confidence Accuracy calculated?
 Each item is judged from 0-100% accurate based on the promise date and supporting links. 'Broken' and 'Completed' items are judged the most harshly, and should include at least 2 supporting links, as well as the original promise to recieve 100% confidency.
