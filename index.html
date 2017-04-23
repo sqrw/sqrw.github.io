@@ -191,11 +191,10 @@ layout: page
                         {{ promise.title }}
                         <!-- add superscript citations and sources -->
                         {% for source in promise.sources %}
-                            {% if forloop.index == 1 %}
+                            <!-- {% if forloop.index == 1 %}
                                 <sup><a href="{{ source }}">Promise</a></sup>
-                            {% else %}
-                            <sup><a href="{{ source }}">{{ forloop.index -= 1 }}</a></sup>
-                            {% endif %}
+                            {% else %} -->
+                            <sup><a href="{{ source }}">{{ forloop.index - 1 }}</a></sup>
                         {% endfor %}
                         </td>
                         <!-- <td class="promise__sources" style="white-space: nowrap;">
