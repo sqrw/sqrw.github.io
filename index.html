@@ -193,8 +193,9 @@ layout: page
                         {% for source in promise.sources %}
                             {% if forloop.index == 1 %}
                                 <sup><a href="{{ source }}">Promise</a></sup>
-                            {% endif %}
+                            {% else %}
                             <sup><a href="{{ source }}">{{ forloop.index - 1}}</a></sup>
+                            {% endif %}
                         {% endfor %}
                         </td>
                         <!-- <td class="promise__sources" style="white-space: nowrap;">
