@@ -5,7 +5,7 @@
 StarCitzen Tracker is forked from TrumpTracker on github.
 
 # Placeholder FAQ
-###How is Confidence Accuracy calculated?
+### How is Confidence Accuracy calculated?
 Each item is judged from 0-100% accurate based on the promise date and supporting links. 'Broken' and 'Completed' items are judged the most harshly, and should include at least 2 supporting links, as well as the original promise to recieve 100% confidency.
 
 # Contributing
