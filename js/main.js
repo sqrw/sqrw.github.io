@@ -45,10 +45,7 @@
     $('#days-in-office').html(today.diff(inauguration, 'days') > 0 ? today.diff(inauguration, 'days') : 0);
 
     //Always show tooltip on confidence-btn
-    var clickedNotify = false;
     $('#confidence-btn').tooltip('show');
-    $('#confidence-btn').mouseleave(function() { if (!clickedNotify) { $('#confidence-btn').tooltip('show'); } });
-    $('#confidence-btn').click(function() { clickedNotify = true; $(this).tooltip('destroy'); });
     
     // Select and replace maintained by name
     var maintainers = ["Bitter about EvE Goons", "Derek's Smarties", "SomethingAwful Goons", "Salty Asshats", "Goons (who know nothing about game development)", "Goons stuck in checkmate", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "Ryan Archer"]
