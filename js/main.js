@@ -41,11 +41,12 @@
     var today = moment();
     var inauguration = moment('2012-11-19');
     $('#inauguration-days').html(inauguration.diff(today, 'days') > 0 ? inauguration.diff(today, 'days') : 'NA');
-    
     $('#inauguration-time-container').hide(); //TEMP FIX 
-    
     $('#days-in-office').html(today.diff(inauguration, 'days') > 0 ? today.diff(inauguration, 'days') : 0);
 
+    //Always show tooltip on confidence-btn
+    $('#confidence-btn').tooltip('show');
+    
     // Select and replace maintained by name
     var maintainers = ["Bitter about EvE Goons", "Derek's Smarties", "SomethingAwful Goons", "Salty Asshats", "", "Goons (who know nothing about game development)", "Goons stuck in checkmate", "Goonrathi [FLJK]", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "Ryan Archer"]
     var maintainer = maintainers[Math.floor(Math.random() * maintainers.length)];
