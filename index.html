@@ -5,11 +5,10 @@ layout: page
 {% assign promises = site.data.data.promises %}
 {% assign icons = site.data.data.icons %}
 {% assign statuses = site.data.data.statuses %}
+{% assign confidence = site.data.data.confidence %}
 {% assign total = promises | size %}
 
 {% assign categories = promises | map: 'category' | uniq %}
-
-{% assign confidence = site.data.data.confidence %}
 
 <div class="container promises-header page-header" id="promises-header">
     <div class="row">
