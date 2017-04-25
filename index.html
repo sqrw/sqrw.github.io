@@ -28,11 +28,12 @@ layout: page
                 {% for status in statuses %}
                     {% assign status_name = status[0] %}
                     {% assign status_data = status[1] %}
+                    {% assign total = promises | size %}
                     <li class="list-group-item list-group-item-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
                         <i class="fa fa-fw fa-{{ status_data['icon'] }} "></i>
                         {% assign percentage_cat = (promises | where: "status",status_name | size ) %}
                         
-                        {{ status_name }}: <span class="active-points">{{ promises | where: "status",status_name | size }}</span> <span class="total-points">({{ percentage_cat | divided_by: 10 }}%)</span><span>({{ percentage_cat }}%)</span>
+                        {{ status_name }}: <span class="active-points">{{ promises | where: "status",status_name | size }}</span> <span class="total-points">({{ percentage_cat | divided_by: total }}%)</span><span>({{ (percentage_cat // total) }}%)</span>
                     </li>
                 {% endfor %}
 
