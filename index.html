@@ -30,8 +30,12 @@ layout: page
                     {% assign status_data = status[1] %}
                     <li class="list-group-item list-group-item-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
                         <i class="fa fa-fw fa-{{ status_data['icon'] }} "></i>
-                        {% assign percentage_cat = (promises | where: "status",status_name | size ) %}
-                        {{ status_name }}: <span class="active-points">{{ percentage_cat }}</span> <span class="total-points">({{ percentage_cat | times: 100 | divided_by: total }}%)</span>
+                        {% assign category_total = (promises | where: "status",status_name | size) %}
+                        {% assign category_percent = (promises | where: "status",status_name | size | times: 100 | divided_by: total) %}
+                        {% if category_percent == 0 %}
+                            {% assign category_percent = 1 %}
+                        {% endif %}
+                        {{ status_name }}: <span class="active-points">{{ category_total }}</span>   <span class="total-points">({{ category_percent }}%)</span>
                     </li>
                 {% endfor %}
 
@@ -40,7 +44,7 @@ layout: page
         </div>
 
         <div class="container-fluid">
-            <p>In 2012 Chris Roberts convinced 34,397 backers on kickstarter to give his company $2,134,374 for a space simulation game "Star Citizen" with a a Wing Commander style single player mode entitled "Squadron 42".</p>
+            <p>In 2012 Chris Roberts convinced 34,397 backers on kickstarter to give his company $2,134,374 for a space simulation game "Star Citizen" with a Wing Commander style single player mode entitled "Squadron 42".</p>
             <p>Chris made and continues to make <b>a lot of promises</b>. StarCitizen Tracker attempts to fact-check Chris and Cloud Imperium Games Corporation to see if they adhere to all promises made concerning the project.  This crowdsourced endeavour started on April 17th, 2017 and may contain inaccuracies.</p>
             <p>
                 <span><b>Accuracy Confidence:</b></span>
