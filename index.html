@@ -30,7 +30,8 @@ layout: page
                     {% assign status_data = status[1] %}
                     <li class="list-group-item list-group-item-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
                         <i class="fa fa-fw fa-{{ status_data['icon'] }} "></i>
-                        {{ status_name }}: <span class="active-points">{{ promises | where: "status",status_name | size }}</span> <span class="total-points">( {{ promises | where: "status",status_name | size / total }} %)</span>
+                        {% assign percentage = ( promises | where: "status",status_name | size / total) %}
+                        {{ status_name }}: <span class="active-points">{{ promises | where: "status",status_name | size }}</span> <span class="total-points">({{ (percentage / total) }}%)</span>
                     </li>
                 {% endfor %}
 
@@ -63,7 +64,7 @@ layout: page
                         </a> -->
                     </li>
                     <li>
-                        <a href="https://twitter.com/home?status=Track%C2%A0%40RobertsSpaceInd's%C2%A0Promises%C2%A0with%C2%A0%23StarCitizenTracker%20https%3A//starcitizentracker.github.io/%0A%20via%20%40dsmart"
+                        <a href="https://twitter.com/home?status=Track%C2%A0%40RobertsSpaceInd's%C2%A0Promises%C2%A0with%C2%A0%23StarCitizenTracker%20https%3A//starcitizentracker.github.io/"
                            target="_blank" style="color:#1da1f2;">
                             <i class="fa fa-2x fa-twitter"></i>
                         </a>
