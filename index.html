@@ -30,8 +30,8 @@ layout: page
                     {% assign status_data = status[1] %}
                     <li class="list-group-item list-group-item-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
                         <i class="fa fa-fw fa-{{ status_data['icon'] }} "></i>
-                        {% assign percentage = (promises | where: "status",status_name | size | divided_by:total) %}
-                        {{ status_name }}: <span class="active-points">{{ promises | where: "status",status_name | size }}</span> <span class="total-points">({{ (percentage \ total) }}%)</span><span>({{ percentage }}%)</span>
+                        {% assign percentage = (promises | where: "status",status_name | size ) %}
+                        {{ status_name }}: <span class="active-points">{{ promises | where: "status",status_name | size }}</span> <span class="total-points">({{ percentage | divided_by: total }}%)</span><span>({{ percentage }}%)</span>
                     </li>
                 {% endfor %}
 
