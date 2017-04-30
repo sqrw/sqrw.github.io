@@ -211,12 +211,20 @@ layout: page
                             <!-- <a href="{{ promise.comments }}" target="_blank" rel="nofollow"> 
                             <i class="fa fa-fw fa-comments text-muted" aria-hidden="true"></i></a> -->
 
-                            {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Completed" %} completed{% elsif promise.status == "Broken" %} broke{% elsif promise.status == "Compromised" %} compromised on{% elsif promise.status == "Stagnant" %} is taking forever on{% else %}{% endif %}{% endcapture %}{% capture message %}.@RobertsSpaceInd{{ status }} promise: {{ promise.title }} according to{% endcapture %}
+                            {% capture status %}
+                                {% if promise.status == "Not implemented" %} hasn't added
+                                {% elsif promise.status == "In alpha" %} is progressing on
+                                {% elsif promise.status == "Completed" %} completed
+                                {% elsif promise.status == "Broken" %} broke
+                                {% elsif promise.status == "Compromised" %} compromised on
+                                {% elsif promise.status == "Stagnant" %} is taking forever on
+                                {% else %}
+                                {% endif %}
+                            {% endcapture %}{% capture message %}.@RobertsSpaceInd{{ status }} promise: {{ promise.title }} according to{% endcapture %}
 
                             {% capture tweettext %}{{ message }}{% endcapture %}
 
                             <a href="https://twitter.com/share?url=https://starcitizentracker.github.io/&text={{ tweettext | truncate: 102 | url_encode }}&hashtags=StarCitizen" target="_blank"><i class="fa fa-fw fa-twitter text-muted" aria-hidden="true"></i></a>
-
                         </td>
                     </tr>
                     {% endfor %}
