@@ -192,6 +192,13 @@ layout: page
                         <b><span class="js-promise-category">{{ promise.category }}</span>:</b>
                         <span class="promise__status-text js-promise-status sr-only">{{ promise.status }}</span>
                         {{ promise.title }}
+                            <!-- Append badges for anything of interest -->
+                            {% for tag in promise.tags %}
+                                {% if tag == 'Official Stretch Goal' || tag == 'Kickstarter Stretch Goal' %}
+                               <span class="badge">{{ tag }}</span>
+                                {% endif %}
+                            {% endfor %}
+                            
                         <!-- add superscript citations and sources -->
                         {% for source in promise.sources %}
                             <sup><a href="{{ source }}">{{ forloop.index }}</a></sup>
