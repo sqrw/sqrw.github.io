@@ -45,7 +45,7 @@
     $('#days-in-office').html(today.diff(inauguration, 'days') > 0 ? today.diff(inauguration, 'days') : 0);
 
     //Always show tooltip on confidence-btn
-    $('#confidence-btn').tooltip('show');
+    //$('#confidence-btn').tooltip('show');
     
     // Select and replace maintained by name
     var maintainers = ["Bitter about EvE Goons", "Derek's Smarties", "SomethingAwful Goons", "Salty Asshats", "Goons (who know nothing about game development)", "Goons stuck in checkmate", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "Ryan Archer"]
