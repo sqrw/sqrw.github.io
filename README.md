@@ -9,10 +9,6 @@ StarCitzen Tracker is forked from TrumpTracker on github.
 ### Submitted Promises:     https://docs.google.com/spreadsheets/d/17zTsSlyybT_AXkJQJczquEeDuRu9EsMlSVHmrBmmj4k/edit?usp=sharing
 ### Disputed Promises:      https://docs.google.com/spreadsheets/d/1filYl5XipGHrbggNDPMp-dHYVo8CaOOatVVeeQwaNhs/edit?usp=sharing
 
-# Placeholder FAQ
-### How is Confidence Accuracy calculated?
-Each item is judged from 0-100% accurate based on the promise date and supporting links. 'Broken' and 'Completed' items are judged the most harshly, and should include at least 2 supporting links, as well as the original promise to recieve 100% confidency.
-
 # Contributing
 
 We'd love to get contributions from you! For a quick guide to getting your system setup for developing StarCitizen Tracker take a look at the setup above. Once you are up and running, check out the [contributing guide](.github/PULL_REQUEST_TEMPLATE.md) to see how to get your changes and pull requests merged in.
@@ -20,8 +16,8 @@ We'd love to get contributions from you! For a quick guide to getting your syste
 # To Do List
 - [ ] Re-implement Comment section -- Reddit Integration?
 - [ ] Sign up for bi-weekly e-mails?
-- [ ] Update about page
 - [ ] Find more active editors for data entry
+- [x] Update about page
 - [x] Accuracy confidence percentage
 - [x] Cleaner way to add and handle elements (not hardcode it...)
 - [x] Fuzzy Search functionality
