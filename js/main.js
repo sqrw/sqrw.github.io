@@ -105,7 +105,7 @@
 	console.log(facets);
 	//Update graph on facets length of 1
 	if (facets.length === 1) {
-		Build_and_fill_Chart(facets);
+		Build_and_fill_Chart(facets[0]value);
 	}
 	  
       // When deselecting last, clear all filters
