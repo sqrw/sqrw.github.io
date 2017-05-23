@@ -147,7 +147,7 @@ function Build_and_fill_Chart(para_Type) {
     ];
     var brokenArray = [], stagnantArray = [], notimplementedArray = [], inalphaArray = [], compromisedArray = [], completedArray = [];
     //build data arrays
-    para_Type = "Completed";
+    var labels = [];
     for (var _i = 0, History_1 = History; _i < History_1.length; _i++) {
         var month = History_1[_i];
         switch (para_Type) {
