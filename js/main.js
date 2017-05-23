@@ -70,6 +70,8 @@
       // Wipe all filters
       promiseList.search();
       promiseList.filter();
+      // Wipe graph to default
+      Build_and_fill_Chart();
     }
 
     // Hard reset all the buttons
@@ -111,7 +113,6 @@
       // When deselecting last, clear all filters
       if (facets.length === 0) {
         promiseList.filter();
-	Build_and_fill_Chart();
         return; // Eject now
       }
 
