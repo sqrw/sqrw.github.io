@@ -104,13 +104,14 @@
       
 	console.log(facets);
 	//Update graph on facets length of 1
-	if (facets.length === 1) {
+	if (facets.length === 1 && facets[0].facet == "js-promise-status") {
 		Build_and_fill_Chart(facets[0].value);
 	}
 	  
       // When deselecting last, clear all filters
       if (facets.length === 0) {
         promiseList.filter();
+	Build_and_fill_Chart();
         return; // Eject now
       }
 
@@ -223,7 +224,7 @@ function Build_and_fill_Chart(para_Type) {
                 data: completedArray
             }]
     };
-    console.log(typeof (AllChart));
+    //console.log(typeof (AllChart));
     //update chart data if already created
     if (typeof (AllChart) == "object") {
         AllChart.config.data = data;
