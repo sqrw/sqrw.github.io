@@ -140,6 +140,7 @@ function Build_and_fill_Chart() {
     ];
     var brokenArray = [], stagnantArray = [], notimplementedArray = [], inalphaArray = [], compromisedArray = [], completedArray = [];
     //build arrays of data
+    var labels = []; 
     for (var _i = 0, History_1 = History; _i < History_1.length; _i++) {
         var month = History_1[_i];
         brokenArray.push(month.Broken);
