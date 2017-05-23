@@ -44,6 +44,9 @@
     $('#inauguration-time-container').hide(); //TEMP FIX 
     $('#days-in-office').html(today.diff(inauguration, 'days') > 0 ? today.diff(inauguration, 'days') : 0);
 
+    //Build AllChart with default input
+    Build_and_fill_Chart(); 
+
     //Always show tooltip on confidence-btn
     //$('#confidence-btn').tooltip('show');
     
