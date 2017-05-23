@@ -200,7 +200,8 @@ function Build_and_fill_Chart() {
         AllChart.update();
     }
     else {
-        console.log("Created empty chart");
+        console.log("Creating chart");
+	Chart.defaults.global.legend.display = false;
         AllChart = new Chart(ctx, {
             type: 'line',
             data: data,
