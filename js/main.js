@@ -44,9 +44,6 @@
     $('#inauguration-time-container').hide(); //TEMP FIX 
     $('#days-in-office').html(today.diff(inauguration, 'days') > 0 ? today.diff(inauguration, 'days') : 0);
 
-    //Build AllChart with default input
-    Build_and_fill_Chart(); 
-
     //Always show tooltip on confidence-btn
     //$('#confidence-btn').tooltip('show');
     
@@ -142,6 +139,12 @@
   });
 
 })(jQuery, List, _, moment);
+
+//Build AllChart with default input
+Build_and_fill_Chart(); 
+$(document).ready($.proxy(anchorScrolls, 'init'));
+})(window.document, window.history, window.location);
+
 
 //Chart
 function Build_and_fill_Chart(para_Type) {
@@ -345,6 +348,3 @@ function Build_and_fill_Chart(para_Type) {
       }
     }
   };
-
-	$(document).ready($.proxy(anchorScrolls, 'init'));
-})(window.document, window.history, window.location);
