@@ -269,8 +269,6 @@ function Build_and_fill_Chart(para_Type) {
 
 //Build AllChart with default input
 Build_and_fill_Chart(); 
-$(document).ready($.proxy(anchorScrolls, 'init'));
-})(window.document, window.history, window.location);
 
 
 //scrolling to anchor
@@ -346,3 +344,5 @@ $(document).ready($.proxy(anchorScrolls, 'init'));
       }
     }
   };
+$(document).ready($.proxy(anchorScrolls, 'init'));
+})(window.document, window.history, window.location);
