@@ -105,8 +105,8 @@
       }).get();
       
 	console.log(facets);
-	//Update graph on facets length of 1
-	if (facets.length === 1 && facets[0].facet == "js-promise-status") {
+	//Update graph on "js-promise-status" changes
+	if (facets[0].facet == "js-promise-status") {
 		Build_and_fill_Chart(facets[0].value);
 	}
 	  
