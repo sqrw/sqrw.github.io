@@ -322,27 +322,32 @@ function Build_and_fill_Chart(para_Type) {
             options: {
                 tooltips: {
                     mode: "label",
-                    position: "nearest"
+                    position: "nearest",
+                    callbacks: {
+                        title: function(data) {
+                            return moment(data["0"].xLabel).format("MMMM YYYY");
+                        }
+                    }
                 },
                 scales: {
-                    xAxes: [{ stacked: false,
-                            ticks: { autoSkip: false },
-                            type: 'time',
-                            time: {
-                                displayFormats: {
-                                    'millisecond': 'MMM YYYY',
-                                    'second': 'MMM YYYY',
-                                    'minute': 'MMM YYYY',
-                                    'hour': 'MMM YYYY',
-                                    'day': 'MMM YYYY',
-                                    'week': 'MMM YYYY',
-                                    'month': 'MMM YYYY',
-                                    'quarter': 'MMM YYYY',
-                                    'year': 'MMM YYYY',
+                    xAxes: [{   stacked: true, 
+                                ticks: {autoSkip: false},
+                                type: 'time',
+                                time: {
+                                    displayFormats: {
+                                        'millisecond': 'MMM YYYY',
+                                        'second': 'MMM YYYY',
+                                        'minute': 'MMM YYYY',
+                                        'hour': 'MMM YYYY',
+                                        'day': 'MMM YYYY',
+                                        'week': 'MMM YYYY',
+                                        'month': 'MMM YYYY',
+                                        'quarter': 'MMM YYYY',
+                                        'year': 'MMM YYYY',
+                                    }
                                 }
-                            }
-                        }],
-                    yAxes: [{ stacked: true }]
+                           }],
+                    yAxes: [{stacked: true}]
                 }
             }
         });
