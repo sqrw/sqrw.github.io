@@ -1,8 +1,11 @@
 # StarCitizen Tracker
+StarCitzen Tracker is forked from TrumpTracker.
 
 [![license](https://img.shields.io/github/license/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/LICENSE.md)
-[![forthebadge](http://forthebadge.com/images/badges/certified-steve-bruhle.svg)](http://forthebadge.com)[![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](http://forthebadge.com)
-StarCitzen Tracker is forked from TrumpTracker.
+
+[![forthebadge](http://forthebadge.com/images/badges/certified-steve-bruhle.svg)](http://forthebadge.com)
+
+[![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](http://forthebadge.com)
 
 # Open Data
 ### All Data: [coming soon]
