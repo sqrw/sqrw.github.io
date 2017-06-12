@@ -209,6 +209,10 @@ layout: page
                         </td> -->
                         <td class="promise__actions">
                             <!-- clickable actions -->
+                            <!-- hoverover quote -->
+                            {% if promise.quote != undefined %}
+                                <i class="fa fa-fw fa-quote-left text-muted" aria-hidden="true" data-toggle="tooltip" title="{{promise.quote}}"></i>
+                            {% endif %}
                             <!-- <a href="{{ promise.comments }}" target="_blank" rel="nofollow"> 
                             <i class="fa fa-fw fa-comments text-muted" aria-hidden="true"></i></a> -->
                             <a href="#{{ promise.title | replace: ' ', '_' }}" rel="nofollow"> 
