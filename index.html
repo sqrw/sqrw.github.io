@@ -209,16 +209,12 @@ layout: page
                         </td> -->
                         <td class="promise__actions">
                             <!-- clickable actions -->
-                            <!-- hoverover quote -->
-                            {% if promise.quote != undefined %}
-                                <i class="fa fa-fw fa-quote-left text-muted" aria-hidden="true" data-toggle="tooltip" title="{{promise.quote}}"></i>
-                            {% endif %}
                             <!-- <a href="{{ promise.comments }}" target="_blank" rel="nofollow"> 
                             <i class="fa fa-fw fa-comments text-muted" aria-hidden="true"></i></a> -->
                             <a href="#{{ promise.title | replace: ' ', '_' }}" rel="nofollow"> 
                             <i class="fa fa-fw fa-link text-muted" aria-hidden="true"></i></a>
 
-                            {% capture status %}
+                            <!-- {% capture status %}
                                 {% if promise.status == "Not implemented" %} hasn't added
                                 {% elsif promise.status == "In alpha" %} is progressing on
                                 {% elsif promise.status == "Completed" %} completed
@@ -231,7 +227,11 @@ layout: page
 
                             {% capture tweettext %}{{ message }}{% endcapture %}
 
-                            <a href="https://twitter.com/share?url=https://starcitizentracker.github.io/&text={{ tweettext | truncate: 102 | url_encode }}&hashtags=StarCitizen" target="_blank"><i class="fa fa-fw fa-twitter text-muted" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/share?url=https://starcitizentracker.github.io/&text={{ tweettext | truncate: 102 | url_encode }}&hashtags=StarCitizen" target="_blank"><i class="fa fa-fw fa-twitter text-muted" aria-hidden="true"></i></a> -->
+                            <!-- hoverover quote -->
+                            {% if promise.quote != undefined %}
+                                <i class="fa fa-fw fa-quote-left text-muted" aria-hidden="true" data-toggle="tooltip" title='Chris Roberts: "{{promise.quote}}"'></i>
+                            {% endif %}
                         </td>
                     </tr>
                     {% endfor %}
