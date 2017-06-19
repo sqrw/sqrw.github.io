@@ -195,8 +195,11 @@ layout: page
                         {{ promise.title }}
                             <!-- Append badges for anything of interest -->
                             {% for tag in promise.tags %}
-                                {% if tag == 'Official Stretch Goal' or tag == 'Kickstarter Stretch Goal' %}
-                               <span class="badge">{{ tag }}</span>
+                                {% if tag == 'Kickstarter Stretch Goal' %}
+                                    <span class="badge badge-success">{{ tag }}</span>
+                                {% endif %}
+                                {% if tag == 'Official Stretch Goal' %}
+                                    <span class="badge badge-inverse">{{ tag }}</span>
                                 {% endif %}
                             {% endfor %}
                             
