@@ -137,6 +137,7 @@ comments: false
     <div id="accordion" role="tablist" aria-multiselectable="true">
     {% assign num = 0 %}
     {% for parent in data %}
+    {% assign children = parent.children %}
         {% assign num = num | plus: 1 %}
         <!-- {% assign status_name = status[0] %} -->
         <div class="card">
@@ -158,7 +159,7 @@ comments: false
                             {{ parent.name }}
                         </div>
                         </div>
-                        {% for child in parent.children %}
+                        {% for child in children %}
                         {% assign score = child.value | plus:0 %}
                         {% if score < 0 %}
                             {% assign color == 'danger' %}
@@ -177,8 +178,7 @@ comments: false
                     {% endfor %}
                 </h5>
             </div>
-    {% endfor %}
-        <!-- {{ status_name }}: <span class="active-points">{{ category_total }}</span>   <span class="total-points">({{ category_percent }}%)</span> -->
         </div>
+        {% endfor %}
     </div>
 </div>
