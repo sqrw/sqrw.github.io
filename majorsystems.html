@@ -143,32 +143,39 @@ comments: false
             <div class="card-header" role="tab" id="headingOne">
                 <h5 class="mb-0">
                     <div class="progress">
+                        {% assign score = parent.value | plus:0 %}
+                        {% if score < 0 %}
+                            {% assign color == 'danger' %}
+                        {% elsif score < 20 %}
+                            {% assign color == 'warning' %}
+                        {% elsif score < 40 %}
+                            {% assign color == 'success' %}
+                        {% elsif score < 60 %}
+                            {% assign color == 'info' %}
+                        {% elsif score < 100 %}
+                            {% assign color == 'default' %}
                         <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" href="#heading{{ num }}" style="width:{{ parent.value }}%" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapse{{ num }}">
                             {{ parent.name }}
                         </div>
-                    </div>
+                        </div>
+                        {% for child in parent.children %}
+                        {% assign score = child.value | plus:0 %}
+                        {% if score < 0 %}
+                            {% assign color == 'danger' %}
+                        {% elsif score < 20 %}
+                            {% assign color == 'warning' %}
+                        {% elsif score < 40 %}
+                            {% assign color == 'success' %}
+                        {% elsif score < 60 %}
+                            {% assign color == 'info' %}
+                        {% elsif score < 100 %}
+                            {% assign color == 'default' %}
+                        {% endif %}
+                            <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ child.value }}%">
+                                {{ child.name }}
+                            </div>
+                    {% endfor %}
                 </h5>
-            </div>
-            <div class="card-block">
-            <div id="collapse{{ num }}" class="collapse" role="tabpanel" aria-labelledby="heading{{ num }}">
-                {% for child in parent.children %}
-                    {% assign score = child.value | plus:0 %}
-                    {% if score < 0 %}
-                        {% assign color == 'danger' %}
-                    {% elsif score < 20 %}
-                        {% assign color == 'warning' %}
-                    {% elsif score < 40 %}
-                        {% assign color == 'success' %}
-                    {% elsif score < 60 %}
-                        {% assign color == 'info' %}
-                    {% elsif score < 100 %}
-                        {% assign color == 'default' %}
-                    {% endif %}
-                <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ child.value }}%">
-                    {{ child.name }}
-                </div>
-                {% endfor %}
-            </div>
             </div>
     {% endfor %}
         <!-- {{ status_name }}: <span class="active-points">{{ category_total }}</span>   <span class="total-points">({{ category_percent }}%)</span> -->
