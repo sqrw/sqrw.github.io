@@ -1,0 +1,72 @@
+---
+layout: page
+title: Major Systems
+permalink: /majorsystems/
+comments: false
+---
+
+{% assign data = site.data.majorsystems %}
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h1>Major Systems</h1><br>
+			<br>
+			<div class="col-md-12 text-left">
+				<h1></h1>
+				<hr>
+				<p>This is a somewhat subjective.</p>
+			</div>
+			<div class="col-md-12 text-left">
+				<h2>Warning:</h2>
+				<p>This estimate currently rewards up to 30% for showing internal builds which is very different from our main page.</p>
+                <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseScore" aria-expanded="false" aria-controls="collapseScore">
+                    Scoring System
+                </a>
+                </p>
+                <div class="collapse" id="collapseScore">
+                <div class="card card-block">
+                    TEXT
+                </div>
+                </div>
+			</div>
+		</div>
+	</div>
+    <div id="accordion" role="tablist" aria-multiselectable="true">
+    {% assign num = 0 %}
+    {% for parent in data %}
+    {% assign num = num | plus: 1 %}
+    <!-- {% assign status_name = status[0] %} -->
+    <div class="card">
+        <div class="card-header" role="tab" id="headingOne">
+            <h5 class="mb-0">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseOne">
+                        {{ parent.title }}
+                    </div>
+                </div>
+            </h5>
+        </div>
+        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+            {% for child in parent %}
+                {% if child.value > 0 %}
+                    {% assign color == danger %}
+                {% elsif child.value > 20 %}
+                    {% assign color == warning %}
+                {% elsif child.value > 40 %}
+                    {% assign color == success %}
+                {% elsif child.value > 60 %}
+                    {% assign color == info %}
+                {% elsif child.value > 100 %}
+                    {% assign color == default %}
+                {% endif %}
+            <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ child.value }}%">
+                {{ child.title }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+        <!-- {{ status_name }}: <span class="active-points">{{ category_total }}</span>   <span class="total-points">({{ category_percent }}%)</span> -->
+    </div>
+</div>
