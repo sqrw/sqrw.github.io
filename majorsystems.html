@@ -27,7 +27,108 @@ comments: false
                 </p>
                 <div class="collapse" id="collapseScore">
                 <div class="card card-block">
-                    TEXT
+                    <table class="table table-bordered table-striped table-hover table-condensed table-responsive">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Estimate
+                                </th>
+                                <th>
+                                    Criteria
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    0%
+                                </td>
+                                <td>
+                                    Progress not covered
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    10%
+                                </td>
+                                <td>
+                                    Progress talked about
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    20%
+                                </td>
+                                <td>
+                                    Progress spoken about at length
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    30%
+                                </td>
+                                <td>
+                                    Progress appears in video or internal demo
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    40%
+                                </td>
+                                <td>
+                                    Progress accessible in specialist alpha
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    50%
+                                </td>
+                                <td>
+                                    Progress accessible in Live alpha
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    60%
+                                </td>
+                                <td>
+                                    Feature working and being iterated on
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    70%
+                                </td>
+                                <td>
+                                    Feature working somewhat functional
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    80%
+                                </td>
+                                <td>
+                                    Feature working reliably
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    90%
+                                </td>
+                                <td>
+                                    Feature reciving final tweaks
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    100%
+                                </td>
+                                <td>
+                                    Feature release ready
+                                </td>
+                            </tr>
+                        </tbody>
+                        </table>
                 </div>
                 </div>
 			</div>
@@ -50,7 +151,7 @@ comments: false
             </div>
             <div class="card-block">
             <div id="collapse{{ num }}" class="collapse" role="tabpanel" aria-labelledby="heading{{ num }}">
-                {% for child in parent %}
+                {% for child in parent.children %}
                     {% assign score = child.value | plus:0 %}
                     {% if score < 0 %}
                         {% assign color == 'danger' %}
