@@ -53,24 +53,24 @@ comments: false
                 {% for child in parent %}
                     {% assign score = child.value | plus:0 %}
                     {% if score < 0 %}
-                        {% assign color == danger %}
+                        {% assign color == 'danger' %}
                     {% elsif score < 20 %}
-                        {% assign color == warning %}
+                        {% assign color == 'warning' %}
                     {% elsif score < 40 %}
-                        {% assign color == success %}
+                        {% assign color == 'success' %}
                     {% elsif score < 60 %}
-                        {% assign color == info %}
+                        {% assign color == 'info' %}
                     {% elsif score < 100 %}
-                        {% assign color == default %}
+                        {% assign color == 'default' %}
                     {% endif %}
                 <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ child.value }}%">
                     {{ child.name }}
                 </div>
                 {% endfor %}
             </div>
-        </div>
+            </div>
     {% endfor %}
         <!-- {{ status_name }}: <span class="active-points">{{ category_total }}</span>   <span class="total-points">({{ category_percent }}%)</span> -->
-    </div>
+        </div>
     </div>
 </div>
