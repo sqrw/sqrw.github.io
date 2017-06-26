@@ -42,24 +42,23 @@ comments: false
             <div class="card-header" role="tab" id="headingOne">
                 <h5 class="mb-0">
                     <div class="progress">
-                        <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" style="width:{{ parent.value }}%" href="#heading{{ num }}" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseOne">
+                        <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" style="width:{{ parent.value }}%" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapse{{ num }}">
                             {{ parent.name }}
                         </div>
                     </div>
                 </h5>
             </div>
-            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="heading{{ num }}">
+            <div id="collapse{{ num }}" class="collapse" role="tabpanel" aria-labelledby="heading{{ num }}">
                 {% for child in parent %}
-                    {% assign score = child.value | plus:0 %}
-                    {% if score > 0 %}
+                    {% if child.value < 0 %}
                         {% assign color == danger %}
-                    {% elsif score | plus:0 > 20 %}
+                    {% elsif child.value | plus:0 < 20 %}
                         {% assign color == warning %}
-                    {% elsif score > 40 %}
+                    {% elsif child.value < 40 %}
                         {% assign color == success %}
-                    {% elsif score > 60 %}
+                    {% elsif child.value < 60 %}
                         {% assign color == info %}
-                    {% elsif score > 100 %}
+                    {% elsif child.value < 100 %}
                         {% assign color == default %}
                     {% endif %}
                 <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ child.value }}%">
