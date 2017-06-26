@@ -42,23 +42,24 @@ comments: false
             <div class="card-header" role="tab" id="headingOne">
                 <h5 class="mb-0">
                     <div class="progress">
-                        <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" style="width:{{ parent.value }}%" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseOne">
+                        <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" style="width:{{ parent.value }}%" href="#heading{{ num }}" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseOne">
                             {{ parent.name }}
                         </div>
                     </div>
                 </h5>
             </div>
-            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="heading{{ num }}">
                 {% for child in parent %}
-                    {% if child.value > 0 %}
+                    {% assign score = child.value | plus:0 %}
+                    {% if score > 0 %}
                         {% assign color == danger %}
-                    {% elsif child.value > 20 %}
+                    {% elsif score | plus:0 > 20 %}
                         {% assign color == warning %}
-                    {% elsif child.value > 40 %}
+                    {% elsif score > 40 %}
                         {% assign color == success %}
-                    {% elsif child.value > 60 %}
+                    {% elsif score > 60 %}
                         {% assign color == info %}
-                    {% elsif child.value > 100 %}
+                    {% elsif score > 100 %}
                         {% assign color == default %}
                     {% endif %}
                 <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ child.value }}%">
