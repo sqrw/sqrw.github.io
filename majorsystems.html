@@ -153,16 +153,16 @@ comments: false
 
             {% if row.weight == 1 %}
             <thead><tr><th>
-                {{ row.title }} - {{ row.gpercent }}%
+                {{ row.title }} - {{ row.gpercent }}% - {{ color }}
             </th><th>
-                <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ row.score }}%">
+                <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%">
                 </div>
             </th></tr></thead>
             {% else %}
             <tbody><tr><td>
                 {{ row.title }} - {{ row.gpercent }}%
             </td><td>
-                <div class="progress-bar progress-bar-{{ color }}" role="progressbar" style="width:{{ row.score }}%">
+                <div class="progress-bar progress-bar-{{ color }}" role="progressbar" style="width:{{ score }}%">
                 </div>
             </td></tr></tbody>
             {% endif %}
