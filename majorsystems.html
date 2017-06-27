@@ -136,7 +136,7 @@ comments: false
 	</div>
     <div class="col-md-12 text-center">
         <table class="table table-bordered table-striped table-hover table-condensed table-responsive">
-        {% for row in data.data %}
+        {% for row in data %}
             {% assign score = row.gpercent | plus:0 %}
             {% if score < 0 %}
                 {% assign color == 'danger' %}
