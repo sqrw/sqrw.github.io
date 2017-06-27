@@ -12,7 +12,7 @@ comments: false
 		<div class="col-md-12 text-center">
 			<h1>Major Systems</h1><br>
 			<div class="col-md-12 text-left">
-				<h2>Warning:</h2>
+				<h3>Warning:</h3>
 				<p>These <strong>estimates</strong> currently reward up to 30% for showing internal builds which is very different from our main page which requires features be working in public builds.</p>
                 <p>
                 <a class="btn btn-primary" data-toggle="collapse" href="#collapseScore" aria-expanded="false" aria-controls="collapseScore">
@@ -133,7 +133,7 @@ comments: false
         {% for row in data %}
             <!-- color and naming logic -->
             {% assign score = row.gpercent | plus: 1 %}
-            {% if score < 0 %}
+            {% if score < 10 %}
                 {% assign color = 'danger' %}
             {% elsif score < 20 %}
                 {% assign color = 'warning' %}
