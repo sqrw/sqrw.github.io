@@ -134,7 +134,7 @@ comments: false
 			</div>
 		</div>
 	</div>
-    <div class="col-md-12 text-center">
+    <div class="col-md-12">
         <table class="table table-bordered table-striped table-hover table-condensed table-responsive">
         {% for row in data %}
             <!-- color and naming logic -->
@@ -153,16 +153,18 @@ comments: false
 
             {% if row.weight == 1 %}
             <tbody><tr><th>
-                {{ row.title }} {{ row.gpercent }}% - {{ color }}
+                {{ row.title }}
             </th><th>
+                {{ row.gpercent }}%
                 <div class="progress">
                     <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%"></div>
                 </div>
             </th></tr></tbody>
             {% else %}
             <thead><tr><td>
-                {{ row.title }} {{ row.gpercent }}%
+                {{ row.title }}
             </td><td>
+                {{ row.gpercent }}%
                 <div class="progress">
                     <div class="progress-bar progress-bar-{{ color }}" role="progressbar" style="width:{{ score }}%"></div>
                 </div>
