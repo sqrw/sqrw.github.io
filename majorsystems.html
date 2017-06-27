@@ -148,23 +148,25 @@ comments: false
                 {% assign color == 'info' %}
             {% elsif score < 100 %}
                 {% assign color == 'default' %}
+            {% else %}
+                {% assign color == 'danger' %}
             {% endif %}
 
 
             {% if row.weight == 1 %}
-            <thead><tr><th>
-                {{ row.title }} - {{ row.gpercent }}% - {{ color }}
+            <tbody><tr><th>
+                {{ row.title }} {{ row.gpercent }}% - {{ color }}
             </th><th>
                 <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%">
                 </div>
-            </th></tr></thead>
+            </th></tr></tbody>
             {% else %}
-            <tbody><tr><td>
-                {{ row.title }} - {{ row.gpercent }}%
+            <thead><tr><td>
+                {{ row.title }} {{ row.gpercent }}%
             </td><td>
                 <div class="progress-bar progress-bar-{{ color }}" role="progressbar" style="width:{{ score }}%">
                 </div>
-            </td></tr></tbody>
+            </td></tr></thead>
             {% endif %}
         {% endfor %}
         </table>
