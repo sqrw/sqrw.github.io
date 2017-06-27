@@ -145,16 +145,6 @@ comments: false
                 {% assign color = 'default' %}
             {% endif %}
 
-            <!-- weight logic-->
-            {% assign weight = row.weight | plus: 0 %}
-            {% if weight == 0 %}
-                {% assign strength = 5 %}
-            {% elsif weight == 1 %}
-                {% assign strength = 3 %}
-            {% elsif weight == 2 %}
-                {% assign strength = 2 %}
-            {% endif %}
-
             {% if row.weight == 1 %}
             <tbody><tr><th>
                 <h2>{{ row.title }} ({{ row.gpercent }}%)</h2>
