@@ -11,15 +11,9 @@ comments: false
 	<div class="row">
 		<div class="col-md-12 text-center">
 			<h1>Major Systems</h1><br>
-			<br>
-			<div class="col-md-12 text-left">
-				<h1></h1>
-				<hr>
-				<p>This is a somewhat subjective.</p>
-			</div>
 			<div class="col-md-12 text-left">
 				<h2>Warning:</h2>
-				<p>This estimate currently rewards up to 30% for showing internal builds which is very different from our main page.</p>
+				<p>These <strong>estimates</strong> currently reward up to 30% for showing internal builds which is very different from our main page which requires features be working in public builds.</p>
                 <p>
                 <a class="btn btn-primary" data-toggle="collapse" href="#collapseScore" aria-expanded="false" aria-controls="collapseScore">
                     Reveal Complete Scoring System
@@ -27,7 +21,7 @@ comments: false
                 </p>
                 <div class="collapse" id="collapseScore">
                 <div class="card card-block">
-                    <table class="table table-bordered table-striped table-hover table-condensed table-responsive">
+                    <table class="table table-bordered table-striped table-condensed table-responsive">
                         <thead>
                             <tr>
                                 <th>
@@ -116,7 +110,7 @@ comments: false
                                     90%
                                 </td>
                                 <td>
-                                    Feature reciving final tweaks
+                                    Feature receiving final tweaks
                                 </td>
                             </tr>
                             <tr>
@@ -151,9 +145,19 @@ comments: false
                 {% assign color = 'default' %}
             {% endif %}
 
+            <!-- weight logic-->
+            {% assign weight = row.weight | plus: 0 %}
+            {% if weight == 0 %}
+                {% assign strength = 5 %}
+            {% elsif weight == 1 %}
+                {% assign strength = 3 %}
+            {% elsif weight == 2 %}
+                {% assign strength = 2 %}
+            {% endif %}
+
             {% if row.weight == 1 %}
             <tbody><tr><th>
-                <h3>{{ row.title }} ({{ row.gpercent }}%)</h3>
+                <h{{strength}}>{{ row.title }} ({{ row.gpercent }}%)</h{{strength}}>
                 <div class="progress">
                     <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%"></div>
                 </div>
