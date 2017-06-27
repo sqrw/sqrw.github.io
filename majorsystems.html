@@ -22,7 +22,7 @@ comments: false
 				<p>This estimate currently rewards up to 30% for showing internal builds which is very different from our main page.</p>
                 <p>
                 <a class="btn btn-primary" data-toggle="collapse" href="#collapseScore" aria-expanded="false" aria-controls="collapseScore">
-                    Scoring System
+                    Reveal Complete Scoring System
                 </a>
                 </p>
                 <div class="collapse" id="collapseScore">
@@ -76,7 +76,7 @@ comments: false
                                     40%
                                 </td>
                                 <td>
-                                    Progress accessible in specialist alpha
+                                    Feature accessible in specialist alpha
                                 </td>
                             </tr>
                             <tr>
@@ -84,7 +84,7 @@ comments: false
                                     50%
                                 </td>
                                 <td>
-                                    Progress accessible in Live alpha
+                                    Feature accessible in live alpha
                                 </td>
                             </tr>
                             <tr>
@@ -124,61 +124,49 @@ comments: false
                                     100%
                                 </td>
                                 <td>
-                                    Feature release ready
+                                    Release ready
                                 </td>
                             </tr>
                         </tbody>
                         </table>
-                </div>
+                    </div>
                 </div>
 			</div>
 		</div>
 	</div>
-    <div id="accordion" role="tablist" aria-multiselectable="true">
-    {% assign num = 0 %}
-    {% for parent in data %}
-    {% assign children = parent.children %}
-        {% assign num = num | plus: 1 %}
-        <!-- {% assign status_name = status[0] %} -->
-        <div class="card">
-            <div class="card-header" role="tab" id="headingOne">
-                <h5 class="mb-0">
-                    <div class="progress">
-                        {% assign score = parent.value | plus:0 %}
-                        {% if score < 0 %}
-                            {% assign color == 'danger' %}
-                        {% elsif score < 20 %}
-                            {% assign color == 'warning' %}
-                        {% elsif score < 40 %}
-                            {% assign color == 'success' %}
-                        {% elsif score < 60 %}
-                            {% assign color == 'info' %}
-                        {% elsif score < 100 %}
-                            {% assign color == 'default' %}
-                        <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" href="#heading{{ num }}" style="width:{{ parent.value }}%" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapse{{ num }}">
-                            {{ parent.name }}
-                        </div>
-                        </div>
-                        {% for child in children %}
-                        {% assign score = child.value | plus:0 %}
-                        {% if score < 0 %}
-                            {% assign color == 'danger' %}
-                        {% elsif score < 20 %}
-                            {% assign color == 'warning' %}
-                        {% elsif score < 40 %}
-                            {% assign color == 'success' %}
-                        {% elsif score < 60 %}
-                            {% assign color == 'info' %}
-                        {% elsif score < 100 %}
-                            {% assign color == 'default' %}
-                        {% endif %}
-                            <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ child.value }}%">
-                                {{ child.name }}
-                            </div>
-                    {% endfor %}
-                </h5>
-            </div>
-        </div>
+    <div class="col-md-12 text-center">
+        <table class="table table-bordered table-striped table-hover table-condensed table-responsive">
+        {% for row in data.data %}
+            {% assign score = row.gpercent | plus:0 %}
+            {% if score < 0 %}
+                {% assign color == 'danger' %}
+            {% elsif score < 20 %}
+                {% assign color == 'warning' %}
+            {% elsif score < 40 %}
+                {% assign color == 'success' %}
+            {% elsif score < 60 %}
+                {% assign color == 'info' %}
+            {% elsif score < 100 %}
+                {% assign color == 'default' %}
+            {% endif %}
+
+
+            {% if row.weight == 1 %}
+            <thead><tr><th>
+                {{ row.title }}
+            </th><th>
+                <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ row.gpercent }}%">
+                </div>
+            </th></tr></thead>
+            {% else %}
+            <tbody><tr><td>
+                {{ row.title }}
+            </td><td>
+                <div class="progress-bar progress-bar-{{ color }}" role="progressbar" style="width:{{ row.gpercent }}%">
+                </div>
+            </td></tr></tbody>
+            {% endif %}
         {% endfor %}
+        </table>
     </div>
 </div>
