@@ -137,34 +137,34 @@ comments: false
     <div class="col-md-12 text-center">
         <table class="table table-bordered table-striped table-hover table-condensed table-responsive">
         {% for row in data %}
+            <!-- color and naming logic -->
             {% assign score = row.gpercent | plus: 1 %}
-            {% if score < 0 %}
-                {% assign color == 'danger' %}
-            {% elsif score < 20 %}
-                {% assign color == 'warning' %}
-            {% elsif score < 40 %}
-                {% assign color == 'success' %}
-            {% elsif score < 60 %}
-                {% assign color == 'info' %}
-            {% elsif score < 100 %}
-                {% assign color == 'default' %}
-            {% else %}
-                {% assign color == 'danger' %}
+            {% if score > 0 %}
+                {% assign color = 'danger' %}
+            {% elsif score > 20 %}
+                {% assign color = 'warning' %}
+            {% elsif score > 40 %}
+                {% assign color = 'success' %}
+            {% elsif score > 60 %}
+                {% assign color = 'info' %}
+            {% elsif score > 100 %}
+                {% assign color = 'default' %}
             {% endif %}
-
 
             {% if row.weight == 1 %}
             <tbody><tr><th>
                 {{ row.title }} {{ row.gpercent }}% - {{ color }}
             </th><th>
-                <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%"></div>
                 </div>
             </th></tr></tbody>
             {% else %}
             <thead><tr><td>
                 {{ row.title }} {{ row.gpercent }}%
             </td><td>
-                <div class="progress-bar progress-bar-{{ color }}" role="progressbar" style="width:{{ score }}%">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-{{ color }}" role="progressbar" style="width:{{ score }}%"></div>
                 </div>
             </td></tr></thead>
             {% endif %}
