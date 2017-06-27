@@ -137,32 +137,32 @@ comments: false
     <div class="col-md-12 text-center">
         <table class="table table-bordered table-striped table-hover table-condensed table-responsive">
         {% for row in data %}
-            {% assign score = row.gpercent | plus:0 %}
-            {% if score < 0 %}
+            {% assign score = row.gpercent | plus:1 %}
+            {% if score > 0 %}
                 {% assign color == 'danger' %}
-            {% elsif score < 20 %}
+            {% elsif score > 20 %}
                 {% assign color == 'warning' %}
-            {% elsif score < 40 %}
+            {% elsif score > 40 %}
                 {% assign color == 'success' %}
-            {% elsif score < 60 %}
+            {% elsif score > 60 %}
                 {% assign color == 'info' %}
-            {% elsif score < 100 %}
+            {% elsif score > 100 %}
                 {% assign color == 'default' %}
             {% endif %}
 
 
             {% if row.weight == 1 %}
             <thead><tr><th>
-                {{ row.title }}
+                {{ row.title }} - {{ row.gpercent }}%
             </th><th>
-                <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ row.gpercent }}%">
+                <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ row.score }}%">
                 </div>
             </th></tr></thead>
             {% else %}
             <tbody><tr><td>
-                {{ row.title }}
+                {{ row.title }} - {{ row.gpercent }}%
             </td><td>
-                <div class="progress-bar progress-bar-{{ color }}" role="progressbar" style="width:{{ row.gpercent }}%">
+                <div class="progress-bar progress-bar-{{ color }}" role="progressbar" style="width:{{ row.score }}%">
                 </div>
             </td></tr></tbody>
             {% endif %}
