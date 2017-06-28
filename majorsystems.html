@@ -16,7 +16,7 @@ comments: false
 				<p>These <strong>estimates</strong> currently reward up to 30% for showing internal builds which is very different from our main page which requires features be working in public builds.</p>
                 <p>
                 <a class="btn btn-primary" data-toggle="collapse" href="#collapseScore" aria-expanded="false" aria-controls="collapseScore">
-                    Reveal Complete Scoring System
+                    Reveal Measurement System
                 </a>
                 </p>
                 <div class="collapse" id="collapseScore">
@@ -148,9 +148,9 @@ comments: false
 
             {% if row.weight == 2 %}
             <thead><tr><th>
-                <h1>{{ row.title }}</h1>
+                <h1>Estimated total completion: {{ row.gpercent }}%</h1>
                 <div class="progress">
-                    <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%; font-size: 26px;"> ({{ row.gpercent }}%) </div>
+                    <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%; font-size: 26px;"></div>
                 </div>
             </th></tr></thead>
             {% elsif row.weight == 1 %}
