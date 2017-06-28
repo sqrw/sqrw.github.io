@@ -126,7 +126,7 @@
     //$('#confidence-btn').tooltip('show');
     
     // Select and replace maintained by name
-    var maintainers = ["Bitter about EvE Goons", "Derek's Smarties", "SomethingAwful Goons", "Salty Asshats", "Goons (who know nothing about game development)", "Goons stuck in checkmate", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "Ryan Archer"]
+    var maintainers = ["Coutts & Co.", "Bitter about EvE Goons", "SomethingAwful Goons", "Salty Asshats", "Goons (who know nothing about game development)", "Goons stuck in checkmate", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "Ryan Archer"]
     var maintainer = maintainers[Math.floor(Math.random() * maintainers.length)];
     $('.maintainer-name').html(maintainer);
 
