@@ -135,27 +135,35 @@ comments: false
             {% assign score = row.gpercent | plus: 1 %}
             {% if score < 10 %}
                 {% assign color = 'danger' %}
+                {% assign row.gpercent = '< 10% or Unknown' %}
             {% elsif score < 20 %}
                 {% assign color = 'warning' %}
             {% elsif score < 40 %}
                 {% assign color = 'success' %}
             {% elsif score < 60 %}
                 {% assign color = 'info' %}
-            {% elsif score < 100 %}
+            {% elsif score < 90 %}
                 {% assign color = 'default' %}
             {% endif %}
 
-            {% if row.weight == 1 %}
+            {% if row.weight == 2 %}
+            <thead><tr><th>
+                <h1>{{ row.title }}</h1>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%; font-size: 26px;"> ({{ row.gpercent }}%) </div>
+                </div>
+            </th></tr></thead>
+            {% elsif row.weight == 1 %}
             <tbody><tr><th>
                 <h2>{{ row.title }} ({{ row.gpercent }}%)</h2>
                 <div class="progress">
-                    <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%"></div>
+                    <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%" height:"10px"></div>
                 </div>
             </th></tr></tbody>
             {% else %}
-            <tbody><tr><td>
-                <h5>{{ row.title }} ({{ row.gpercent }}%)</h5>
-                <div class="progress">
+            <tbody><tr style="height:20px"><td>
+                <h6>{{ row.title }} ({{ row.gpercent }}%)</h6>
+                <div class="progress" style="height:10px">
                     <div class="progress-bar progress-bar-{{ color }}" role="progressbar" style="width:{{ score }}%"></div>
                 </div>
             </td></tr></tbody>
