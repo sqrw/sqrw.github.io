@@ -136,7 +136,7 @@ comments: false
             {% assign display = row.gpercent %}
             {% if score < 10 %}
                 {% assign color = 'danger' %}
-                {% assign display = 'Unknown' %}
+                {% assign display = 'Unknown or less than 10' %}
             {% elsif score < 20 %}
                 {% assign color = 'warning' %}
             {% elsif score < 40 %}
