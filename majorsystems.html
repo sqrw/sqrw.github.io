@@ -135,7 +135,7 @@ comments: false
             {% assign score = row.gpercent | plus: 1 %}
             {% if score < 10 %}
                 {% assign color = 'danger' %}
-                {% assign row.gpercent = '< 10% or Unknown' %}
+                {% assign row.gpercent = 'Unknown' %}
             {% elsif score < 20 %}
                 {% assign color = 'warning' %}
             {% elsif score < 40 %}
@@ -148,9 +148,9 @@ comments: false
 
             {% if row.weight == 2 %}
             <thead><tr><th>
-                <h1>Estimated total completion: {{ row.gpercent }}%</h1>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%; font-size: 26px;"></div>
+                <h1>Estimated Total Completion: {{ row.gpercent }}%</h1>
+                <div class="progress" style="height:60px">
+                    <div class="progress-bar progress-bar-{{ color }} progress-bar-striped" role="progressbar" style="width:{{ score }}%"></div>
                 </div>
             </th></tr></thead>
             {% elsif row.weight == 1 %}
