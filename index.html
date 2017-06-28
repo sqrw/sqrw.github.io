@@ -10,6 +10,8 @@ layout: page
 
 {% assign categories = promises | map: 'category' | uniq %}
 
+{% assign estimatedprogress = site.data.majorsystems.data[0].gpercent %}
+
 <div class="container promises-header page-header" id="promises-header">
     <div class="row">
 
@@ -88,7 +90,11 @@ layout: page
                         </a> -->
                     </li>
                 </ul>
-            </div>            
+            </div>
+            <p><b>Estimated Total Progress on Major Features:</b></p>
+            <div class="progress" style="height:60px">
+                <div class="progress-bar progress-bar-default progress-bar-striped" href="/majorsystems/" role="progressbar" style="width:{{ estimatedprogress }}%">{{ estimatedprogress }}%</div>
+            </div>
          </div>
         </div>
     </div>
