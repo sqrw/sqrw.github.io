@@ -251,7 +251,6 @@ layout: page
                                 {% assign quotee = 'Chris Roberts' %}
                             {% endif %}
                             {% if promise.quote != undefined %}
-                                {% if promise.quote contains "|"
                                 <i class="fa fa-fw fa-quote-left text-muted" aria-hidden="true" data-toggle="tooltip" title="{{ quotee }}: &ldquo;{{ promise.quote }}&rdquo;"></i>
                             {% endif %}
                         </td>
