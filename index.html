@@ -246,12 +246,13 @@ layout: page
                             {% if promise.quote contains '|' %}
                                 {% assign quotesplit = promise.quote | split: '|' %}
                                 {% assign quotee = quotesplit[0] %}
-                                {% assign promise.quote = quotesplit[1] %}
+                                {% assign quotetext = quotesplit[1] %}
                             {% else %}
                                 {% assign quotee = 'Chris Roberts' %}
+                            {% assign quotetext = promise.quote %}
                             {% endif %}
                             {% if promise.quote != undefined %}
-                                <i class="fa fa-fw fa-quote-left text-muted" aria-hidden="true" data-toggle="tooltip" title="{{ quotee }}: &ldquo;{{ promise.quote }}&rdquo;"></i>
+                                <i class="fa fa-fw fa-quote-left text-muted" aria-hidden="true" data-toggle="tooltip" title="{{ quotee }}: &ldquo;{{ quotetext }}&rdquo;"></i>
                             {% endif %}
                         </td>
                     </tr>
