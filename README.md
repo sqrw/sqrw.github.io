@@ -1,9 +1,7 @@
 # StarCitizen Tracker
 
 StarCitizen Tracker is forked from [TrumpTracker](https://trumptracker.github.io/) but derives it's inspiration from a list entitled ["Where's the NMS we were sold on?"](https://web.archive.org/web/20160816191001/https://www.reddit.com/r/NoMansSkyTheGame/comments/4y046e/wheres_the_nms_we_were_sold_on_heres_a_big_list/)
-
-[![license](https://img.shields.io/github/license/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/LICENSE.md)
-
+[**MIT license**](https://github.com/StarCitizenTracker/StarCitizenTracker.github.io/blob/master/LICENSE.md)
 [![forthebadge](http://forthebadge.com/images/badges/certified-steve-bruhle.svg)](http://forthebadge.com)
 
 # Contributing
