@@ -1,79 +1,11 @@
 //scrolling to anchor
-(function(document, history, location) {
-  var HISTORY_SUPPORT = !!(history && history.pushState);
+$(document).ready(function(){
+  var anchorhash = window.location.hash.substr(1);
+  if (anchorhash) {
+    $("#search").val(anchorhash);
+  }
+});
 
-  var anchorScrolls = {
-    ANCHOR_REGEX: /^#[^ ]+$/,
-    OFFSET_HEIGHT_PX: 50,
-
-    /**
-     * Establish events, and fix initial scroll position if a hash is provided.
-     */
-    init: function() {
-      this.scrollToCurrent();
-      $(window).on('hashchange', $.proxy(this, 'scrollToCurrent'));
-      $('body').on('click', 'a', $.proxy(this, 'delegateAnchors'));
-    },
-
-    /**
-     * Return the offset amount to deduct from the normal scroll position.
-     * Modify as appropriate to allow for dynamic calculations
-     */
-    getFixedOffset: function() {
-      return this.OFFSET_HEIGHT_PX;
-    },
-
-    /**
-     * If the provided href is an anchor which resolves to an element on the
-     * page, scroll to it.
-     * @param  {String} href
-     * @return {Boolean} - Was the href an anchor.
-     */
-    scrollIfAnchor: function(href, pushToHistory) {
-      var match, anchorOffset;
-			console.log("scrolling to: " + this)
-      if(!this.ANCHOR_REGEX.test(href)) {
-        return false;
-      }
-
-      match = document.getElementById(href.slice(1));
-
-      if(match) {
-        anchorOffset = $(match).offset().top - this.getFixedOffset();
-        $('html, body').animate({ scrollTop: anchorOffset});
-
-        // Add the state to history as-per normal anchor links
-        if(HISTORY_SUPPORT && pushToHistory) {
-          history.pushState({}, document.title, location.pathname + href);
-        }
-      }
-
-      return !!match;
-    },
-    
-    /**
-     * Attempt to scroll to the current location's hash.
-     */
-    scrollToCurrent: function(e) { 
-      if(this.scrollIfAnchor(window.location.hash) && e) {
-      	e.preventDefault();
-      }
-    },
-
-    /**
-     * If the click event's target was an anchor, fix the scroll position.
-     */
-    delegateAnchors: function(e) {
-      var elem = e.target;
-
-      if(this.scrollIfAnchor(elem.getAttribute('href'), true)) {
-        e.preventDefault();
-      }
-    }
-  };
-
-	$(document).ready($.proxy(anchorScrolls, 'init'));
-})(window.document, window.history, window.location);
 
 //Defaults
 (function($, List, _, moment) {
@@ -88,13 +20,13 @@
 
   // tooltip
   $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
+    $('[data-toggle="tooltip"]').tooltip();
   });
 
   // tabs
   $('#myTabs a').click(function (e) {
-    e.preventDefault()
-    $(this).tab('show')
+    e.preventDefault();
+    $(this).tab('show');
   });
 
   // Find any within a facet
@@ -112,7 +44,7 @@
     }, false);
   }
 
-//Startup + Misc
+  //Startup + Misc
   $(function() {
 
     // Dates
@@ -126,7 +58,7 @@
     //$('#confidence-btn').tooltip('show');
     
     // Select and replace maintained by name
-    var maintainers = ["Coutts & Co.", "Bitter about EvE Goons", "SomethingAwful Goons", "Salty Asshats", "Goons (who know nothing about game development)", "Goons stuck in checkmate", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "WaffleImages", "COBOL Greybeards", "Blocked Buddies", "Ryan Archer"]
+    var maintainers = ["CryTek Legal Beagles", "Coutts & Co.", "Bitter EvE Goons", "SomethingAwful Goons", "Salty Asshats", "Goons (who know nothing about game development)", "Goons stuck in checkmate", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "WaffleImages", "COBOL Greybeards", "Blocked Buddies", "Ryan Archer"]
     var maintainer = maintainers[Math.floor(Math.random() * maintainers.length)];
     $('.maintainer-name').html(maintainer);
 
@@ -182,7 +114,7 @@
         };
       }).get();
       
-	console.log(facets);
+	// console.log(facets);
 	//Update graph on "js-promise-status" changes
 	if (facets[0].facet == "js-promise-status") {
 		Build_and_fill_Chart(facets[0].value);
@@ -224,8 +156,8 @@ function Build_and_fill_Chart(para_Type) {
     if (para_Type === void 0) { para_Type = "all"; }
     var History = [
         {"Not_implemented":0,"Completed":0,"date":"2012-10-01T07:00:00.000Z"},
-        {"Not_implemented":13,"Completed":2,"In_alpha":1,"date":"2012-11-01T07:00:00.000Z"},{"Not_implemented":38,"Completed":8,"In_alpha":1,"Broken":5,"Compromised":1,"date":"2012-12-01T08:00:00.000Z"},{"Not_implemented":38,"Completed":8,"In_alpha":1,"Broken":5,"Compromised":1,"date":"2013-01-01T08:00:00.000Z"},{"Not_implemented":41,"Completed":15,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-02-01T08:00:00.000Z"},{"Not_implemented":43,"Completed":16,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-03-01T08:00:00.000Z"},{"Not_implemented":45,"Completed":16,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-04-01T07:00:00.000Z"},{"Not_implemented":51,"Completed":16,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-05-01T07:00:00.000Z"},{"Not_implemented":52,"Completed":18,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-06-01T07:00:00.000Z"},{"Not_implemented":65,"Completed":19,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-07-01T07:00:00.000Z"},{"Not_implemented":67,"Completed":19,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-08-01T07:00:00.000Z"},{"Not_implemented":72,"Completed":19,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-09-01T07:00:00.000Z"},{"Not_implemented":75,"Completed":20,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-10-01T07:00:00.000Z"},{"Not_implemented":76,"Completed":20,"In_alpha":3,"Broken":5,"Compromised":1,"date":"2013-11-01T07:00:00.000Z"},{"Not_implemented":83,"Completed":20,"In_alpha":3,"Broken":6,"Compromised":1,"date":"2013-12-01T08:00:00.000Z"},{"Not_implemented":90,"Completed":25,"In_alpha":5,"Broken":6,"Compromised":1,"date":"2014-01-01T08:00:00.000Z"},{"Not_implemented":114,"Completed":36,"In_alpha":7,"Broken":7,"Compromised":2,"date":"2014-02-01T08:00:00.000Z"},{"Not_implemented":135,"Completed":39,"In_alpha":8,"Broken":7,"Compromised":2,"date":"2014-03-01T08:00:00.000Z"},{"Not_implemented":157,"Completed":41,"In_alpha":9,"Broken":7,"Compromised":2,"date":"2014-04-01T07:00:00.000Z"},{"Not_implemented":184,"Completed":44,"In_alpha":12,"Broken":7,"Compromised":2,"date":"2014-05-01T07:00:00.000Z"},{"Not_implemented":210,"Completed":44,"In_alpha":13,"Broken":7,"Compromised":3,"date":"2014-06-01T07:00:00.000Z"},{"Not_implemented":243,"Completed":47,"In_alpha":13,"Broken":8,"Compromised":3,"date":"2014-07-01T07:00:00.000Z"},{"Not_implemented":253,"Completed":48,"In_alpha":14,"Broken":8,"Compromised":3,"date":"2014-08-01T07:00:00.000Z"},{"Not_implemented":272,"Completed":51,"In_alpha":15,"Broken":8,"Compromised":3,"date":"2014-09-01T07:00:00.000Z"},{"Not_implemented":278,"Completed":51,"In_alpha":16,"Broken":8,"Compromised":3,"date":"2014-10-01T07:00:00.000Z"},{"Not_implemented":281,"Completed":52,"In_alpha":16,"Broken":8,"Compromised":3,"date":"2014-11-01T07:00:00.000Z"},{"Not_implemented":295,"Completed":55,"In_alpha":16,"Broken":9,"Compromised":3,"date":"2014-12-01T08:00:00.000Z"},{"Not_implemented":298,"Completed":56,"In_alpha":16,"Broken":9,"Compromised":3,"date":"2015-01-01T08:00:00.000Z"},{"Broken":16,"Not_implemented":291,"Completed":73,"In_alpha":16,"Compromised":3,"date":"2015-02-01T08:00:00.000Z"},{"Broken":16,"Not_implemented":292,"Completed":73,"In_alpha":17,"Compromised":3,"date":"2015-03-01T08:00:00.000Z"},{"Broken":16,"Not_implemented":294,"Completed":73,"In_alpha":17,"Compromised":3,"date":"2015-04-01T07:00:00.000Z"},{"Broken":16,"Not_implemented":296,"Completed":73,"In_alpha":17,"Compromised":3,"date":"2015-05-01T07:00:00.000Z"},{"Broken":17,"Not_implemented":296,"Completed":73,"In_alpha":17,"Compromised":4,"date":"2015-06-01T07:00:00.000Z"},{"Broken":18,"Not_implemented":300,"Completed":73,"In_alpha":17,"Compromised":4,"date":"2015-07-01T07:00:00.000Z"},{"Broken":19,"Not_implemented":299,"Completed":73,"In_alpha":17,"Compromised":4,"date":"2015-08-01T07:00:00.000Z"},{"Broken":19,"Not_implemented":306,"Completed":73,"In_alpha":17,"Compromised":4,"date":"2015-09-01T07:00:00.000Z"},{"Broken":20,"Not_implemented":326,"Completed":73,"In_alpha":17,"Compromised":4,"date":"2015-10-01T07:00:00.000Z"},{"Broken":20,"Not_implemented":327,"Completed":73,"In_alpha":17,"Compromised":4,"date":"2015-11-01T07:00:00.000Z"},{"Broken":20,"Not_implemented":327,"Completed":73,"In_alpha":17,"Compromised":4,"date":"2015-12-01T08:00:00.000Z"},{"Broken":21,"Not_implemented":327,"Completed":73,"In_alpha":17,"Compromised":4,"date":"2016-01-01T08:00:00.000Z"},{"Broken":25,"Not_implemented":326,"Completed":74,"In_alpha":17,"Compromised":4,"date":"2016-02-01T08:00:00.000Z"},{"Broken":25,"Not_implemented":335,"Completed":74,"In_alpha":17,"Compromised":4,"date":"2016-03-01T08:00:00.000Z"},{"Broken":25,"Not_implemented":345,"Completed":74,"In_alpha":17,"Compromised":4,"date":"2016-04-01T07:00:00.000Z"},{"Broken":25,"Not_implemented":347,"Completed":74,"In_alpha":17,"Compromised":4,"date":"2016-05-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":345,"Completed":75,"In_alpha":17,"Compromised":4,"date":"2016-06-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":345,"Completed":75,"In_alpha":17,"Compromised":4,"date":"2016-07-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":346,"Completed":75,"In_alpha":17,"Compromised":4,"date":"2016-08-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":372,"Completed":75,"In_alpha":19,"Compromised":4,"date":"2016-09-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":374,"Completed":75,"In_alpha":19,"Compromised":4,"date":"2016-10-01T07:00:00.000Z"},{"Broken":26,"Stagnant":3,"Completed":75,"In_alpha":19,"Not_implemented":376,"Compromised":4,"date":"2016-11-01T07:00:00.000Z"},{"Broken":27,"Stagnant":19,"Completed":75,"In_alpha":19,"Not_implemented":360,"Compromised":4,"date":"2016-12-01T08:00:00.000Z"},{"Broken":27,"Stagnant":31,"Completed":75,"In_alpha":19,"Compromised":4,"Not_implemented":348,"date":"2017-01-01T08:00:00.000Z"},{"Broken":30,"Stagnant":34,"Completed":77,"In_alpha":19,"Compromised":4,"Not_implemented":341,"date":"2017-02-01T08:00:00.000Z"},{"Broken":30,"Stagnant":34,"Completed":77,"In_alpha":19,"Compromised":4,"Not_implemented":343,"date":"2017-03-01T08:00:00.000Z"},{"Broken":31,"Stagnant":36,"Completed":77,"In_alpha":19,"Compromised":4,"Not_implemented":340,"date":"2017-04-01T07:00:00.000Z"},{"Broken":33,"Stagnant":39,"Completed":77,"In_alpha":19,"Compromised":4,"Not_implemented":336,"date":"2017-05-01T07:00:00.000Z"},{"Broken":33,"Stagnant":44,"Completed":77,"In_alpha":19,"Compromised":4,"Not_implemented":331,"date":"2017-06-01T07:00:00.000Z"},{"Broken":33,"Stagnant":54,"Completed":77,"In_alpha":19,"Compromised":4,"Not_implemented":322,"date":"2017-07-01T07:00:00.000Z"},{"Broken":34,"Stagnant":56,"Completed":78,"In_alpha":19,"Compromised":4,"Not_implemented":319,"date":"2017-08-01T07:00:00.000Z"},{"Broken":34,"Stagnant":59,"Completed":78,"In_alpha":19,"Compromised":4,"Not_implemented":320,"date":"2017-09-01T07:00:00.000Z"},{"Broken":34,"Stagnant":63,"Completed":78,"In_alpha":19,"Compromised":4,"Not_implemented":316,"date":"2017-10-01T07:00:00.000Z"},{"Broken":43,"Stagnant":65,"Completed":88,"In_alpha":19,"Compromised":4,"Not_implemented":300,"date":"2017-11-01T07:00:00.000Z"},{"Broken":43,"Stagnant":65,"Completed":89,"In_alpha":19,"Compromised":4,"Not_implemented":301,"date":"2017-12-01T08:00:00.000Z"}
-    ]; 
+        {"Not_implemented":13,"Completed":2,"In_alpha":1,"date":"2012-11-01T07:00:00.000Z"},{"Not_implemented":38,"Completed":9,"In_alpha":1,"Broken":5,"Compromised":1,"date":"2012-12-01T08:00:00.000Z"},{"Not_implemented":38,"Completed":9,"In_alpha":1,"Broken":5,"Compromised":1,"date":"2013-01-01T08:00:00.000Z"},{"Not_implemented":41,"Completed":16,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-02-01T08:00:00.000Z"},{"Not_implemented":43,"Completed":17,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-03-01T08:00:00.000Z"},{"Not_implemented":45,"Completed":17,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-04-01T07:00:00.000Z"},{"Not_implemented":51,"Completed":17,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-05-01T07:00:00.000Z"},{"Not_implemented":53,"Completed":19,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-06-01T07:00:00.000Z"},{"Not_implemented":66,"Completed":20,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-07-01T07:00:00.000Z"},{"Not_implemented":68,"Completed":20,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-08-01T07:00:00.000Z"},{"Not_implemented":72,"Completed":21,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-09-01T07:00:00.000Z"},{"Not_implemented":75,"Completed":22,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-10-01T07:00:00.000Z"},{"Not_implemented":76,"Completed":22,"In_alpha":3,"Broken":5,"Compromised":1,"date":"2013-11-01T07:00:00.000Z"},{"Not_implemented":83,"Completed":22,"In_alpha":3,"Broken":6,"Compromised":1,"date":"2013-12-01T08:00:00.000Z"},{"Not_implemented":90,"Completed":27,"In_alpha":5,"Broken":6,"Compromised":1,"date":"2014-01-01T08:00:00.000Z"},{"Not_implemented":114,"Completed":38,"In_alpha":7,"Broken":7,"Compromised":2,"date":"2014-02-01T08:00:00.000Z"},{"Not_implemented":135,"Completed":41,"In_alpha":8,"Broken":7,"Compromised":2,"date":"2014-03-01T08:00:00.000Z"},{"Not_implemented":157,"Completed":43,"In_alpha":9,"Broken":7,"Compromised":2,"date":"2014-04-01T07:00:00.000Z"},{"Not_implemented":184,"Completed":46,"In_alpha":12,"Broken":7,"Compromised":2,"date":"2014-05-01T07:00:00.000Z"},{"Not_implemented":210,"Completed":46,"In_alpha":13,"Broken":7,"Compromised":3,"date":"2014-06-01T07:00:00.000Z"},{"Not_implemented":243,"Completed":49,"In_alpha":13,"Broken":8,"Compromised":3,"Not_started":1,"date":"2014-07-01T07:00:00.000Z"},{"Not_implemented":253,"Completed":50,"In_alpha":14,"Broken":8,"Compromised":3,"Not_started":1,"date":"2014-08-01T07:00:00.000Z"},{"Not_implemented":272,"Completed":53,"In_alpha":15,"Broken":8,"Compromised":3,"Not_started":1,"date":"2014-09-01T07:00:00.000Z"},{"Not_implemented":278,"Completed":53,"In_alpha":16,"Broken":8,"Compromised":3,"Not_started":1,"date":"2014-10-01T07:00:00.000Z"},{"Not_implemented":281,"Completed":54,"In_alpha":16,"Broken":8,"Compromised":3,"Not_started":1,"date":"2014-11-01T07:00:00.000Z"},{"Not_implemented":296,"Completed":57,"In_alpha":16,"Broken":9,"Compromised":3,"Not_started":1,"date":"2014-12-01T08:00:00.000Z"},{"Not_implemented":299,"Completed":58,"In_alpha":16,"Broken":9,"Compromised":3,"Not_started":1,"date":"2015-01-01T08:00:00.000Z"},{"Broken":16,"Not_implemented":292,"Completed":75,"In_alpha":16,"Compromised":3,"Not_started":1,"date":"2015-02-01T08:00:00.000Z"},{"Broken":16,"Not_implemented":293,"Completed":75,"In_alpha":17,"Compromised":3,"Not_started":1,"date":"2015-03-01T08:00:00.000Z"},{"Broken":16,"Not_implemented":295,"Completed":75,"In_alpha":17,"Compromised":3,"Not_started":1,"date":"2015-04-01T07:00:00.000Z"},{"Broken":16,"Not_implemented":297,"Completed":75,"In_alpha":17,"Compromised":3,"Not_started":1,"date":"2015-05-01T07:00:00.000Z"},{"Broken":17,"Not_implemented":297,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-06-01T07:00:00.000Z"},{"Broken":18,"Not_implemented":301,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-07-01T07:00:00.000Z"},{"Broken":19,"Not_implemented":300,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-08-01T07:00:00.000Z"},{"Broken":19,"Not_implemented":307,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-09-01T07:00:00.000Z"},{"Broken":20,"Not_implemented":327,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-10-01T07:00:00.000Z"},{"Broken":20,"Not_implemented":328,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-11-01T07:00:00.000Z"},{"Broken":20,"Not_implemented":328,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-12-01T08:00:00.000Z"},{"Broken":21,"Not_implemented":328,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-01-01T08:00:00.000Z"},{"Broken":25,"Not_implemented":327,"Completed":76,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-02-01T08:00:00.000Z"},{"Broken":25,"Not_implemented":336,"Completed":76,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-03-01T08:00:00.000Z"},{"Broken":25,"Not_implemented":346,"Completed":76,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-04-01T07:00:00.000Z"},{"Broken":25,"Not_implemented":348,"Completed":76,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-05-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":346,"Completed":78,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-06-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":346,"Completed":78,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-07-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":347,"Completed":78,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-08-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":372,"Completed":78,"In_alpha":19,"Compromised":5,"Not_started":1,"date":"2016-09-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":374,"Completed":78,"In_alpha":19,"Compromised":5,"Not_started":1,"date":"2016-10-01T07:00:00.000Z"},{"Broken":26,"Stagnant":3,"Completed":78,"In_alpha":19,"Not_implemented":376,"Compromised":5,"Not_started":1,"date":"2016-11-01T07:00:00.000Z"},{"Broken":27,"Stagnant":19,"Completed":78,"In_alpha":19,"Not_implemented":360,"Compromised":5,"Not_started":1,"date":"2016-12-01T08:00:00.000Z"},{"Broken":27,"Stagnant":31,"Completed":78,"In_alpha":19,"Compromised":5,"Not_implemented":348,"Not_started":1,"date":"2017-01-01T08:00:00.000Z"},{"Broken":30,"Stagnant":34,"Completed":80,"In_alpha":19,"Compromised":5,"Not_implemented":341,"Not_started":1,"date":"2017-02-01T08:00:00.000Z"},{"Broken":30,"Stagnant":34,"Completed":80,"In_alpha":19,"Compromised":5,"Not_implemented":343,"Not_started":1,"date":"2017-03-01T08:00:00.000Z"},{"Broken":31,"Stagnant":36,"Completed":80,"In_alpha":19,"Compromised":5,"Not_implemented":340,"Not_started":1,"date":"2017-04-01T07:00:00.000Z"},{"Broken":33,"Stagnant":39,"Completed":80,"In_alpha":19,"Compromised":5,"Not_implemented":336,"Not_started":1,"date":"2017-05-01T07:00:00.000Z"},{"Broken":33,"Stagnant":45,"Completed":80,"In_alpha":19,"Compromised":5,"Not_implemented":330,"Not_started":1,"date":"2017-06-01T07:00:00.000Z"},{"Broken":33,"Stagnant":55,"Completed":80,"In_alpha":19,"Compromised":5,"Not_implemented":321,"Not_started":1,"date":"2017-07-01T07:00:00.000Z"},{"Broken":34,"Stagnant":57,"Completed":81,"In_alpha":19,"Compromised":5,"Not_implemented":318,"Not_started":1,"date":"2017-08-01T07:00:00.000Z"},{"Broken":34,"Stagnant":60,"Completed":81,"In_alpha":19,"Compromised":5,"Not_implemented":319,"Not_started":1,"date":"2017-09-01T07:00:00.000Z"},{"Broken":34,"Stagnant":63,"Completed":81,"In_alpha":19,"Compromised":5,"Not_implemented":316,"Not_started":1,"date":"2017-10-01T07:00:00.000Z"},{"Broken":43,"Stagnant":65,"Completed":90,"In_alpha":19,"Compromised":5,"Not_implemented":301,"Not_started":1,"date":"2017-11-01T07:00:00.000Z"},{"Broken":43,"Stagnant":65,"Completed":91,"In_alpha":19,"Compromised":5,"Not_implemented":303,"Not_started":1,"date":"2017-12-01T08:00:00.000Z"}
+      ]; 
     var brokenArray = [], stagnantArray = [], notimplementedArray = [], inalphaArray = [], compromisedArray = [], completedArray = [], labels = [];
     //build data arrays
     for (var _i = 0, History_1 = History; _i < History_1.length; _i++) {
