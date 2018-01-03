@@ -66,14 +66,14 @@
       promiseList.search();
       promiseList.filter();
     }
-    
+
     // Clear all
     function resetFilter(e) {
       e.preventDefault();
       // Visually reset buttons
       $facets.removeClass('active');
       // Clear out text field
-      $search.val('');
+      // $search.val('');
       // Wipe all filters
       promiseList.search();
       promiseList.filter();
