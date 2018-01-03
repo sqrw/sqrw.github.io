@@ -79,13 +79,14 @@
 
     var anchorhash = window.location.hash.substr(1);
     if (anchorhash) {
-      anchorhash = _.replace(anchorhash, "_", " ");
-      $("#search").val(anchorhash.toString());
-      promiseList.search();
-      promiseList.filter();
-      promiseList.update();
+      anchorhash = _.replace(anchorhash, new RegExp("_","g")," ");
+      $search.val(anchorhash.toString());
+      $facets.removeClass('active');
+      $search.change();
+      // promiseList.filter();
+      // promiseList.update();
     }
-    
+
     // Any facet filter button
     $facets.on('click', function(e) {
 
