@@ -60,15 +60,6 @@
     var $search = $('#search');
     var $facets = $('[data-list-facet]'); // All buttons that can filter
 
-    var anchorhash = window.location.hash.substr(1);
-    if (anchorhash) {
-      $("#search").val(anchorhash.toString());
-      console.log(anchorhash.toString())
-      promiseList.search();
-      promiseList.filter();
-      promiseList.update();
-    }
-
     // Clear all
     function resetFilter(e) {
       e.preventDefault();
@@ -113,16 +104,25 @@
         };
       }).get();
       
-	// console.log(facets);
-	//Update graph on "js-promise-status" changes
-	if (facets[0].facet == "js-promise-status") {
-		Build_and_fill_Chart(facets[0].value);
-	}
-	  
+      // console.log(facets);
+      //Update graph on "js-promise-status" changes
+      if (facets[0].facet == "js-promise-status") {
+        Build_and_fill_Chart(facets[0].value);
+      }
+      
       // When deselecting last, clear all filters
       if (facets.length === 0) {
         promiseList.filter();
         return; // Eject now
+      }
+
+      var anchorhash = window.location.hash.substr(1);
+      if (anchorhash) {
+        anchorhash = _.replace(anchorhash, "_", " ");
+        $("#search").val(anchorhash.toString());
+        promiseList.search();
+        promiseList.filter();
+        promiseList.update();
       }
 
       // Otherwise, filter on the array
@@ -244,7 +244,7 @@ function Build_and_fill_Chart(para_Type) {
         AllChart.update();
     }
     else {
-        console.log("Created empty chart");
+        // console.log("Created empty chart");
         Chart.defaults.global.legend.display = false;
         AllChart = new Chart(ctx, {
             type: 'line',
