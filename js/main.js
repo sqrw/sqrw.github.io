@@ -1,5 +1,3 @@
-var promiseList;
-
 //Defaults
 (function($, List, _, moment) {
   // List.js classes to use for search elements
@@ -48,6 +46,19 @@ var promiseList;
 
     //Always show tooltip on confidence-btn
     //$('#confidence-btn').tooltip('show');
+    
+    // Select and replace maintained by name
+    var maintainers = ["CryTek Legal Beagles", "Coutts & Co.", "Bitter EvE Goons", "SomethingAwful Goons", "Salty Asshats", "Goons (who know nothing about game development)", "Goons stuck in checkmate", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "WaffleImages", "COBOL Greybeards", "Blocked Buddies", "Ryan Archer"]
+    var maintainer = maintainers[Math.floor(Math.random() * maintainers.length)];
+    $('.maintainer-name').html(maintainer);
+
+    // List.js object that we can filter upon
+    var promiseList = new List('promises', listOptions).on('updated', function(list) {
+      $('#count').html(list.visibleItems.length);
+    });
+
+    var $search = $('#search');
+    var $facets = $('[data-list-facet]'); // All buttons that can filter
 
     var anchorhash = window.location.hash.substr(1);
     if (anchorhash) {
@@ -56,19 +67,6 @@ var promiseList;
       promiseList.filter();
     }
     
-    // Select and replace maintained by name
-    var maintainers = ["CryTek Legal Beagles", "Coutts & Co.", "Bitter EvE Goons", "SomethingAwful Goons", "Salty Asshats", "Goons (who know nothing about game development)", "Goons stuck in checkmate", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "WaffleImages", "COBOL Greybeards", "Blocked Buddies", "Ryan Archer"]
-    var maintainer = maintainers[Math.floor(Math.random() * maintainers.length)];
-    $('.maintainer-name').html(maintainer);
-
-    // List.js object that we can filter upon
-    promiseList = new List('promises', listOptions).on('updated', function(list) {
-      $('#count').html(list.visibleItems.length);
-    });
-
-    var $search = $('#search');
-    var $facets = $('[data-list-facet]'); // All buttons that can filter
-
     // Clear all
     function resetFilter(e) {
       e.preventDefault();
