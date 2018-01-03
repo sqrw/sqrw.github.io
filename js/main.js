@@ -36,7 +36,7 @@
   }
   
   //Startup + Misc
-  $( document ).ready(function() {
+  $(function() {
     // Dates
     var today = moment();
     var inauguration = moment('2012-11-19');
@@ -81,13 +81,12 @@
     if (anchorhash) {
       anchorhash = _.replace(anchorhash, new RegExp("_","g")," ");
       $search.val(anchorhash.toString());
-      $facets.removeClass('active');
-      $search.change();
+      promiseList.search(anchorhash);
       // promiseList.filter();
       // promiseList.update();
-      promiseList = new List('promises', listOptions).on('updated', function(list) {
-        $('#count').html(list.visibleItems.length);
-      });
+      // promiseList = new List('promises', listOptions).on('updated', function(list) {
+      //   $('#count').html(list.visibleItems.length);
+      // });
     }
 
     // Any facet filter button
