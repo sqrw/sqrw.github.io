@@ -1,287 +1,266 @@
-//Defaults
-(function($, List, _, moment) {
-  // List.js classes to use for search elements
-  var listOptions = {
-    valueNames: [
-      'js-promise-text',
-      'js-promise-category',
-      'js-promise-status'
-    ]
-  };
+---
+layout: page
+---
 
-  // tooltip
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip();
-  });
+{% assign promises = site.data.data.promises %}
+{% assign icons = site.data.data.icons %}
+{% assign statuses = site.data.data.statuses %}
+{% assign confidence = site.data.data.confidence %}
+{% assign total = promises | size %}
 
-  // tabs
-  $('#myTabs a').click(function (e) {
-    e.preventDefault();
-    $(this).tab('show');
-  });
+{% assign categories = promises | map: 'category' | uniq %}
 
-  // Find any within a facet
-  function foundAny(facets, compareItem) {
-    // No facets selected, show all for this facet
-    if (_.isEmpty(facets)) {
-      return true;
-    }
-    // Otherwise, show this item if it contains any of the selected facets
-    return facets.reduce(function(found, facet) {
-      if (found) {
-        return found;
-      }
-      return compareItem[facet['facet']] === facet['value'];
-    }, false);
-  }
-  
-  //Startup + Misc
-  $(function() {
-    // Dates
-    var today = moment();
-    var inauguration = moment('2012-11-19');
-    $('#inauguration-days').html(inauguration.diff(today, 'days') > 0 ? inauguration.diff(today, 'days') : 'NA');
-    $('#inauguration-time-container').hide(); //TEMP FIX 
-    $('#days-in-office').html(today.diff(inauguration, 'days') > 0 ? today.diff(inauguration, 'days') : 0);
+{% assign estimatedprogress = site.data.majorsystems.data[0].gpercent %}
 
-    //Always show tooltip on confidence-btn
-    //$('#confidence-btn').tooltip('show');
-    
-    // Select and replace maintained by name
-    var maintainers = ["CryTek Legal Beagles", "Coutts & Co.", "Bitter EvE Goons", "SomethingAwful Goons", "Salty Asshats", "Goons (who know nothing about game development)", "Goons stuck in checkmate", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "WaffleImages", "COBOL Greybeards", "Blocked Buddies", "Ryan Archer"]
-    var maintainer = maintainers[Math.floor(Math.random() * maintainers.length)];
-    $('.maintainer-name').html(maintainer);
+<div class="container promises-header page-header" id="promises-header">
+    <div class="row">
 
-    // List.js object that we can filter upon
-    var promiseList = new List('promises', listOptions).on('updated', function(list) {
-      $('#count').html(list.visibleItems.length);
-    });
+        <div class="col-md-6">
+            <ul class="list-group">
+                <!-- <li class="list-group-item list-group-item inauguration-time-container">
+                    <i class="fa fa-home fa-fw"></i>
+                    <b id="inauguration-time">Days Till Inauguration: <span id="inauguration-days"><i class='loading'>Loading...</i></span></b>
+                </li> -->
+                <li class="list-group-item list-group-item">
+                    <i class="fa fa-calendar fa-fw"></i>
+                    <b>Days since Kickstarter ended: <span id="days-in-office"><i class='loading'>Loading...</i></span></b>
+                </li>
 
-    var $search = $('#search');
-    var $facets = $('[data-list-facet]'); // All buttons that can filter
+                {% for status in statuses %}
+                    {% assign status_name = status[0] %}
+                    {% assign status_data = status[1] %}
+                    <li class="list-group-item list-group-item-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
+                        <i class="fa fa-fw fa-{{ status_data['icon'] }} "></i>
+                        {% assign category_total = (promises | where: "status",status_name | size) %}
+                        {% assign category_percent = (promises | where: "status",status_name | size | times: 100 | divided_by: total) %}
+                        {% if category_percent == 0 %}
+                            {% assign category_percent = 1 %}
+                        {% endif %}
+                        {{ status_name }}: <span class="active-points">{{ category_total }}</span>   <span class="total-points">({{ category_percent }}%)</span>
+                    </li>
+                {% endfor %}
 
-    // Clear all
-    function resetFilter(e) {
-      e.preventDefault();
-      // Visually reset buttons
-      $facets.removeClass('active');
-      // Clear out text field
-      $search.val('');
-      // Wipe all filters
-      promiseList.search();
-      promiseList.filter();
-      // Wipe graph to default
-      Build_and_fill_Chart();
-    }
+            </ul>
+        <canvas id="timechart"></canvas>
+        </div>
 
-    // Hard reset all the buttons
-    $('.promises__category--reset').on('click', resetFilter);
+        <div class="container-fluid">
+            <p>In 2012 Chris Roberts convinced 34,397 backers on kickstarter to give his company $2,134,374 for a space simulation game "Star Citizen" with a Wing Commander style single player mode entitled "Squadron 42".</p>
+            <p>Chris made and continues to make <b>a lot of promises</b>. StarCitizen Tracker attempts to fact-check Chris and Cloud Imperium Games Corporation to see if they adhere to the expectations set concerning the project.  This crowdsourced endeavour started on April 17th, 2017 and may contain inaccuracies.</p>
+            <p>
+                <span><b>Accuracy Confidence:</b></span>
+                <button type="submit" class="btn btn-default" id="confidence-btn" data-toggle="tooltip" data-placement="right" title="" data-original-title="submit sources to improve this number">{{ confidence }}%</button>
+            </p>
+            <p><b>Note:</b> Changed 'In progress' to 'In alpha' because there was too much conjecture over old footage. Think of it as our scientific method; is there tangible progress in the alpha version? Please see the <a href="/faq/">FAQ</a> for more info. We hope to re-visit the subject when Star Citizen enters beta. Thank you to everyone that continues to submit corrections and source links.</p>
+            <br>
+            
+            <div id="share-buttons" class="text-center">
+                <ul class="list-inline">
+                    <li>
+                        <!-- <a href="" target="_blank"
+                           style="color:#3b5998;">
+                            <i class="fa fa-2x fa-facebook-square"></i>
+                        </a> -->
+                    </li>
+                    <li>
+                        <!-- <a href="https://plus.google.com/share?url=https://trumptracker.github.io/" target="_blank"
+                           style="color:#dd4b39;">
+                            <i class="fa fa-2x fa-google-plus"></i>
+                        </a> -->
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/home?status=Track%C2%A0%40RobertsSpaceInd's%C2%A0Promises%C2%A0with%C2%A0%23StarCitizenTracker%20https%3A//starcitizentracker.github.io/"
+                           target="_blank" style="color:#1da1f2;">
+                            <i class="fa fa-2x fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://reddit.com/r/starcitizen" target="_blank" style="color:#ff5700;">
+                            <i class="fa fa-2x fa-reddit"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://discord.gg/vsPHsKn" target="_blank" style="color:#7289da;">
+                            <i class="fa fa-2x fa-comments"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <!-- <a href="https://luithollander.nl/trumptracker/rss.php" target="_blank" style="color:#ffa500;">
+                            <i class="fa fa-2x fa-rss"></i>
+                        </a> -->
+                    </li>
+                </ul>
+            </div>
+            <p><b>Estimated Total Progress on Major Features:</b></p>
+            <a href="https://starcitizentracker.github.io/majorsystems/" style="color:white"><div class="progress">
+                <div class="progress-bar progress-bar-default progress-bar-striped" role="progressbar" style="width:{{ estimatedprogress }}%">{{ estimatedprogress }}%</div>
+            </div></a>
+         </div>
+        </div>
+    </div>
 
-    // Any facet filter button
-    $facets.on('click', function(e) {
+<div class="container-fluid promises" id="promises">
+    <div class="row promises__search-row">
+        <div class="col-md-5">
+            <form action="#" class="form-inline">
+                <input id="search" type="text" class="form-control search" placeholder="Search">
+                <button class="promises__category--reset btn btn-default">
+                    <i class="fa fa-fw fa-refresh"></i> Clear
+                    <i class="fa fa-fw fa-filter"></i><span id="count">{{ total }}</span>/{{ total }}
+                </button>
+            </form>
+            <br>
+        </div>
+        <div class="col-md-7" id="center-on-mobile">
+            <div class="pull-right">
 
-      var facet = $(this).data('list-facet'); // ie 'js-promise-category'
-      var value = $(this).data('facet-value'); // ie 'Culture'
-      var isSingle = !!$(this).data('select-single'); // ie true/false for if there can only be one of this filter
+                <div class="promises__statuses">
+                    {% for status in statuses %}
+                        {% assign status_name = status[0] %}
+                        {% assign status_data = status[1] %}
 
-      // Single-select categories should have their active state wiped
-      if (isSingle) {
-        $facets
-          .filter(function() { return $(this).data('list-facet') === facet; })
-          .removeClass('active');
-      }
+                        <button class="btn btn-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
+                            <i class="fa fa-{{ status_data['icon'] }} fa-fw" aria-hidden="true"></i>
+                            <span class="remove-on-mobile">{{ status_name }}</span>
+                        </button>
+                    {% endfor %}
+                </div>
 
-      // Flag as active
-      $(this).toggleClass('active');
-
-      // Array of active
-      var facets = $facets.filter('.active').map(function() {
-        // return object instead with facet/value
-        return {
-          facet: $(this).data('list-facet'),
-          value: $(this).data('facet-value'),
-          isSingle: !!$(this).data('select-single')
-        };
-      }).get();
-      
-      // console.log(facets);
-      //Update graph on "js-promise-status" changes
-      if (facets[0].facet == "js-promise-status") {
-        Build_and_fill_Chart(facets[0].value);
-      }
-      
-      // When deselecting last, clear all filters
-      if (facets.length === 0) {
-        promiseList.filter();
-        return; // Eject now
-      }
-
-      var anchorhash = window.location.hash.substr(1);
-      if (anchorhash) {
-        anchorhash = _.replace(anchorhash, "_", " ");
-        $("#search").val(anchorhash.toString());
-        promiseList.search();
-        promiseList.filter();
-        promiseList.update();
-      }
-
-      // Otherwise, filter on the array
-      promiseList.filter(function(item) {
-
-        var itemValues = item.values();
-
-        // Single selects, eg "Not started"
-        var single = _.filter(facets, ['isSingle', true]);
-        var foundSingle = foundAny(single, itemValues);
-        // Single-selection items hide if false no matter what, so eject if not found here
-        if (!foundSingle) {
-          return false;
-        }
-
-        // Full categories can have multiples show, list out here
-        var multis = _.filter(facets, ['isSingle', false]);
-        return foundAny(multis, itemValues);
-
-      }); // promiseList.filter()
-
-    });
-  });
-
-})(jQuery, List, _, moment);
+            </div>
+        </div>
+    </div>
 
 
-//Chart
-function Build_and_fill_Chart(para_Type) {
-    if (para_Type === void 0) { para_Type = "all"; }
-    var History = [
-        {"Not_implemented":0,"Completed":0,"date":"2012-10-01T07:00:00.000Z"},
-        {"Not_implemented":13,"Completed":2,"In_alpha":1,"date":"2012-11-01T07:00:00.000Z"},{"Not_implemented":38,"Completed":9,"In_alpha":1,"Broken":5,"Compromised":1,"date":"2012-12-01T08:00:00.000Z"},{"Not_implemented":38,"Completed":9,"In_alpha":1,"Broken":5,"Compromised":1,"date":"2013-01-01T08:00:00.000Z"},{"Not_implemented":41,"Completed":16,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-02-01T08:00:00.000Z"},{"Not_implemented":43,"Completed":17,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-03-01T08:00:00.000Z"},{"Not_implemented":45,"Completed":17,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-04-01T07:00:00.000Z"},{"Not_implemented":51,"Completed":17,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-05-01T07:00:00.000Z"},{"Not_implemented":53,"Completed":19,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-06-01T07:00:00.000Z"},{"Not_implemented":66,"Completed":20,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-07-01T07:00:00.000Z"},{"Not_implemented":68,"Completed":20,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-08-01T07:00:00.000Z"},{"Not_implemented":72,"Completed":21,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-09-01T07:00:00.000Z"},{"Not_implemented":75,"Completed":22,"In_alpha":2,"Broken":5,"Compromised":1,"date":"2013-10-01T07:00:00.000Z"},{"Not_implemented":76,"Completed":22,"In_alpha":3,"Broken":5,"Compromised":1,"date":"2013-11-01T07:00:00.000Z"},{"Not_implemented":83,"Completed":22,"In_alpha":3,"Broken":6,"Compromised":1,"date":"2013-12-01T08:00:00.000Z"},{"Not_implemented":90,"Completed":27,"In_alpha":5,"Broken":6,"Compromised":1,"date":"2014-01-01T08:00:00.000Z"},{"Not_implemented":114,"Completed":38,"In_alpha":7,"Broken":7,"Compromised":2,"date":"2014-02-01T08:00:00.000Z"},{"Not_implemented":135,"Completed":41,"In_alpha":8,"Broken":7,"Compromised":2,"date":"2014-03-01T08:00:00.000Z"},{"Not_implemented":157,"Completed":43,"In_alpha":9,"Broken":7,"Compromised":2,"date":"2014-04-01T07:00:00.000Z"},{"Not_implemented":184,"Completed":46,"In_alpha":12,"Broken":7,"Compromised":2,"date":"2014-05-01T07:00:00.000Z"},{"Not_implemented":210,"Completed":46,"In_alpha":13,"Broken":7,"Compromised":3,"date":"2014-06-01T07:00:00.000Z"},{"Not_implemented":243,"Completed":49,"In_alpha":13,"Broken":8,"Compromised":3,"Not_started":1,"date":"2014-07-01T07:00:00.000Z"},{"Not_implemented":253,"Completed":50,"In_alpha":14,"Broken":8,"Compromised":3,"Not_started":1,"date":"2014-08-01T07:00:00.000Z"},{"Not_implemented":272,"Completed":53,"In_alpha":15,"Broken":8,"Compromised":3,"Not_started":1,"date":"2014-09-01T07:00:00.000Z"},{"Not_implemented":278,"Completed":53,"In_alpha":16,"Broken":8,"Compromised":3,"Not_started":1,"date":"2014-10-01T07:00:00.000Z"},{"Not_implemented":281,"Completed":54,"In_alpha":16,"Broken":8,"Compromised":3,"Not_started":1,"date":"2014-11-01T07:00:00.000Z"},{"Not_implemented":296,"Completed":57,"In_alpha":16,"Broken":9,"Compromised":3,"Not_started":1,"date":"2014-12-01T08:00:00.000Z"},{"Not_implemented":299,"Completed":58,"In_alpha":16,"Broken":9,"Compromised":3,"Not_started":1,"date":"2015-01-01T08:00:00.000Z"},{"Broken":16,"Not_implemented":292,"Completed":75,"In_alpha":16,"Compromised":3,"Not_started":1,"date":"2015-02-01T08:00:00.000Z"},{"Broken":16,"Not_implemented":293,"Completed":75,"In_alpha":17,"Compromised":3,"Not_started":1,"date":"2015-03-01T08:00:00.000Z"},{"Broken":16,"Not_implemented":295,"Completed":75,"In_alpha":17,"Compromised":3,"Not_started":1,"date":"2015-04-01T07:00:00.000Z"},{"Broken":16,"Not_implemented":297,"Completed":75,"In_alpha":17,"Compromised":3,"Not_started":1,"date":"2015-05-01T07:00:00.000Z"},{"Broken":17,"Not_implemented":297,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-06-01T07:00:00.000Z"},{"Broken":18,"Not_implemented":301,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-07-01T07:00:00.000Z"},{"Broken":19,"Not_implemented":300,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-08-01T07:00:00.000Z"},{"Broken":19,"Not_implemented":307,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-09-01T07:00:00.000Z"},{"Broken":20,"Not_implemented":327,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-10-01T07:00:00.000Z"},{"Broken":20,"Not_implemented":328,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-11-01T07:00:00.000Z"},{"Broken":20,"Not_implemented":328,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2015-12-01T08:00:00.000Z"},{"Broken":21,"Not_implemented":328,"Completed":75,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-01-01T08:00:00.000Z"},{"Broken":25,"Not_implemented":327,"Completed":76,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-02-01T08:00:00.000Z"},{"Broken":25,"Not_implemented":336,"Completed":76,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-03-01T08:00:00.000Z"},{"Broken":25,"Not_implemented":346,"Completed":76,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-04-01T07:00:00.000Z"},{"Broken":25,"Not_implemented":348,"Completed":76,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-05-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":346,"Completed":78,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-06-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":346,"Completed":78,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-07-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":347,"Completed":78,"In_alpha":17,"Compromised":4,"Not_started":1,"date":"2016-08-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":372,"Completed":78,"In_alpha":19,"Compromised":5,"Not_started":1,"date":"2016-09-01T07:00:00.000Z"},{"Broken":26,"Not_implemented":374,"Completed":78,"In_alpha":19,"Compromised":5,"Not_started":1,"date":"2016-10-01T07:00:00.000Z"},{"Broken":26,"Stagnant":3,"Completed":78,"In_alpha":19,"Not_implemented":376,"Compromised":5,"Not_started":1,"date":"2016-11-01T07:00:00.000Z"},{"Broken":27,"Stagnant":19,"Completed":78,"In_alpha":19,"Not_implemented":360,"Compromised":5,"Not_started":1,"date":"2016-12-01T08:00:00.000Z"},{"Broken":27,"Stagnant":31,"Completed":78,"In_alpha":19,"Compromised":5,"Not_implemented":348,"Not_started":1,"date":"2017-01-01T08:00:00.000Z"},{"Broken":30,"Stagnant":34,"Completed":80,"In_alpha":19,"Compromised":5,"Not_implemented":341,"Not_started":1,"date":"2017-02-01T08:00:00.000Z"},{"Broken":30,"Stagnant":34,"Completed":80,"In_alpha":19,"Compromised":5,"Not_implemented":343,"Not_started":1,"date":"2017-03-01T08:00:00.000Z"},{"Broken":31,"Stagnant":36,"Completed":80,"In_alpha":19,"Compromised":5,"Not_implemented":340,"Not_started":1,"date":"2017-04-01T07:00:00.000Z"},{"Broken":33,"Stagnant":39,"Completed":80,"In_alpha":19,"Compromised":5,"Not_implemented":336,"Not_started":1,"date":"2017-05-01T07:00:00.000Z"},{"Broken":33,"Stagnant":45,"Completed":80,"In_alpha":19,"Compromised":5,"Not_implemented":330,"Not_started":1,"date":"2017-06-01T07:00:00.000Z"},{"Broken":33,"Stagnant":55,"Completed":80,"In_alpha":19,"Compromised":5,"Not_implemented":321,"Not_started":1,"date":"2017-07-01T07:00:00.000Z"},{"Broken":34,"Stagnant":57,"Completed":81,"In_alpha":19,"Compromised":5,"Not_implemented":318,"Not_started":1,"date":"2017-08-01T07:00:00.000Z"},{"Broken":34,"Stagnant":60,"Completed":81,"In_alpha":19,"Compromised":5,"Not_implemented":319,"Not_started":1,"date":"2017-09-01T07:00:00.000Z"},{"Broken":34,"Stagnant":63,"Completed":81,"In_alpha":19,"Compromised":5,"Not_implemented":316,"Not_started":1,"date":"2017-10-01T07:00:00.000Z"},{"Broken":43,"Stagnant":65,"Completed":90,"In_alpha":19,"Compromised":5,"Not_implemented":301,"Not_started":1,"date":"2017-11-01T07:00:00.000Z"},{"Broken":43,"Stagnant":65,"Completed":91,"In_alpha":19,"Compromised":5,"Not_implemented":303,"Not_started":1,"date":"2017-12-01T08:00:00.000Z"}
-      ]; 
-    var brokenArray = [], stagnantArray = [], notimplementedArray = [], inalphaArray = [], compromisedArray = [], completedArray = [], labels = [];
-    //build data arrays
-    for (var _i = 0, History_1 = History; _i < History_1.length; _i++) {
-        var month = History_1[_i];
-        switch (para_Type) {
-            default:
-                brokenArray.push(month.Broken);
-                stagnantArray.push(month.Stagnant);
-                notimplementedArray.push(month.Not_implemented);
-                inalphaArray.push(month.In_alpha);
-                compromisedArray.push(month.Compromised);
-                completedArray.push(month.Completed);
-                break;
-            case "Broken":
-                brokenArray.push(month.Broken);
-                break;
-            case "Stagnant":
-                stagnantArray.push(month.Stagnant);
-                break;
-            case "Not implemented":
-                notimplementedArray.push(month.Not_implemented);
-                break;
-            case "In alpha":
-                inalphaArray.push(month.In_alpha);
-                break;
-            case "Compromised":
-                compromisedArray.push(month.Compromised);
-                break;
-            case "Completed":
-                completedArray.push(month.Completed);
-                break;
-        }
-        //Labels always needed to mark each tick on the graph
-        labels.push(month.date);
-    }
-    //Charts Data
-    var ctx = document.getElementById("timechart");
-    var data = {
-        labels: labels,
-        datasets: [{
-                label: "Broken",
-                backgroundColor: "#f2dede",
-                borderColor: "#c56d6d",
-                borderWidth: 1,
-                data: brokenArray,
-                spanGaps: true,
-            }, {
-                label: "Stagnant",
-                backgroundColor: "#fcddc4",
-                borderColor: "#f5903d",
-                data: stagnantArray
-            }, {
-                label: "Not implemented",
-                backgroundColor: "#fcf8e3",
-                borderColor: "#ecd046",
-                data: notimplementedArray
-            }, {
-                label: "In alpha",
-                backgroundColor: "#d9edf7",
-                borderColor: "#57afdb",
-                data: inalphaArray
-            }, {
-                label: "Compromised",
-                backgroundColor: "#ccdde8",
-                borderColor: "#72a1c0",
-                data: compromisedArray
-            }, {
-                label: "Completed",
-                backgroundColor: "#dff0d8",
-                borderColor: "#86c66c",
-                data: completedArray
-            }]
-    };
-    //add any shared elements to all datasets
-    for (var i = 0; i < data.datasets.length; i++) {
-        data.datasets[i].borderWidth = 1;
-        data.datasets[i].pointRadius = 1;
-        data.datasets[i].pointHitRadius = 10;
-        data.datasets[i].pointHoverRadius = 6;
-        data.datasets[i].pointHoverBorderWidth = 3;
-    }
-    //update chart data if already created
-    if (typeof (AllChart) == "object") {
-        AllChart.config.data = data;
-        AllChart.update();
-    }
-    else {
-        // console.log("Created empty chart");
-        Chart.defaults.global.legend.display = false;
-        AllChart = new Chart(ctx, {
-            type: 'line',
-            data: data,
-            options: {
-                tooltips: {
-                    mode: "label",
-                    position: "nearest",
-                    callbacks: {
-                        title: function(data) {
-                            return moment(data["0"].xLabel).format("MMMM YYYY");
-                        }
-                    }
-                },
-                scales: {
-                    xAxes: [{   stacked: true, 
-                                ticks: {autoSkip: false},
-                                type: 'time',
-                                time: {
-                                    displayFormats: {
-                                        'millisecond': 'MMM YYYY',
-                                        'second': 'MMM YYYY',
-                                        'minute': 'MMM YYYY',
-                                        'hour': 'MMM YYYY',
-                                        'day': 'MMM YYYY',
-                                        'week': 'MMM YYYY',
-                                        'month': 'MMM YYYY',
-                                        'quarter': 'MMM YYYY',
-                                        'year': 'MMM YYYY',
-                                    }
-                                }
-                           }],
-                    yAxes: [{stacked: true}]
-                }
-            }
-        });
-    }
-}
-//Build AllChart with default input
-Build_and_fill_Chart();
+<div class="container-fluid">
+    <div class="row">
+        <ul class="nav nav-tabs" id="myTabs" role="tablist" >
+            {% for category in categories %}
+                <li role="presentation" data-list-facet="js-promise-category" data-facet-value="{{ category }}" class="{{ category }}">
+                    <a href="#" role="tab" data-toggle="tab" class="text-muted">
+                        <i class="fa fa-fw fa-{{ icons[category] }}"></i>&nbsp;
+                        <span class="remove-on-mobile">{{ category }}</span>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- <div class="row promises__category-row">
+        <div class="col-md-12">
+
+            <div class="promises__categories">
+
+                {% for category in categories %}
+                <button class="promises__category btn btn-default" data-list-facet="js-promise-category" data-facet-value="{{ category }}">
+                    <i class="fa fa-fw fa-{{ icons[category] }}"></i> {{ category }}
+                </button>
+                {% endfor %}
+
+            </div>
+
+        </div>
+    </div> -->
+    <!-- /.promises__category-row -->
+
+    <div class="row promises__table container-fluid">
+                <table class="table table-striped">
+
+                    <thead>
+                    <tr>
+                        <!--<th>ID</th> -->
+                        <!--<th>Status</th>-->
+                        <!--<th>Category</th>-->
+                        <!-- <th>Tags</th> -->
+                        <th>Expectation</th>
+                        <!-- <th>Sources</th> -->
+                        <th>Actions</th>
+                    </tr>
+                    </thead>
+
+                    <tbody class="list">
+                    <!-- add color to each policy -->
+                    {% for promise in promises %}
+                    <tr class="promise {% if promise.status == 'Not implemented' %}warning{% endif %}{% if promise.status == 'In alpha' %}info{% endif %}{% if promise.status == 'Completed' %}success{% endif %}{% if promise.status == 'Broken' %}danger{% endif %}{% if promise.status == 'Stagnant' %}stagnant{% endif %}{% if promise.status == 'Compromised' %}compromised{% endif %}">
+                        <!-- <td class="promise__id">{{ forloop.index }}.</td> --> <!-- Numbering promises is slightly annoying because we deal with a lot more promises than TrumpTracker and prefer to sort by date which may change the numbering -->
+
+                        <!--
+                         <td class="promise__status" title="{{ promise.status }}">
+                            <i class="fa fa-fw fa-{{ statuses[promise.status]['icon'] }} text-{{ statuses[promise.status]['color'] }}" title="{{ promise.status }}"></i>
+                            <span class="promise__status-text js-promise-status sr-only">{{ promise.status }}</span>
+                        </td>
+                        -->
+                        <!--
+                        <td class="promise__category" style="white-space: nowrap;">
+                            <i class="fa fa-fw fa-{{ icons[promise.category] }}"></i> <span class="js-promise-category">{{ promise.category }}</span>
+                        </td>
+                        -->
+                        <!-- <td class="promise__tags" style="text-align: center;">
+                            {% for tag in promise.tags %}
+                            <a class="label label-default">{{ tag }}</a>
+                            {% endfor %}
+                        </td> -->
+                        <td class="promise__title js-promise-text">
+                            <a name="{{ promise.title | replace: ' ', '_' }}" class="anchor"></a>
+                        <b><span class="js-promise-category">{{ promise.category }}</span>:</b>
+                        <span class="promise__status-text js-promise-status sr-only">{{ promise.status }}</span>
+                        {{ promise.title }}
+                            <!-- Append badges for anything of interest -->
+                            {% for tag in promise.tags %}
+                                {% if tag == 'Kickstarter Stretch Goal' %}
+                                    <span class="badge badge-success">{{ tag }}</span>
+                                {% endif %}
+                                {% if tag == 'Official Stretch Goal' %}
+                                    <span class="badge badge-inverse">{{ tag }}</span>
+                                {% endif %}
+                            {% endfor %}
+                            
+                        <!-- add superscript citations and sources -->
+                        {% for source in promise.sources %}
+                            <sup><a href="{{ source }}">{{ forloop.index }}</a></sup>
+                        {% endfor %}
+                        </td>
+                        <!-- <td class="promise__sources" style="white-space: nowrap;">
+                        </td> -->
+                        <td class="promise__actions">
+                            <!-- clickable actions -->
+                            <!-- <a href="{{ promise.comments }}" target="_blank" rel="nofollow"> 
+                            <i class="fa fa-fw fa-comments text-muted" aria-hidden="true"></i></a> -->
+                            <a href="#{{ promise.title | replace: ' ', '_' }}" rel="nofollow"> 
+                            <i class="fa fa-fw fa-link text-muted" aria-hidden="true"></i></a>
+
+                            <!-- {% capture status %}
+                                {% if promise.status == "Not implemented" %} hasn't added
+                                {% elsif promise.status == "In alpha" %} is progressing on
+                                {% elsif promise.status == "Completed" %} completed
+                                {% elsif promise.status == "Broken" %} broke
+                                {% elsif promise.status == "Compromised" %} compromised on
+                                {% elsif promise.status == "Stagnant" %} is taking forever on
+                                {% else %}
+                                {% endif %}
+                            {% endcapture %}{% capture message %}.@RobertsSpaceInd{{ status }} promise: {{ promise.title }} according to{% endcapture %}
+
+                            {% capture tweettext %}{{ message }}{% endcapture %}
+
+                            <a href="https://twitter.com/share?url=https://starcitizentracker.github.io/&text={{ tweettext | truncate: 102 | url_encode }}&hashtags=StarCitizen" target="_blank"><i class="fa fa-fw fa-twitter text-muted" aria-hidden="true"></i></a> -->
+                            <!-- hoverover quote -->
+                            {% if promise.quote contains '|' %}
+                                {% assign quotesplit = promise.quote | split: '|' %}
+                                {% assign quotee = quotesplit[0] %}
+                                {% assign quotetext = quotesplit[1] %}
+                            {% else %}
+                                {% assign quotee = 'Chris Roberts' %}
+                            {% assign quotetext = promise.quote %}
+                            {% endif %}
+                            {% if promise.quote != undefined %}
+                                <i class="fa fa-fw fa-quote-left text-muted" aria-hidden="true" data-toggle="tooltip" title="{{ quotee }}: &ldquo;{{ quotetext }}&rdquo;"></i>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+</div>
+<!-- /#promises -->
