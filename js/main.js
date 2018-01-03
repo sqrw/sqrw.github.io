@@ -46,6 +46,13 @@
 
     //Always show tooltip on confidence-btn
     //$('#confidence-btn').tooltip('show');
+
+    var anchorhash = window.location.hash.substr(1);
+    if (anchorhash) {
+      $("#search").val(anchorhash);
+      promiseList.search();
+      promiseList.filter();
+    }
     
     // Select and replace maintained by name
     var maintainers = ["CryTek Legal Beagles", "Coutts & Co.", "Bitter EvE Goons", "SomethingAwful Goons", "Salty Asshats", "Goons (who know nothing about game development)", "Goons stuck in checkmate", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "WaffleImages", "COBOL Greybeards", "Blocked Buddies", "Ryan Archer"]
@@ -59,11 +66,6 @@
 
     var $search = $('#search');
     var $facets = $('[data-list-facet]'); // All buttons that can filter
-    var anchorhash = window.location.hash.substr(1);
-    if (anchorhash) {
-      $("#search").val(anchorhash);
-      promiseList.search();
-    }
 
     // Clear all
     function resetFilter(e) {
