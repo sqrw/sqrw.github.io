@@ -85,6 +85,9 @@
       $search.change();
       // promiseList.filter();
       // promiseList.update();
+      promiseList = new List('promises', listOptions).on('updated', function(list) {
+        $('#count').html(list.visibleItems.length);
+      });
     }
 
     // Any facet filter button
