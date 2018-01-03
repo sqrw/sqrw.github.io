@@ -55,6 +55,7 @@
     // List.js object that we can filter upon
     var promiseList = new List('promises', listOptions).on('updated', function(list) {
       $('#count').html(list.visibleItems.length);
+      console.log(listOptions);
     });
 
     var $search = $('#search');
