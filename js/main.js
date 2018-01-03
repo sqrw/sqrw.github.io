@@ -77,6 +77,15 @@
     // Hard reset all the buttons
     $('.promises__category--reset').on('click', resetFilter);
 
+    var anchorhash = window.location.hash.substr(1);
+    if (anchorhash) {
+      anchorhash = _.replace(anchorhash, "_", " ");
+      $("#search").val(anchorhash.toString());
+      promiseList.search();
+      promiseList.filter();
+      promiseList.update();
+    }
+    
     // Any facet filter button
     $facets.on('click', function(e) {
 
@@ -114,15 +123,6 @@
       if (facets.length === 0) {
         promiseList.filter();
         return; // Eject now
-      }
-
-      var anchorhash = window.location.hash.substr(1);
-      if (anchorhash) {
-        anchorhash = _.replace(anchorhash, "_", " ");
-        $("#search").val(anchorhash.toString());
-        promiseList.search();
-        promiseList.filter();
-        promiseList.update();
       }
 
       // Otherwise, filter on the array
