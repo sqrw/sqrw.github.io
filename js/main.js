@@ -1,9 +1,6 @@
 //scrolling to anchor
 $(document).ready(function(){
-  var anchorhash = window.location.hash.substr(1);
-  if (anchorhash) {
-    $("#search").val(anchorhash);
-  }
+
 });
 
 
@@ -43,10 +40,9 @@ $(document).ready(function(){
       return compareItem[facet['facet']] === facet['value'];
     }, false);
   }
-
+  
   //Startup + Misc
   $(function() {
-
     // Dates
     var today = moment();
     var inauguration = moment('2012-11-19');
@@ -69,7 +65,11 @@ $(document).ready(function(){
 
     var $search = $('#search');
     var $facets = $('[data-list-facet]'); // All buttons that can filter
-
+    var anchorhash = window.location.hash.substr(1);
+    if (anchorhash) {
+      $("#search").val(anchorhash);
+    }
+    
     // Clear all
     function resetFilter(e) {
       e.preventDefault();
