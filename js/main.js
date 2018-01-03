@@ -1,3 +1,5 @@
+var promiseList;
+
 //Defaults
 (function($, List, _, moment) {
   // List.js classes to use for search elements
@@ -60,7 +62,7 @@
     $('.maintainer-name').html(maintainer);
 
     // List.js object that we can filter upon
-    var promiseList = new List('promises', listOptions).on('updated', function(list) {
+    promiseList = new List('promises', listOptions).on('updated', function(list) {
       $('#count').html(list.visibleItems.length);
     });
 
