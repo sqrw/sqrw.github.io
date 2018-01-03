@@ -1,9 +1,3 @@
-//scrolling to anchor
-$(document).ready(function(){
-
-});
-
-
 //Defaults
 (function($, List, _, moment) {
   // List.js classes to use for search elements
@@ -68,8 +62,9 @@ $(document).ready(function(){
     var anchorhash = window.location.hash.substr(1);
     if (anchorhash) {
       $("#search").val(anchorhash);
+      promiseList.search();
     }
-    
+
     // Clear all
     function resetFilter(e) {
       e.preventDefault();
