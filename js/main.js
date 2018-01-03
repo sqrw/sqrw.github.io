@@ -36,7 +36,7 @@
   }
   
   //Startup + Misc
-  $(function() {
+  $( document ).ready(function() {
     // Dates
     var today = moment();
     var inauguration = moment('2012-11-19');
