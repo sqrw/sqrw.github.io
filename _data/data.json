@@ -26,7 +26,13 @@
     "Broken": { "color": "danger", "icon": "ban" }
   },
   "confidence": 94.8,
-  "expectations": [
+  "promises": [
+    {
+      "title": "Aegis Vulcan",
+      "category": "Ships",
+      "status": "Not implemented",
+      "sources": ["https://youtu.be/4-xa9j7xvws?t=225"]
+    },
     {
       "title": "Dynamic inventory pricing",
       "category": "Economy",
@@ -199,12 +205,12 @@
     {
       "title": "Drake Dragonfly",
       "category": "Ships",
-      "status": "Not implemented",
+      "status": "Completed",
       "sources": [
-        "https://robertsspaceindustries.com/pledge/ships/drake-dragonfly/Dragonfly-Yellowjacket"
+        "https://robertsspaceindustries.com/pledge/ships/drake-dragonfly/Dragonfly-Yellowjacket",
+        "https://youtu.be/Xgyeukt1De0?t=228"
       ],
-      "quote":
-        "RSI Site|Currently being built and tested for implementation in-game."
+      "quote": "RSI Site|Available in Alpha 3.0."
     },
     {
       "title": "Two or three big releases in 2017",
@@ -222,7 +228,8 @@
       "status": "Not implemented",
       "sources": [
         "http://wccftech.com/star-citizen-exclusive-interview-erin-roberts/",
-        "https://youtu.be/9pBUeZ2CTvk?t=1687"
+        "https://youtu.be/9pBUeZ2CTvk?t=1687",
+        "https://robertsspaceindustries.com/comm-link/engineering/12770-Chris-Roberts-On-Multiplayer-Single-Player-And-Instancing"
       ],
       "quote":
         "Erin Roberts|So with the next big release a lot of the underlying game is there and then we can look at transferring people between servers so we can have hundreds of thousands of people maybe in one instance, but that doesn’t come online until later."
@@ -342,7 +349,11 @@
       "title": "3.0 patch - Day and night cycles",
       "category": "Assets",
       "status": "Completed",
-      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=1800"]
+      "sources": [
+        "https://youtu.be/Z-3YBuFI3iI?t=1800",
+        "https://www.youtube.com/watch?v=HEa7u7hf3Ro",
+        "https://www.youtube.com/watch?v=X33yUEUlGGI"
+      ]
     },
     {
       "title": "3.0 patch - Basic mining",
@@ -414,7 +425,11 @@
       "title": "3.0 patch - Planetside module",
       "category": "Levels",
       "status": "Compromised",
-      "sources": ["http://imgur.com/a/1yjPK#BO07hBV"]
+      "sources": [
+        "https://youtu.be/hYFCfRK4e6Y?t=1451",
+        "https://www.mmorpg.com/gamelist.cfm/game/883/feature/7539/Star-Citizen-E3-2013-Chatting-Star-Citizen-with-Chris-Roberts.html",
+        "https://youtu.be/kD2aVH053cM?t=269"
+      ]
     },
     {
       "title": "3.0 patch - Expand the Stanton System",
@@ -754,9 +769,12 @@
       "category": "Economy",
       "status": "Broken",
       "tags": ["steal", "pirate"],
-      "sources": ["https://youtu.be/QNGq1BkPINU?t=1060"],
+      "sources": [
+        "https://youtu.be/QNGq1BkPINU?t=1060",
+        "https://youtu.be/gmtpMCh97D0?t=510"
+      ],
       "quote":
-        " insurance for pirates will not be too dissimilar for insurance for people inside the UEE it will just be the sort of pirate version of that"
+        "insurance for pirates will not be too dissimilar for insurance for people inside the UEE it will just be the sort of pirate version of that"
     },
     {
       "title": "Oculus Rift support",
@@ -769,7 +787,8 @@
         "http://archive.is/AHIkd",
         "https://www.reddit.com/r/starcitizen/comments/5rbiwv/regarding_vr_dont_hold_your_breath/",
         "https://web.archive.org/web/20170613101605/https://www.vrcircle.com/star-citizen-vr-support-coming-anytime-soon-for-htc-vive-or-oculus-rift/",
-        "https://i.imgur.com/fRnUiRf.png"
+        "https://i.imgur.com/fRnUiRf.png",
+        "https://youtu.be/jGibWmYHm7E"
       ],
       "quote":
         "Ben Parry|Sorry to say, do not hold your breath for this. Ignoring the render tech for VR itself (which given the work we’ve done, would definitely be a read-and-rewrite job, not a merge-this-file job), making a game properly VR compliant takes a lot of work at the design and testing level regardless of the engine used. We’d probably need to get the framerate up a bit higher too, come to think of it."
@@ -1031,16 +1050,21 @@
     {
       "title": "Nyx Landing Zone",
       "category": "Levels",
-      "status": "Not implemented",
-      "sources": ["https://www.youtube.com/watch?v=Z2YMlnn4Ngk"]
+      "status": "In alpha",
+      "sources": [
+        "https://www.youtube.com/watch?v=Z2YMlnn4Ngk",
+        "https://youtu.be/L844Rj4mfik?t=549"
+      ]
     },
     {
       "title": "Star Citizen HOTAS from Mad Catz",
       "category": "Promo",
       "status": "Broken",
       "sources": [
+        "http://i.imgur.com/takjQlJ.png",
         "http://www.saitek.com/uk/blog/index.php/could-be-the-best-new-hotas-concept-in-a-decade-polygon",
-        "http://i.imgur.com/takjQlJ.png"
+        "https://www.polygon.com/2015/10/15/9540153/star-citizens-custom-joystick-looks-positively-stunning",
+        "https://www.reddit.com/r/starcitizen/comments/6cyc7c/star_citizen_hotas_prototype_sold_on_ebay/"
       ]
     },
     {
@@ -1292,7 +1316,7 @@
       "tags": ["Official Stretch Goal"]
     },
     {
-      "title": "Drake Interplanetary Caterpillar",
+      "title": "Drake Caterpillar",
       "category": "Ships",
       "status": "Completed",
       "tags": ["Kickstarter Stretch Goal"]
@@ -1470,6 +1494,14 @@
         "if you don't shower for a while some NPCs won't want to talk to you 'cause you smell, etc etc."
     },
     {
+      "title": "Tractor beam large physics objects",
+      "category": "Mechanics",
+      "status": "Not implemented",
+      "sources": ["https://youtu.be/FXnNwUmnl3o?t=569"],
+      "quote":
+        "Well the tractor beam isn't implemented yet, but it's going to have a control/grav mechanic, it'll make whatever you're hauling with it be 'connected' to your ship, so you should be able to treat it like dragging around a piece of mass. I don't know what the strength of the beam will be yet, but assuming that there's one that you can grab hold of, you could fly your ship around and release the asteroid with momentum enough to continue in that direction. So potentially I could see people using the tractor beam in interesting ways for combat. It'll all be physically simulated correctly, think of the tractor beam as a virtual rope, and just like that there'll be limits on how big an object and how much mass you can tow etc."
+    },
+    {
       "title": "Insurance policies",
       "category": "Economy",
       "status": "In alpha",
@@ -1485,7 +1517,9 @@
       "sources": [
         "http://archive.is/CFC5L",
         "https://i.imgur.com/orXQvMZ.png",
-        "https://i.imgur.com/Uahe70d.png"
+        "https://i.imgur.com/Uahe70d.png",
+        "https://www.reddit.com/r/Games/comments/7tkmc3/star_citizen_dev_you_cannot_collect_ships_by/dte0j2i/",
+        "https://youtu.be/gmtpMCh97D0?t=510"
       ],
       "quote":
         "RSI Site|You will be able to fly a “hot” ship to the less savory parts of the Star Citizen universe, where you will probably be able to land and may be able to purchase a fake hull id code, but it will take effort and not necessarily be cheap."
@@ -1544,11 +1578,12 @@
     {
       "title": "Weapons emit exactly from where barrel is pointing",
       "category": "Mechanics",
-      "status": "Broken",
+      "status": "Compromised",
       "sources": [
         "https://youtu.be/BWLVI_mnn2I?t=22m30s",
         "https://www.reddit.com/r/starcitizen/comments/7ho3qf/fps_weapon_spread_is_rng_cones/",
-        "https://i.imgur.com/Us8rc40.png"
+        "https://i.imgur.com/Us8rc40.png",
+        "https://gfycat.com/unfortunatephonygoldenmantledgroundsquirrel"
       ],
       "quote": "the gun shoots where the barrel is pointing"
     },
@@ -1630,7 +1665,10 @@
       "title": "Aegis Reclaimer",
       "category": "Ships",
       "status": "Not implemented",
-      "tags": ["Official Stretch Goal"]
+      "tags": ["Official Stretch Goal"],
+      "sources": [
+        "https://robertsspaceindustries.com/pledge/ships/reclaimer/Reclaimer"
+      ]
     },
     {
       "title": "Spectator Mode in Arena Commander",
@@ -1972,7 +2010,7 @@
     {
       "title": "Use individual buttons and switches",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Completed",
       "sources": ["https://youtu.be/QWWhhg56IoM?t=654"],
       "quote":
         "we are planning on having you, like, if you want to turn on your engines, and turn them off, and turn on your HUD, you have to hit the switches to turn the stuff on on your dashboard"
@@ -2952,16 +2990,16 @@
       "sources": [
         "https://youtu.be/FXnNwUmnl3o?t=569",
         "https://youtu.be/Q4OB9Yfo-0Q?t=11m19s"
-      ]
+      ],
+      "quote": "Well the tractor beam isn't implemented yet"
     },
     {
       "title": "Immersive transfer of cargo to ships hold",
       "category": "Mechanics",
       "status": "Not implemented",
-      "sources": [
-        "https://youtu.be/FXnNwUmnl3o?t=569",
-        "https://youtu.be/Q4OB9Yfo-0Q?t=11m19s"
-      ]
+      "sources": ["https://youtu.be/Q4OB9Yfo-0Q?t=11m19s"],
+      "quote":
+        "In Star Citizen there actually will be much more of a game mechanic around collecting your cargo than there has been in say Privateer or Freelancer or other space sim games where you basically just run over the cargo and it's magically in your hold. You actually have to tractor it in or you have to go out and get it and put it in your hold."
     },
     {
       "title": "Elaborate matchmaking criteria",
@@ -3117,7 +3155,7 @@
     {
       "title": "Immersive haggling with NPCs",
       "category": "NPCs",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["http://youtu.be/NcRxuvQT3Ew?t=4m5s"],
       "quote":
         "Most of the time it'll be handled in the background, and you'll negotiate prices/amounts using your manifest with the local commodities broker, they'll buy it then offload it from your ship."
@@ -3125,20 +3163,20 @@
     {
       "title": "Stellar Cartography",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "tags": ["Official Stretch Goal"],
       "sources": ["http://youtu.be/NcRxuvQT3Ew?t=10m55s"]
     },
     {
       "title": "Players won't always be able to run from combat",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["https://youtu.be/NcRxuvQT3Ew?t=122"]
     },
     {
       "title": "Immersive buying of ships",
       "category": "NPCs",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["https://youtu.be/NcRxuvQT3Ew?t=215"],
       "quote":
         "So definitely in Star Citizen I kind of want the buying and selling to be immersive so you walk into a showroom and there's actually an NPC sales guy there and he's telling you why you should really be stepping up to this particular model 300i spaceship and sort of make it feel like you'd be buying something in the real world."
@@ -3146,13 +3184,13 @@
     {
       "title": "Stock Market",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["https://youtu.be/NcRxuvQT3Ew?t=336"]
     },
     {
       "title": "Organization bank accounts",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "tags": ["Guilds"],
       "sources": ["https://youtu.be/NcRxuvQT3Ew?t=336"],
       "quote":
@@ -3161,7 +3199,7 @@
     {
       "title": "Level restrictions masked by licences and real world barriers",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": [
         "https://youtu.be/NcRxuvQT3Ew?t=394",
         "https://youtu.be/VK4wHImGNAQ?t=657"
@@ -3170,7 +3208,7 @@
     {
       "title": "Procedurally generated asteroid fields",
       "category": "Assets",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["https://youtu.be/NcRxuvQT3Ew?t=546"],
       "quote":
         "We definitely have quite a few different asteroids, but we're actually doing R&D right now into a bunch of procedural generation of asteroids and asteroid fields"
@@ -3178,8 +3216,11 @@
     {
       "title": "3D Starmap inside ships",
       "category": "Mechanics",
-      "status": "Not implemented",
-      "sources": ["https://youtu.be/NcRxuvQT3Ew?t=619"]
+      "status": "In alpha",
+      "sources": [
+        "https://youtu.be/NcRxuvQT3Ew?t=619",
+        "https://youtu.be/I_q4spoNIy0?t=68"
+      ]
     },
     {
       "title": "Some ships have artificial gravity",
@@ -3205,7 +3246,7 @@
     {
       "title": "Playing as another alien race",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": [
         "https://www.youtube.com/watch?v=PjvaUew1d4o#t=1416",
         "https://youtu.be/RtyZzO5OrE0?t=455"
@@ -3214,13 +3255,13 @@
     {
       "title": "Single player expansion: play as an alien",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["https://youtu.be/RtyZzO5OrE0?t=455"]
     },
     {
       "title": "Highly interactive NPCs",
       "category": "NPCs",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": [
         "http://youtu.be/RtyZzO5OrE0?t=5m",
         "http://youtu.be/RtyZzO5OrE0?t=10m54s"
@@ -3229,37 +3270,37 @@
     {
       "title": "Job or Contract System",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["http://youtu.be/RtyZzO5OrE0?t=3m11s"]
     },
     {
       "title": "Character ratings  factored into mission system",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["https://youtu.be/RtyZzO5OrE0?t=173"]
     },
     {
       "title": "Tell ships to drop cargo",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["https://youtu.be/RtyZzO5OrE0?t=288"]
     },
     {
       "title": "Randomly generated personalities for NPCs",
       "category": "NPCs",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["https://youtu.be/RtyZzO5OrE0?t=288"]
     },
     {
       "title": "Request assistance from NPC ships",
       "category": "NPCs",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["https://youtu.be/RtyZzO5OrE0?t=647"]
     },
     {
       "title": "Short range voice communication and ship hailing",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": [
         "https://youtu.be/FsWDLHVYNHI?t=513",
         "http://youtu.be/PCG4dZ1mYRw?t=14m32s"
@@ -3269,7 +3310,7 @@
       "title":
         "Shuttles for larger ships to interact with stations and planets",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["http://youtu.be/FsWDLHVYNHI?t=11m42s"],
       "quote":
         "RSI Site|Where the others trade cargo capacity for firepower or speed, the Hull A is 100% on-mission transport! Additionally, Hull A (and B) are often used as station-to-orbit ferries."
@@ -3277,7 +3318,7 @@
     {
       "title": "Dangerous and dynamic Jump Points",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": [
         "http://youtu.be/-3KIcnKf3O0?t=11m26s",
         "http://youtu.be/2jcCwDs2rbw?t=16m32s",
@@ -3289,13 +3330,13 @@
     {
       "title": "Squadron 42: short funerals for fallen wingmen",
       "category": "Assets",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["https://youtu.be/FsWDLHVYNHI?t=414"]
     },
     {
       "title": "Ship specific Manuals",
       "category": "Promo",
-      "status": "Not implemented"
+      "status": "Stagnant"
     },
     {
       "title": "Manned Maneuvering Unit in FPS module this year",
@@ -3391,13 +3432,16 @@
     {
       "title": "Planet day/night cycle",
       "category": "Levels",
-      "status": "In alpha",
-      "sources": ["http://youtu.be/w5M5DXzcMmg?t=3m42s"]
+      "status": "Completed",
+      "sources": [
+        "http://youtu.be/w5M5DXzcMmg?t=3m42s",
+        "https://www.youtube.com/watch?v=HEa7u7hf3Ro"
+      ]
     },
     {
       "title": "Vanduul in persistant universe",
       "category": "NPCs",
-      "status": "Not implemented"
+      "status": "Stagnant"
     },
     {
       "title": "Origin M50",
@@ -3619,7 +3663,7 @@
     {
       "title":
         "Move Wingman out of the basement. (Move Austin team to larger office)",
-      "category": "Community",
+      "category": "Promo",
       "status": "Completed",
       "tags": ["Wingman", "Official Stretch Goal"],
       "sources": [
@@ -3984,7 +4028,7 @@
     },
     {
       "title": "Wingman's Hangar (webcasts)",
-      "category": "Community",
+      "category": "Promo",
       "status": "Completed",
       "tags": ["Wingman", "Kickstarter Stretch Goal"],
       "sources": [
@@ -4045,7 +4089,7 @@
     {
       "title": "RSI Contellation",
       "category": "Ships",
-      "status": "In alpha",
+      "status": "Stagnant",
       "sources": [
         "https://robertsspaceindustries.com/pledge/ships/rsi-constellation/Constellation-Aquila"
       ]
@@ -4312,7 +4356,7 @@
     },
     {
       "title": "Regular community updates",
-      "category": "Community",
+      "category": "Promo",
       "status": "Completed",
       "tags": ["Kickstarter Stretch Goal"]
     },
@@ -4409,7 +4453,9 @@
       "sources": [
         "http://youtu.be/H4Z2Fr9fHMc?t=4m41s",
         "https://youtu.be/qwbU9FG5XlQ?t=125"
-      ]
+      ],
+      "quote":
+        "CIG Developer|A tablet companion app was promised as part of the crowdfunding campaign goals - the planned features currently include checking on your inventory, commission, and finding missions and getting the galactic news feed. More detailed ship status is not currently on that list to my knowledge."
     },
     {
       "title": "Fly from space to planet as a cinematic",
@@ -4511,7 +4557,7 @@
     },
     {
       "title": "Monthly Town Hall Q&A with Chris Roberts",
-      "category": "Community",
+      "category": "Promo",
       "status": "Completed",
       "tags": ["Kickstarter Stretch Goal"]
     },
