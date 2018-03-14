@@ -44,7 +44,7 @@
         }
     },
     "confidence": 95.2,
-    "expectations": [
+    "promises": [
         {
             "title": "Single shard",
             "category": "Levels",
