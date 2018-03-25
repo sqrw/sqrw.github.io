@@ -269,7 +269,7 @@ promises:
     yet ready to display in your Hangar, fight in Arena Commander or fly in the Alpha.
 - title: Runtime generation of planets
   category: Levels
-  status: Broken
+  status: In alpha
   sources:
   - http://i.imgur.com/8wEBHGy.png
   - https://youtu.be/qqcN6UkKfog?t=1070
@@ -355,7 +355,7 @@ promises:
   status: Broken
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=1800
-- title: 3.0 patch - Walk anywhere on planets and moons
+- title: Walk anywhere on planets and moons
   category: Levels
   status: Completed
   sources:
@@ -363,7 +363,7 @@ promises:
   quote: In 3.0 as we're demonstrating; every planet, every moon, um will be fully
     done rendered physicalized, you can land on any part of em, walk all the way around
     it if you want, if you've got uh months to do that cause they're quite large.
-- title: 3.0 patch - Seamless planetary/lunar landing
+- title: Seamless planetary/lunar landing
   category: Levels
   status: Completed
   sources:
@@ -373,14 +373,14 @@ promises:
   status: Completed
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=49m27s
-- title: 3.0 patch - Planetside module
+- title: Planetside module
   category: Levels
   status: Compromised
   sources:
   - https://youtu.be/hYFCfRK4e6Y?t=1451
   - https://www.mmorpg.com/gamelist.cfm/game/883/feature/7539/Star-Citizen-E3-2013-Chatting-Star-Citizen-with-Chris-Roberts.html
   - https://youtu.be/kD2aVH053cM?t=269
-- title: 3.0 patch - Expand the Stanton System
+- title: Expand the Stanton System
   category: Levels
   status: In alpha
   sources:
@@ -597,7 +597,7 @@ promises:
     of weather and stuff like that on these planets.
 - title: Procedural massive play areas
   category: Levels
-  status: Not implemented
+  status: In alpha
   sources:
   - https://youtu.be/DFkTG9YungQ?t=787
   quote: So that's sort of our roadmap and what our goal is to use the procedural
@@ -910,7 +910,7 @@ promises:
     to hold on to it
 - title: Deterministic procedural generation
   category: Levels
-  status: Broken
+  status: In alpha
   sources:
   - https://youtu.be/sw5N3ivfkds?t=412
   quote: What we are doing with procedural generation is that it's deterministic and
@@ -918,7 +918,7 @@ promises:
     you visit that location.
 - title: Nyx Landing Zone
   category: Levels
-  status: In alpha
+  status: Not implemented
   sources:
   - https://www.youtube.com/watch?v=Z2YMlnn4Ngk
   - https://youtu.be/L844Rj4mfik?t=549
