@@ -310,9 +310,9 @@ promises:
   status: Broken
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=1800
-- title: 3.0 patch - Economy driven missions
+- title: Economy driven missions
   category: Economy
-  status: Broken
+  status: Not implemented
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=1800
 - title: 3.0 patch - Day and night cycles
@@ -3934,7 +3934,7 @@ promises:
     so on.
 - title: Trade
   category: Economy
-  status: Stagnant
+  status: In alpha
   sources:
   - https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q9tze/
   - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6v1oju/
