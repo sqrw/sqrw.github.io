@@ -181,7 +181,6 @@ layout: page
                                     <span class="badge badge-inverse">{{ tag }}</span>
                                 {% endif %}
                             {% endfor %}
-
                         <!-- add superscript citations and sources -->
                         {% for source in promise.sources %}
                             <sup><a href="{{ source }}">{{ forloop.index }}</a></sup>
@@ -217,7 +216,7 @@ layout: page
                                 {% assign quotetext = quotesplit[1] %}
                             {% else %}
                                 {% assign quotee = 'Chris Roberts' %}
-                            {% assign quotetext = promise.quote %}
+                                {% assign quotetext = promise.quote %}
                             {% endif %}
                             {% if promise.quote != undefined %}
                                 <i class="fa fa-fw fa-quote-left text-muted" aria-hidden="true" data-toggle="tooltip" title="{{ quotee }}: &ldquo;{{ quotetext }}&rdquo;"></i>
