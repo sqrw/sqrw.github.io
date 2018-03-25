@@ -3511,7 +3511,7 @@ promises:
   sources:
   - https://forums.robertsspaceindustries.com/discussion/129651/wingman-s-hangar-ending-an-explanation
   - https://forums.robertsspaceindustries.com/discussion/294452/new-cig-office
-- title: RSI Auora
+- title: RSI Aurora
   category: Ships
   status: In alpha
   sources:
@@ -3566,11 +3566,16 @@ promises:
   sources:
   - https://robertsspaceindustries.com/comm-link//13130-Thank-You
   - https://robertsspaceindustries.com/funding-goals
-- title: Kruger Archimedes
+- title: Origin 85X
   category: Ships
-  status: Stagnant
+  status: In alpha
   sources:
-  - https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-R-Hornet-Tracker
+  - https://robertsspaceindustries.com/pledge/ships/85x/85X
+- title: Banu Defender
+  category: Ships
+  status: Not implemented
+  sources:
+  - https://robertsspaceindustries.com/pledge/ships/defender/Defender
 - title: Anvil Terrapin
   category: Ships
   status: Not implemented
