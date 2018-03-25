@@ -184,7 +184,7 @@ promises:
     model is finished you will also be given an in-game Cyclone mini vehicle model!
 - title: Xi'an Nox Kue
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/nox/Nox-Kue
   quote: RSI Site|Deriving its name from the Xi’an word for ‘thrust,’ the Nox Kue
@@ -193,7 +193,7 @@ promises:
     inaugural sale of the first Nox for Human riders.
 - title: Drake Dragonfly
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/drake-dragonfly/Dragonfly-Yellowjacket
   - https://youtu.be/Xgyeukt1De0?t=228
@@ -657,7 +657,7 @@ promises:
   - https://robertsspaceindustries.com/comm-link/transmission/13324-Letter-From-The-Chairman-23-Million
 - title: Aegis Sabre
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Raven
   sources:
@@ -1112,61 +1112,61 @@ promises:
   - http://youtu.be/Q4OB9Yfo-0Q?t=6m11s
 - title: Anvil Gladiator
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Kickstarter Stretch Goal
   sources:
   - https://robertsspaceindustries.com/pledge/ships/anvil-gladiator/Gladiator
 - title: Drake Cutlass
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Kickstarter Stretch Goal
   sources:
   - https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Black
 - title: Aegis Avenger
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Stalker
 - title: MISC Starfarer
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Kickstarter Stretch Goal
   sources:
   - https://robertsspaceindustries.com/pledge/ships/misc-starfarer/Starfarer
 - title: Mustang
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Official Stretch Goal
   sources:
   - https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Omega
 - title: Aegis Gladius
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Official Stretch Goal
   sources:
   - http://youtu.be/Fn8qKAV2ATA?t=31m16s
 - title: Drake Herald
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Official Stretch Goal
   sources:
   - https://robertsspaceindustries.com/pledge/ships/herald/Herald
 - title: Xi'an Scout
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Official Stretch Goal
   sources:
   - https://robertsspaceindustries.com/comm-link/transmission/13954-XiAn-Scout-Available
 - title: Drake Caterpillar
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Kickstarter Stretch Goal
   sources:
@@ -1178,7 +1178,7 @@ promises:
   - http://youtu.be/RtyZzO5OrE0?t=8m35s
 - title: MISC Prospector
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/misc-prospector/Prospector
   quote: RSI Site|The Prospector can store 128 SCU of mined resources in its dedicated
@@ -1241,7 +1241,7 @@ promises:
     the Hornet and Cutlass-class platforms to allow them to attach large weaponry
 - title: MISC Reliant
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Official Stretch Goal
   sources:
@@ -1249,7 +1249,7 @@ promises:
   - http://starcitizen.wikia.com/wiki/Reliant
 - title: Argo Multi Purpose Utility Vehicle (MPUV)
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Cargo
   - https://robertsspaceindustries.com/comm-link/transmission/14335-Introducing-The-Javelin-Destroyer
@@ -1422,7 +1422,7 @@ promises:
   - http://youtu.be/XBVkhXGX8iI?t=10m50s
 - title: Aegis Vanguard
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Official Stretch Goal
   sources:
@@ -1553,7 +1553,7 @@ promises:
   - http://youtu.be/Uyur8rqbEHc?t=11m15s
 - title: RSI Ursa rover
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - http://starcitizen.wikia.com/wiki/Ursa_rover
   - https://robertsspaceindustries.com/pledge/Add-Ons/Ursa-Rover
@@ -3022,7 +3022,7 @@ promises:
   status: Stagnant
 - title: Origin M50
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Kickstarter Stretch Goal
   sources:
@@ -3180,7 +3180,7 @@ promises:
     I know we will.
 - title: Anvil Hornet
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-M-Super-Hornet
   - https://vimeo.com/77480949
@@ -3226,7 +3226,7 @@ promises:
   - https://forums.robertsspaceindustries.com/discussion/47104/know-your-foe-with-a-jane-s-fighting-ships-style-not-in-physical-form
 - title: Drake Buccaneer
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/drake-buccaneer/Buccaneer
   - https://robertsspaceindustries.com/comm-link/transmission/15350-The-Drake-Buccaneer-Sets-Sail
@@ -3520,12 +3520,12 @@ promises:
   - https://forums.robertsspaceindustries.com/discussion/294452/new-cig-office
 - title: RSI Auora
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/rsi-aurora/Aurora-LX
 - title: Origin 300
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - 300i
   - 315p
@@ -3536,22 +3536,22 @@ promises:
   - https://youtu.be/JrQ0qMRZ_1Q
 - title: Vanduul Scythe&Glaive
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/scythe/Vanduul-Scythe
 - title: MISC Freelancer
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer
 - title: Kruger Merlin
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/p52-merlin/P-52-Merlin
 - title: Xi'an Khartu
   category: Ships
-  status: Completed
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/khartu/Khartu-Al
 - title: RSI Constellation
@@ -3727,7 +3727,7 @@ promises:
   - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6v0x63/
 - title: Aegis Retaliator
   category: Ships
-  status: Completed
+  status: In alpha
   tags:
   - Kickstarter Stretch Goal
 - title: 'Additional base type: Smuggler''s asteroid'
