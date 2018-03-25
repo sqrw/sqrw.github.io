@@ -12,9 +12,12 @@ class String
   end
 end
 
+task :default do
+  Rake::Task["json2yaml"].invoke
+end
 # Rake Jekyll tasks
 task :build do
-  Rake::Task["json2yaml"].invoke
+  #Rake::Task["json2yaml"].invoke
   puts 'Building site...'.bold
   Jekyll::Commands::Build.process(profile: true)
 end
@@ -25,7 +28,7 @@ task :clean do
 end
 
 task :serve do
-  Rake::Task["json2yaml"].invoke
+  #Rake::Task["json2yaml"].invoke
   puts 'Autoregenerating site...'.bold
   sh "bundle exec jekyll serve"
 end
