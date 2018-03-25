@@ -182,7 +182,7 @@ promises:
   - https://robertsspaceindustries.com/comm-link/transmission/16019-Rough-And-Tumbril
   quote: RSI Site|A future patch will add a Cyclone poster and then once the in-game
     model is finished you will also be given an in-game Cyclone mini vehicle model!
-- title: Xi'an Nox Kue
+- title: Xi'an Nox
   category: Ships
   status: In alpha
   sources:
@@ -1157,13 +1157,6 @@ promises:
   - Official Stretch Goal
   sources:
   - https://robertsspaceindustries.com/pledge/ships/herald/Herald
-- title: Xi'an Scout
-  category: Ships
-  status: In alpha
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13954-XiAn-Scout-Available
 - title: Drake Caterpillar
   category: Ships
   status: In alpha
@@ -3534,11 +3527,16 @@ promises:
   sources:
   - https://robertsspaceindustries.com/pledge/ships/origin-300/300i
   - https://youtu.be/JrQ0qMRZ_1Q
-- title: Vanduul Scythe&Glaive
+- title: Vanduul Glaive
   category: Ships
   status: In alpha
   sources:
-  - https://robertsspaceindustries.com/pledge/ships/scythe/Vanduul-Scythe
+  - https://robertsspaceindustries.com/pledge/ships/esperia-glaive/Glaive
+- title: Vanduul Scythe
+  category: Ships
+  status: In alpha
+  sources:
+  - https://robertsspaceindustries.com/pledge/ships/scythe/Scythe
 - title: MISC Freelancer
   category: Ships
   status: In alpha
@@ -3549,14 +3547,15 @@ promises:
   status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/p52-merlin/P-52-Merlin
-- title: Xi'an Khartu
+- title: Xi'an Khartu-Al
   category: Ships
   status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/khartu/Khartu-Al
+  - https://robertsspaceindustries.com/comm-link/transmission/13954-XiAn-Scout-Available
 - title: RSI Constellation
   category: Ships
-  status: Stagnant
+  status: In alpha
   sources:
   - https://robertsspaceindustries.com/pledge/ships/rsi-constellation/Constellation-Aquila
 - title: Hibernation Mode
@@ -3574,7 +3573,7 @@ promises:
   - https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-R-Hornet-Tracker
 - title: Anvil Terrapin
   category: Ships
-  status: Stagnant
+  status: Not implemented
   sources:
   - https://robertsspaceindustries.com/pledge/ships/terrapin/Terrapin
   - http://starcitizen.wikia.com/wiki/Terrapin
