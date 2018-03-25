@@ -12,6 +12,9 @@ class String
   end
 end
 
+task :default do
+  Rake::Task["json2yaml"].invoke
+end
 # Rake Jekyll tasks
 task :build do
   Rake::Task["json2yaml"].invoke
