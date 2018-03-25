@@ -2671,7 +2671,7 @@ promises:
   - http://youtu.be/wE_xZdeakEw?t=14m11s
 - title: Support for Enhanced Subpixel Morphological Antialiasing (SMAA)
   category: Engine
-  status: Broken
+  status: Completed
   sources:
   - https://youtu.be/-y0GQV_Bx4U?t=698
   - https://forums.robertsspaceindustries.com/discussion/309347/smaa-antialiasing
@@ -3158,11 +3158,11 @@ promises:
   - http://starcitizen.wikia.com/wiki/List_of_star_systems
 - title: Support for AMD's Mantle API
   category: Engine
-  status: Broken
+  status: Compromised
   sources:
   - https://robertsspaceindustries.com/comm-link/transmission/13362-Star-Citizen-To-Include-Mantle-Support
-  quote: Wikipedia|Mantle will be supported by AMD in neither the short term nor long
-    term future, effectively making all future games unable to implement Mantle
+  - https://en.wikipedia.org/wiki/Mantle_(API)
+  quote: Wikipedia|Vulkan is derived from and built upon components of AMD's Mantle API
 - title: Be the Best Damn Space Sim Ever (BDSSE)
   category: Promo
   status: In alpha
@@ -3968,7 +3968,7 @@ promises:
     be your last opportunity to get LTI before the game launches.
 - title: Player hosted private servers
   category: Engine
-  status: Broken
+  status: Not implemented
   sources:
   - https://youtu.be/E8Euwh_fPeg?t=1039
   - https://www.youtube.com/watch?v=yLjk2UvfFRA&t=16m43s
@@ -3978,7 +3978,8 @@ promises:
   - https://www.youtube.com/watch?v=aaoGxOxzAwc&feature=youtu.be&t=1h50m50s
   quote: Jared Huckaby|It's probably a safe assumption to make that private servers
     are the very last thing on the development slate, and wouldn't even be looked
-    into until after the persistent universe is up and running and stable.
+    into until after the persistent universe is up and running and stable ... it is
+    still something we want to do.
 - title: Cruiser ship class
   category: Assets
   status: Stagnant
