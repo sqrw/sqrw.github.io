@@ -672,8 +672,8 @@ promises:
   - https://youtu.be/rGeq21LKB78?t=2036
   - https://i.imgur.com/22Od76R.png
 - title: Research pod
-  category: Mechanics
-  status: Assets
+  category: Assets
+  status: Not implemented
   tags:
   - Endeavor
   sources:
@@ -1756,6 +1756,7 @@ promises:
   - http://youtu.be/HKcVI1rNz44?t=3m4s
   - https://www.reddit.com/r/starcitizen/comments/40v9i4/magnetic_boots_update/
   - https://youtu.be/CcfAsLOFqCk
+  - https://youtu.be/xlZwE8xbjlc
 - title: Customizable AI voices for different aspects of your ship
   category: Mechanics
   status: Not implemented
@@ -2798,7 +2799,7 @@ promises:
   status: Stagnant
   sources:
   - http://youtu.be/RtyZzO5OrE0?t=3m11s
-- title: Character ratings  factored into mission system
+- title: Character ratings factored into mission system
   category: Mechanics
   status: In alpha
   sources:
