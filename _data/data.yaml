@@ -305,9 +305,9 @@ promises:
   quote: Depending on which biome is next to the other biome, there's blending rules
     that happen. And there's blending on multiple levels too, so there's different
     levels of detail and they all get blended.
-- title: 3.0 patch - Increased mission complexity
+- title: Increased mission complexity
   category: Mechanics
-  status: Broken
+  status: In alpha
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=1800
 - title: 3.0 patch - Economy driven missions
@@ -322,34 +322,16 @@ promises:
   - https://youtu.be/Z-3YBuFI3iI?t=1800
   - https://www.youtube.com/watch?v=HEa7u7hf3Ro
   - https://www.youtube.com/watch?v=X33yUEUlGGI
-- title: 3.0 patch - Basic mining
+- title: Piracy
   category: Mechanics
-  status: Broken
-  sources:
-  - https://youtu.be/Uhra2SETLNs?t=2408
-  - http://i.imgur.com/mVjzyCq.png
-- title: 3.0 patch - Trading
-  category: Mechanics
-  status: Broken
+  status: Not implemented
   sources:
   - http://imgur.com/a/1yjPK#BO07hBV
-  - https://clips.twitch.tv/AcceptableArborealBottleKappa
-- title: 3.0 patch - Piracy
+- title: Mercenary
   category: Mechanics
-  status: Broken
+  status: Not implemented
   sources:
   - http://imgur.com/a/1yjPK#BO07hBV
-- title: 3.0 patch - Mercenary
-  category: Mechanics
-  status: Broken
-  sources:
-  - http://imgur.com/a/1yjPK#BO07hBV
-- title: 3.0 patch - Bounty hunting
-  category: Mechanics
-  status: Broken
-  sources:
-  - http://imgur.com/a/1yjPK#BO07hBV
-  - https://youtu.be/0pxlhEUFUPw?t=1067
 - title: 3.0 patch - Diverse NPC actions
   category: NPCs
   status: Broken
@@ -385,23 +367,12 @@ promises:
   status: In alpha
   sources:
   - http://imgur.com/a/1yjPK#BO07hBV
-- title: 3.0 patch - Cargo Transport
-  category: Mechanics
-  status: In alpha
-  sources:
-  - http://imgur.com/a/1yjPK#BO07hBV
-- title: 3.1 patch - Mining
+- title: Refining and Processing
   category: Mechanics
   status: Not implemented
   sources:
   - http://i.imgur.com/b9v2ygR.png
-  - https://youtu.be/vUHUW_magpU?t=2h23m40s
-- title: 3.1 patch - Refining and Processing
-  category: Mechanics
-  status: Not implemented
-  sources:
-  - http://i.imgur.com/b9v2ygR.png
-- title: 3.1 patch - Quantum Interdiction
+- title: Quantum Interdiction
   category: Mechanics
   status: In alpha
   sources:
@@ -409,52 +380,37 @@ promises:
   quote: 'RSI Site|Added Interdiction and Environmental Missions: There''s now a chance
     to be interdicted during quantum travel. Players will also find random encounters
     scattered throughout the verse.'
-- title: 3.1 patch - Refueling
+- title: Refueling
   category: Mechanics
   status: Not implemented
   sources:
   - http://i.imgur.com/b9v2ygR.png
-- title: 3.1 patch - Escort
+- title: Escort
   category: Mechanics
-  status: Not implemented
+  status: In alpha
   sources:
   - http://i.imgur.com/b9v2ygR.png
-- title: 3.2 patch - Salvage
+- title: Repair missions
   category: Mechanics
   status: Not implemented
   sources:
   - http://i.imgur.com/0WTaEzu.png
-- title: 3.2 patch - Repair missions
+- title: Mercenary covert operations
   category: Mechanics
   status: Not implemented
   sources:
   - http://i.imgur.com/0WTaEzu.png
-- title: 3.2 patch - Mercenary covert operations
-  category: Mechanics
-  status: Not implemented
-  sources:
-  - http://i.imgur.com/0WTaEzu.png
-- title: 3.3 patch - Farming
+- title: Rescue
   category: Mechanics
   status: Not implemented
   sources:
   - http://i.imgur.com/IQ2Pt4G.png
-- title: 3.3 patch - Rescue
-  category: Mechanics
-  status: Not implemented
-  sources:
-  - http://i.imgur.com/IQ2Pt4G.png
-- title: 4.0 patch - Travel to multiple Star Systems
+- title: Travel to multiple Star Systems
   category: Mechanics
   status: Not implemented
   sources:
   - http://i.imgur.com/Q6hq3zG.png
-- title: 4.0 patch - Exploration and discovery
-  category: Mechanics
-  status: Not implemented
-  sources:
-  - http://i.imgur.com/Q6hq3zG.png
-- title: 4.0 patch - Science and research missions
+- title: Science and research missions
   category: Mechanics
   status: Not implemented
   sources:
@@ -496,7 +452,7 @@ promises:
     sale will allow it to be adapted for human flight in Star Citizen! The Blade is
     the Vanduul armada’s lightest fighter, focusing on maneuverability over shields
     and weapons.
-- title: Visual representation of items in storage
+- title: Visual representation of items and comodoties in storage in stores
   category: Mechanics
   status: Not implemented
   sources:
@@ -635,7 +591,7 @@ promises:
     got cover, we finally now got mantling and vaulting.
 - title: Star Marine more tactical and lethal than Call of Duty
   category: Mechanics
-  status: Broken
+  status: Not implemented
   sources:
   - https://youtu.be/qqcN6UkKfog?t=403
   - https://www.youtube.com/watch?v=8D6j8Xr2_XU
@@ -700,7 +656,7 @@ promises:
     of work at the design and testing level regardless of the engine used. We’d probably
     need to get the framerate up a bit higher too, come to think of it.
 - title: Science pod
-  category: Mechanics
+  category: Assets
   status: Not implemented
   tags:
   - Endeavor
@@ -708,7 +664,7 @@ promises:
   - https://youtu.be/rGeq21LKB78?t=2036
   - https://i.imgur.com/22Od76R.png
 - title: Service equipment and crew pod
-  category: Mechanics
+  category: Assets
   status: Not implemented
   tags:
   - Endeavor
@@ -717,7 +673,7 @@ promises:
   - https://i.imgur.com/22Od76R.png
 - title: Research pod
   category: Mechanics
-  status: Not implemented
+  status: Assets
   tags:
   - Endeavor
   sources:
@@ -725,7 +681,7 @@ promises:
   - https://i.imgur.com/22Od76R.png
 - title: Fuel pod
   category: Mechanics
-  status: Not implemented
+  status: Assets
   tags:
   - Endeavor
   sources:
@@ -1051,7 +1007,7 @@ promises:
     into their instance every time.
 - title: Ship signature spoofing
   category: Mechanics
-  status: Broken
+  status: Stagnant
   sources:
   - https://youtu.be/Aoooemaw2lY?t=580
   quote: I definitely think there will be systems out there that will potentially
@@ -1692,7 +1648,7 @@ promises:
   - http://youtu.be/RpHGEtOXFvE?t=27m59s
 - title: PvE Encounters
   category: Mechanics
-  status: Not implemented
+  status: In alpha
   sources:
   - http://youtu.be/RpHGEtOXFvE?t=27m59s
 - title: Third person camera
@@ -1792,7 +1748,7 @@ promises:
     where you can go and get plastic surgery and change your appearance
 - title: Magnetic boots
   category: Mechanics
-  status: Broken
+  status: Not implemented
   tags:
   - Kickstarter Stretch Goal
   sources:
@@ -1939,7 +1895,7 @@ promises:
   - https://robertsspaceindustries.com/comm-link/transmission/13933-Four-Horsemen-Wins
 - title: Character collaboration with Warhorse Studios
   category: Mechanics
-  status: Broken
+  status: Completed
   sources:
   - http://youtu.be/_9zJm8pK48E?t=6m32s
   - https://youtu.be/PbTQWmXFuM0?t=114
@@ -2068,12 +2024,7 @@ promises:
   - https://youtu.be/HKcVI1rNz44?t=1407
   quote: Well we're definitely planning on having a in-fiction news show that you
     would see in bars and stuff
-- title: User generated content
-  category: Mechanics
-  status: Not implemented
-  sources:
-  - http://youtu.be/_cStwygPSFQ?t=6m34s
-- title: Player designed ships
+- title: Player designed ships (not in PU)
   category: Mechanics
   status: Not implemented
   sources:
@@ -2227,7 +2178,7 @@ promises:
   quote: So, yes ships will require maintenance.
 - title: Respawn button
   category: Mechanics
-  status: Not implemented
+  status: Completed
   sources:
   - https://youtu.be/ZrKQn8u3gGk?t=145
   quote: after a period of time, which I guess we'll determine, you would hit whatever
@@ -2678,7 +2629,7 @@ promises:
   - https://forums.robertsspaceindustries.com/discussion/52741/anti-aliasing-support
 - title: Manned turrets
   category: Mechanics
-  status: Completed
+  status: In alpha
   sources:
   - https://youtu.be/-y0GQV_Bx4U?t=310
   - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uzmg4/
@@ -2688,11 +2639,6 @@ promises:
   status: Completed
   sources:
   - https://youtu.be/-y0GQV_Bx4U?t=310
-- title: Relaying radar information to C&C Center
-  category: Mechanics
-  status: Stagnant
-  sources:
-  - http://youtu.be/-y0GQV_Bx4U?t=3m2s
 - title: Banu ports and stations for trading etc
   category: Mechanics
   status: Stagnant
@@ -2705,7 +2651,7 @@ promises:
   - http://youtu.be/-y0GQV_Bx4U?t=6m39s
 - title: Parking smaller ships in the Idris
   category: Mechanics
-  status: Stagnant
+  status: Not implemented
   sources:
   - http://youtu.be/-y0GQV_Bx4U?t=12m34s
   - https://www.twitch.tv/videos/236884786?t=49m50s
@@ -2767,7 +2713,7 @@ promises:
   - http://youtu.be/NcRxuvQT3Ew?t=10m55s
 - title: Players won't always be able to run from combat
   category: Mechanics
-  status: Stagnant
+  status: Not implemented
   sources:
   - https://youtu.be/NcRxuvQT3Ew?t=122
 - title: Immersive buying of ships
@@ -2797,7 +2743,7 @@ promises:
     have it's own bank account as a separate entity
 - title: Level restrictions masked by licences and real world barriers
   category: Mechanics
-  status: Stagnant
+  status: In alpha
   sources:
   - https://youtu.be/NcRxuvQT3Ew?t=394
   - https://youtu.be/VK4wHImGNAQ?t=657
@@ -2847,14 +2793,14 @@ promises:
   sources:
   - http://youtu.be/RtyZzO5OrE0?t=5m
   - http://youtu.be/RtyZzO5OrE0?t=10m54s
-- title: Job or Contract System
+- title: Inter Org Job or Contract System
   category: Mechanics
   status: Stagnant
   sources:
   - http://youtu.be/RtyZzO5OrE0?t=3m11s
 - title: Character ratings  factored into mission system
   category: Mechanics
-  status: Stagnant
+  status: In alpha
   sources:
   - https://youtu.be/RtyZzO5OrE0?t=173
 - title: Tell ships to drop cargo
@@ -3882,7 +3828,7 @@ promises:
     ship status is not currently on that list to my knowledge.
 - title: Fly from space to planet as a cinematic
   category: Mechanics
-  status: Stagnant
+  status: In alpha
   sources:
   - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uxth9/
   - https://youtu.be/VK4wHImGNAQ?t=737
@@ -3894,7 +3840,7 @@ promises:
   - https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q8u88/
 - title: Private real estate
   category: Mechanics
-  status: In alpha
+  status: Not implemented
   sources:
   - https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q7k8k/
   - https://www.youtube.com/watch?v=tMMh7CToGyg
@@ -3994,14 +3940,6 @@ promises:
   - http://starcitizen.wikia.com/wiki/AMX-1_Repair_Droid
   - https://robertsspaceindustries.com/funding-goals
   - http://starcitizen.wikia.com/wiki/Stretch_goals
-- title: Exploration
-  category: Mechanics
-  status: Stagnant
-  sources:
-  - https://youtu.be/FsWDLHVYNHI?t=205
-  quote: 'So there''s a lot to exploration. It''s not just going to be looking for
-    an undiscovered jump point, plotting the jump point, and going to the new system
-    on the other side. '
 - title: More funds will ensure delivery of functionality sooner rather than later
   category: Promo
   status: Broken
