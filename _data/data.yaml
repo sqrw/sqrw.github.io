@@ -168,13 +168,6 @@ promises:
   quote: RSI Site|The Aegis Eclipse is a bomber designed to get in and strike before
     it's ever even spotted. After extensive service with the UEE, this high-tech military
     equipment is making its debut on the civilian market for 2947.
-- title: Procedural generation missions
-  category: Levels
-  status: Not implemented
-  sources:
-  - https://youtu.be/VK4wHImGNAQ?t=424
-  quote: So we're gonna combine some scripted missions with procedural generation
-    missions.
 - title: Tumbril Cyclone
   category: Ships
   status: Not implemented
@@ -347,11 +340,6 @@ promises:
   quote: In 3.0 as we're demonstrating; every planet, every moon, um will be fully
     done rendered physicalized, you can land on any part of em, walk all the way around
     it if you want, if you've got uh months to do that cause they're quite large.
-- title: Seamless planetary/lunar landing
-  category: Levels
-  status: Completed
-  sources:
-  - https://youtu.be/Z-3YBuFI3iI?t=43m45s
 - title: Immersive landing pad and traffic control from NPCs
   category: NPCs
   status: Completed
@@ -1902,11 +1890,6 @@ promises:
   status: Not implemented
   sources:
   - http://youtu.be/_9zJm8pK48E?t=1m14s
-- title: Location for contributors' names to be found in the PU
-  category: Mechanics
-  status: Not implemented
-  sources:
-  - http://youtu.be/_9zJm8pK48E?t=8m13s
 - title: Deep sky objects
   category: Levels
   status: Not implemented
@@ -2875,7 +2858,7 @@ promises:
   status: Completed
   sources:
   - https://robertsspaceindustries.com/module/arena-commander
-- title: G-Force effects and safety systems
+- title: G-Force effects
   category: Mechanics
   status: Completed
   sources:
@@ -2939,12 +2922,6 @@ promises:
     With the release of the Carrack, there has been a lot of discussion about how
     ships can be flown solo, whether or not they need a crew… and there have been
     a lot of questions as to how any of that will even work.
-- title: Planet day/night cycle
-  category: Levels
-  status: Completed
-  sources:
-  - http://youtu.be/w5M5DXzcMmg?t=3m42s
-  - https://www.youtube.com/watch?v=HEa7u7hf3Ro
 - title: Vanduul in persistant universe
   category: NPCs
   status: Stagnant
