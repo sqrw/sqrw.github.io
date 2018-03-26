@@ -893,11 +893,6 @@
   status: Not implemented
   sources:
   - http://youtu.be/_9zJm8pK48E?t=1m14s
-- title: "Location for contributors' names to be found in the PU"
-  category: Mechanics
-  status: Not implemented
-  sources:
-  - http://youtu.be/_9zJm8pK48E?t=8m13s
 - title: Organization reputation system
   category: Mechanics
   status: Not implemented
@@ -1496,7 +1491,7 @@
   status: Completed
   sources:
   - https://robertsspaceindustries.com/module/arena-commander
-- title: G-Force effects and safety systems
+- title: G-Force effects
   category: Mechanics
   status: Completed
   sources:
