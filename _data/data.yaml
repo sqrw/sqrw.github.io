@@ -315,8 +315,8 @@ promises:
   status: Not implemented
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=1800
-- title: 3.0 patch - Day and night cycles
-  category: Assets
+- title: Day and night cycles
+  category: Levels
   status: Completed
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=1800
@@ -1642,7 +1642,7 @@ promises:
   quote: We'll definitely have that figured out - how you can loan ships for other
     people
 - title: Missle cruiser
-  category: Assets
+  category: Ships
   status: Not implemented
   sources:
   - https://youtu.be/NM0DVz1VcvY?t=424
@@ -2728,12 +2728,12 @@ promises:
   - https://youtu.be/-y0GQV_Bx4U?t=388
 - title: Added content after final release
   category: Assets
-  status: Stagnant
+  status: Not implemented
   sources:
   - https://youtu.be/-y0GQV_Bx4U?t=877
 - title: Graphical updates after final release
   category: Assets
-  status: Stagnant
+  status: Not implemented
   sources:
   - https://youtu.be/-y0GQV_Bx4U?t=877
 - title: CIG will not ask Youtube to take down Star Citizen related videos
@@ -3276,7 +3276,7 @@ promises:
   tags:
   - Official Stretch Goal
 - title: Tiber system
-  category: Assets
+  category: Levels
   status: Stagnant
   tags:
   - Official Stretch Goal
@@ -3800,13 +3800,6 @@ promises:
   - https://youtu.be/-3KIcnKf3O0?t=618
   - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uwzxk/
   - https://www.youtube.com/watch?v=OeItEJPb5jE
-- title: 'Squadron 42: Celebrity voice-acting'
-  category: Assets
-  status: Stagnant
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - http://www.robertsspaceindustries.com/comprehensive-stretch-goals/
 - title: Cockpit decorations - bobbleheads, photographs, dinosaurs, fuzzy dice, nose
     art, posters
   category: Assets
@@ -3971,7 +3964,7 @@ promises:
     are the very last thing on the development slate, and wouldn't even be looked
     into until after the persistent universe is up and running and stable.
 - title: Cruiser ship class
-  category: Assets
+  category: Ships
   status: Stagnant
   tags:
   - Kickstarter Stretch Goal
