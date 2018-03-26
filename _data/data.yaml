@@ -200,9 +200,11 @@ promises:
   quote: RSI Site|Available in Alpha 3.0.
 - title: Two or three big releases in 2017
   category: Promo
-  status: Broken
+  status: Completed
   sources:
   - http://wccftech.com/star-citizen-exclusive-interview-erin-roberts/
+  - https://robertsspaceindustries.com/comm-link//15653-Star-Citizen-Alpha-260
+  - https://robertsspaceindustries.com/comm-link/transmission/16349-Star-Citizen-Alpha-300
   quote: Erin Roberts|We’re still at the start of the year and there is a lot of scheduling
     work going on so I’m obviously not giving dates today and of course we want to
     give the juicy information to the community first, but we’re looking at putting
@@ -310,13 +312,13 @@ promises:
   status: In alpha
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=1800
-- title: 3.0 patch - Economy driven missions
+- title: Economy driven missions
   category: Economy
-  status: Broken
+  status: Not implemented
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=1800
-- title: 3.0 patch - Day and night cycles
-  category: Assets
+- title: Day and night cycles
+  category: Levels
   status: Completed
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=1800
@@ -332,9 +334,9 @@ promises:
   status: Not implemented
   sources:
   - http://imgur.com/a/1yjPK#BO07hBV
-- title: 3.0 patch - Diverse NPC actions
+- title: Diverse NPC actions
   category: NPCs
-  status: Broken
+  status: Not implemented
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=1800
 - title: Walk anywhere on planets and moons
@@ -350,7 +352,7 @@ promises:
   status: Completed
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=43m45s
-- title: 3.0 patch - Immersive landing pad and traffic control from NPCs
+- title: Immersive landing pad and traffic control from NPCs
   category: NPCs
   status: Completed
   sources:
@@ -509,26 +511,12 @@ promises:
   - https://youtu.be/ciCNkp20O7w?t=947
   quote: Well the point of farming will be the biodomes will allow you to grow agriculture,
     crops and you'll be able to sell those probably for a premium.
-- title: The Making of Star Citizen (Digital Book)
-  category: Promo
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/pledge/Add-Ons/42-Page-Book-The-Making-Of-Star-Citizen-Digital
 - title: Interchangable ship components
   category: Mechanics
   status: Not implemented
   sources:
   - https://i.imgur.com/uayOega.png
 - title: Procedural wildlife and birds
-  category: NPCs
-  status: Not implemented
-  sources:
-  - https://youtu.be/DFkTG9YungQ?t=787
-  quote: ultimately, to take it to the level where you get a Crysis level, which includes
-    things like obviously the grass, which you mention the rocks, the vegetation,
-    trees, plants, water, oceans, streams, wildlife, alien wildlife, birds in the
-    sky, all that sort of stuff.
-- title: Procedural alien wildlife
   category: NPCs
   status: Not implemented
   sources:
@@ -1607,7 +1595,7 @@ promises:
   quote: We'll definitely have that figured out - how you can loan ships for other
     people
 - title: Missle cruiser
-  category: Assets
+  category: Ships
   status: Not implemented
   sources:
   - https://youtu.be/NM0DVz1VcvY?t=424
@@ -2623,7 +2611,7 @@ promises:
   - http://youtu.be/wE_xZdeakEw?t=14m11s
 - title: Support for Enhanced Subpixel Morphological Antialiasing (SMAA)
   category: Engine
-  status: Broken
+  status: Completed
   sources:
   - https://youtu.be/-y0GQV_Bx4U?t=698
   - https://forums.robertsspaceindustries.com/discussion/309347/smaa-antialiasing
@@ -2684,12 +2672,12 @@ promises:
   - https://youtu.be/-y0GQV_Bx4U?t=388
 - title: Added content after final release
   category: Assets
-  status: Stagnant
+  status: Not implemented
   sources:
   - https://youtu.be/-y0GQV_Bx4U?t=877
 - title: Graphical updates after final release
   category: Assets
-  status: Stagnant
+  status: Not implemented
   sources:
   - https://youtu.be/-y0GQV_Bx4U?t=877
 - title: CIG will not ask Youtube to take down Star Citizen related videos
@@ -3105,11 +3093,11 @@ promises:
   - http://starcitizen.wikia.com/wiki/List_of_star_systems
 - title: Support for AMD's Mantle API
   category: Engine
-  status: Broken
+  status: Compromised
   sources:
   - https://robertsspaceindustries.com/comm-link/transmission/13362-Star-Citizen-To-Include-Mantle-Support
-  quote: Wikipedia|Mantle will be supported by AMD in neither the short term nor long
-    term future, effectively making all future games unable to implement Mantle
+  - https://en.wikipedia.org/wiki/Mantle_(API)
+  quote: Wikipedia|Vulkan is derived from and built upon components of AMD's Mantle API
 - title: Be the Best Damn Space Sim Ever (BDSSE)
   category: Promo
   status: In alpha
@@ -3211,11 +3199,12 @@ promises:
   - https://robertsspaceindustries.com/comm-link/transmission/13159-15-Million
 - title: Behind the Scenes of Star Citizen (Professional feature length documentary)
   category: Promo
-  status: Broken
+  status: Not implemented
   tags:
   - Official Stretch Goal
   sources:
   - https://www.facebook.com/215475438505750/photos/a.429027047150587.107566.215475438505750/998323386887614/
+  - http://www.imdb.com/title/tt5561564/
 - title: Fourth landout option on Earth
   category: Levels
   status: Stagnant
@@ -3232,7 +3221,7 @@ promises:
   tags:
   - Official Stretch Goal
 - title: Tiber system
-  category: Assets
+  category: Levels
   status: Stagnant
   tags:
   - Official Stretch Goal
@@ -3412,7 +3401,7 @@ promises:
   status: Stagnant
 - title: Real-time facial motion capture for ingame avatar annimation (Live Driver/FaceOverIP)
   category: MoCap
-  status: Stagnant
+  status: Not implemented
   sources:
   - https://youtu.be/OBAb-lska_I?t=38
   - https://youtu.be/ItuiYF_lRGc?t=976
@@ -3533,13 +3522,6 @@ promises:
   quote: RSI Site|this handy full-color map of the Star Citizen world, which will
     display all “known” systems and their jump points as well as information about
     their resources, alliances and more!
-- title: Online or Offline play
-  category: Promo
-  status: Broken
-  sources:
-  - http://archive.is/OLbEi#5%
-  quote: you can play Squadron 42 and single player stuff without an internet connection,
-    like on your laptop while travelling
 - title: Drop in co-op play
   category: Engine
   status: Broken
@@ -3549,13 +3531,14 @@ promises:
     in / Drop out co-op play) '
 - title: Modable multiplayer
   category: Mods
-  status: Broken
+  status: Not implemented
   sources:
-  - http://archive.is/OLbEi#5%
+    - http://archive.is/OLbEi#5%
+    - https://www.youtube.com/watch?v=aaoGxOxzAwc&feature=youtu.be&t=1h50m50s
   quote: 'Kickstarter Campaign|Star Citizen is: Mod-able multiplayer'
 - title: No Pay to Win
   category: Promo
-  status: Broken
+  status: Not implemented
   sources:
   - http://archive.is/OLbEi#5%
   - https://youtu.be/LtQsyKsr4-c?t=1800
@@ -3563,7 +3546,7 @@ promises:
   quote: 'Kickstarter Campaign|Star Citizen is: No Pay to Win'
 - title: Engineering manual for modders (Hardback)
   category: Mods
-  status: Broken
+  status: Not implemented
   sources:
   - https://robertsspaceindustries.com/pledge/Add-Ons/Engineering-Manual-For-Modders-Digital
   quote: RSI Site|Learn the ins and outs of modding Star Citizens’ private servers
@@ -3756,13 +3739,6 @@ promises:
   - https://youtu.be/-3KIcnKf3O0?t=618
   - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uwzxk/
   - https://www.youtube.com/watch?v=OeItEJPb5jE
-- title: 'Squadron 42: Celebrity voice-acting'
-  category: Assets
-  status: Stagnant
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - http://www.robertsspaceindustries.com/comprehensive-stretch-goals/
 - title: Cockpit decorations - bobbleheads, photographs, dinosaurs, fuzzy dice, nose
     art, posters
   category: Assets
@@ -3881,7 +3857,7 @@ promises:
     so on.
 - title: Trade
   category: Economy
-  status: Stagnant
+  status: In alpha
   sources:
   - https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q9tze/
   - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6v1oju/
@@ -3900,7 +3876,7 @@ promises:
     be supply and demand on goods.
 - title: Monthly Town Hall Q&A with Chris Roberts
   category: Promo
-  status: Completed
+  status: Compromised
   tags:
   - Kickstarter Stretch Goal
 - title: LifeTime Insurance (LTI) limited to kickstarter backers
@@ -3915,7 +3891,7 @@ promises:
     be your last opportunity to get LTI before the game launches.
 - title: Player hosted private servers
   category: Engine
-  status: Broken
+  status: Not implemented
   sources:
   - https://youtu.be/E8Euwh_fPeg?t=1039
   - https://www.youtube.com/watch?v=yLjk2UvfFRA&t=16m43s
@@ -3925,9 +3901,10 @@ promises:
   - https://www.youtube.com/watch?v=aaoGxOxzAwc&feature=youtu.be&t=1h50m50s
   quote: Jared Huckaby|It's probably a safe assumption to make that private servers
     are the very last thing on the development slate, and wouldn't even be looked
-    into until after the persistent universe is up and running and stable.
+    into until after the persistent universe is up and running and stable ... it is
+    still something we want to do.
 - title: Cruiser ship class
-  category: Assets
+  category: Ships
   status: Stagnant
   tags:
   - Kickstarter Stretch Goal
