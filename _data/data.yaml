@@ -200,9 +200,11 @@ promises:
   quote: RSI Site|Available in Alpha 3.0.
 - title: Two or three big releases in 2017
   category: Promo
-  status: Broken
+  status: Completed
   sources:
   - http://wccftech.com/star-citizen-exclusive-interview-erin-roberts/
+  - https://robertsspaceindustries.com/comm-link//15653-Star-Citizen-Alpha-260
+  - https://robertsspaceindustries.com/comm-link/transmission/16349-Star-Citizen-Alpha-300
   quote: Erin Roberts|We’re still at the start of the year and there is a lot of scheduling
     work going on so I’m obviously not giving dates today and of course we want to
     give the juicy information to the community first, but we’re looking at putting
@@ -553,11 +555,6 @@ promises:
   - https://youtu.be/ciCNkp20O7w?t=947
   quote: Well the point of farming will be the biodomes will allow you to grow agriculture,
     crops and you'll be able to sell those probably for a premium.
-- title: The Making of Star Citizen (Digital Book)
-  category: Promo
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/pledge/Add-Ons/42-Page-Book-The-Making-Of-Star-Citizen-Digital
 - title: Interchangable ship components
   category: Mechanics
   status: Not implemented
@@ -3255,11 +3252,12 @@ promises:
   - https://robertsspaceindustries.com/comm-link/transmission/13159-15-Million
 - title: Behind the Scenes of Star Citizen (Professional feature length documentary)
   category: Promo
-  status: Broken
+  status: Not implemented
   tags:
   - Official Stretch Goal
   sources:
   - https://www.facebook.com/215475438505750/photos/a.429027047150587.107566.215475438505750/998323386887614/
+  - http://www.imdb.com/title/tt5561564/
 - title: Fourth landout option on Earth
   category: Levels
   status: Stagnant
@@ -3577,13 +3575,6 @@ promises:
   quote: RSI Site|this handy full-color map of the Star Citizen world, which will
     display all “known” systems and their jump points as well as information about
     their resources, alliances and more!
-- title: Online or Offline play
-  category: Promo
-  status: Broken
-  sources:
-  - http://archive.is/OLbEi#5%
-  quote: you can play Squadron 42 and single player stuff without an internet connection,
-    like on your laptop while travelling
 - title: Drop in co-op play
   category: Engine
   status: Broken
@@ -3599,7 +3590,7 @@ promises:
   quote: 'Kickstarter Campaign|Star Citizen is: Mod-able multiplayer'
 - title: No Pay to Win
   category: Promo
-  status: Broken
+  status: Not implemented
   sources:
   - http://archive.is/OLbEi#5%
   - https://youtu.be/LtQsyKsr4-c?t=1800
@@ -3937,7 +3928,7 @@ promises:
     be supply and demand on goods.
 - title: Monthly Town Hall Q&A with Chris Roberts
   category: Promo
-  status: Completed
+  status: Compromised
   tags:
   - Kickstarter Stretch Goal
 - title: LifeTime Insurance (LTI) limited to kickstarter backers
