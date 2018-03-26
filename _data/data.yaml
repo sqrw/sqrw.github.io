@@ -350,9 +350,9 @@ promises:
   sources:
   - http://imgur.com/a/1yjPK#BO07hBV
   - https://youtu.be/0pxlhEUFUPw?t=1067
-- title: 3.0 patch - Diverse NPC actions
+- title: Diverse NPC actions
   category: NPCs
-  status: Broken
+  status: Not implemented
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=1800
 - title: Walk anywhere on planets and moons
@@ -368,7 +368,7 @@ promises:
   status: Completed
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=43m45s
-- title: 3.0 patch - Immersive landing pad and traffic control from NPCs
+- title: Immersive landing pad and traffic control from NPCs
   category: NPCs
   status: Completed
   sources:
@@ -564,15 +564,6 @@ promises:
   sources:
   - https://i.imgur.com/uayOega.png
 - title: Procedural wildlife and birds
-  category: NPCs
-  status: Not implemented
-  sources:
-  - https://youtu.be/DFkTG9YungQ?t=787
-  quote: ultimately, to take it to the level where you get a Crysis level, which includes
-    things like obviously the grass, which you mention the rocks, the vegetation,
-    trees, plants, water, oceans, streams, wildlife, alien wildlife, birds in the
-    sky, all that sort of stuff.
-- title: Procedural alien wildlife
   category: NPCs
   status: Not implemented
   sources:
