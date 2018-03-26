@@ -3584,9 +3584,10 @@ promises:
     in / Drop out co-op play) '
 - title: Modable multiplayer
   category: Mods
-  status: Broken
+  status: Not implemented
   sources:
-  - http://archive.is/OLbEi#5%
+    - http://archive.is/OLbEi#5%
+    - https://www.youtube.com/watch?v=aaoGxOxzAwc&feature=youtu.be&t=1h50m50s
   quote: 'Kickstarter Campaign|Star Citizen is: Mod-able multiplayer'
 - title: No Pay to Win
   category: Promo
@@ -3598,7 +3599,7 @@ promises:
   quote: 'Kickstarter Campaign|Star Citizen is: No Pay to Win'
 - title: Engineering manual for modders (Hardback)
   category: Mods
-  status: Broken
+  status: Not implemented
   sources:
   - https://robertsspaceindustries.com/pledge/Add-Ons/Engineering-Manual-For-Modders-Digital
   quote: RSI Site|Learn the ins and outs of modding Star Citizens’ private servers
