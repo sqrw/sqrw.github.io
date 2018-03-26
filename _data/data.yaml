@@ -46,11 +46,6 @@ promises:
   - https://youtu.be/FsWDLHVYNHI?t=534
   - https://youtu.be/g4UaUmJ8Ho8?t=294
   quote: CIG Developer|We are planning on attempting a single shard
-- title: Aegis Vulcan
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://youtu.be/4-xa9j7xvws?t=225
 - title: Dynamic inventory pricing
   category: Economy
   status: In alpha
@@ -60,26 +55,6 @@ promises:
     now have variable pricing that will fluctuate over-time based on stock levels
     and restock rates. Note: Still a work in progress and implemented at major spawn
     locations (GrimHex, Port Olisar, and Levski) only.'
-- title: Tumbril Nova
-  category: Ships
-  status: Not implemented
-  tags:
-  - tank
-  - tonk
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/16341-Legendary-Battle-Tank-Reborn
-  - https://robertsspaceindustries.com/pledge/ships/nova-tank/Tumbril-Nova-Tank
-  quote: RSI Site|The goal is to make additional ships and vehicles available that
-    expand the depth and variety of the game world and give players a different experience
-    rather than any particular advantage.
-- title: Cleaning and Mopping
-  category: NPCs
-  status: Not implemented
-  tags:
-  - mopping
-  sources:
-  - https://youtu.be/qcHAfaQh3QE?t=1089
-  - https://youtu.be/JMkePHE94-I?t=672
 - title: Claim land
   category: Mechanics
   status: Not implemented
@@ -89,30 +64,6 @@ promises:
   - https://robertsspaceindustries.com/media/7h4n8giafms90r/store_slideshow_large/Land_Claim_Beacon_Lot.jpg
   quote: RSI Site|This certificate entitles the bearer to claim a single piece of
     UEE declared territory
-- title: Aegis Hammerhead
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/hammerhead/AEGIS-Hammerhead
-  quote: RSI Site|A fast patrol ship with multiple turrets designed to combat fighters,
-    the Hammerhead is equally suited to support larger capital ships in a fleet or
-    act as a flagship for fighter groups.
-- title: Anvil U9C Hawk
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/hawk/ANVIL-Hawk
-  quote: RSI Site|A small, light fighter with an emphasis on weaponry, the Hawk boasts
-    an impressive arsenal of lethal and non-lethal weapons, making it a perfect ship
-    for independent bounty hunters or local security looking for a little more punch.
-- title: Pioneer
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/16200-Consolidated-Outland-Pioneer
-  quote: RSI Site|The Pioneer is being offered for the first time as a limited concept
-    sale. This means that the ship design meets our specifications, but it is not
-    yet ready to display in your Hangar or to fight in Star Citizen.
 - title: Planetary settlement
   category: Mechanics
   status: Not implemented
@@ -127,22 +78,6 @@ promises:
   - https://robertsspaceindustries.com/comm-link/transmission/16200-Consolidated-Outland-Pioneer
   quote: RSI Site|the Pioneer opens up exciting opportunities for planetary settlement
     by allowing you to create your own modular structures.
-- title: Origin X1
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/x1/Origin-X1#buying-options
-  quote: RSI Site|The X1 is not scheduled for Alpha 3.0 and is intended for a future
-    3.x patch; we hope to have a better idea the cadence for additional ships coming
-    online once work on 3.0 is finished.
-- title: Origin 600
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/comm-link//16082-Origin-600i
-  quote: RSI Site|As a special incentive, all 600i bought through the Warbond package
-    will be able to reserve a custom name for their ship that is unique across the
-    600i chassis.
 - title: Customize and personalize mobiGlas (not on initial release)
   category: Assets
   status: Not implemented
@@ -159,15 +94,6 @@ promises:
   quote: Around the Verse|Needing to go to the toilet, all the little things that
     can affect the player temporarily and then we can expand this even to stuff like
     long term diseases
-- title: Aegis Eclipse
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/15907-Aegis-Eclipse-Stealth-In-The-Shadows
-  - https://robertsspaceindustries.com/pledge/ships/eclipse/Eclipse
-  quote: RSI Site|The Aegis Eclipse is a bomber designed to get in and strike before
-    it's ever even spotted. After extensive service with the UEE, this high-tech military
-    equipment is making its debut on the civilian market for 2947.
 - title: Procedural generation missions
   category: Levels
   status: Not implemented
@@ -175,29 +101,6 @@ promises:
   - https://youtu.be/VK4wHImGNAQ?t=424
   quote: So we're gonna combine some scripted missions with procedural generation
     missions.
-- title: Tumbril Cyclone
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/16019-Rough-And-Tumbril
-  quote: RSI Site|A future patch will add a Cyclone poster and then once the in-game
-    model is finished you will also be given an in-game Cyclone mini vehicle model!
-- title: Xi'an Nox
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/nox/Nox-Kue
-  quote: RSI Site|Deriving its name from the Xi’an word for ‘thrust,’ the Nox Kue
-    delivers that and more. This limited version of the open-canopy racer features
-    a stunning brushed-silver finish and was specifically created to celebrate the
-    inaugural sale of the first Nox for Human riders.
-- title: Drake Dragonfly
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/drake-dragonfly/Dragonfly-Yellowjacket
-  - https://youtu.be/Xgyeukt1De0?t=228
-  quote: RSI Site|Available in Alpha 3.0.
 - title: Two or three big releases in 2017
   category: Promo
   status: Completed
@@ -223,27 +126,11 @@ promises:
     there and then we can look at transferring people between servers so we can have
     hundreds of thousands of people maybe in one instance, but that doesn’t come online
     until later.
-- title: Anvil Hurricane
-  category: Ships
-  status: Not implemented
-  sources:
-  - http://starcitizen.wikia.com/wiki/Hurricane
-  quote: RSI Site|Some ships avoid dangerous encounters with speed, some with stealth
-    and others with maneuverability. The Anvil Hurricane's philosophy is that it should
-    be able to blast anything that gets in its way out of the sky.
 - title: Components intercommunication
   category: Mechanics
   status: Not implemented
   sources:
   - https://i.imgur.com/oGVrBAI.png
-- title: MISC Razor
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/15634-MISC-Razor
-  - http://web.archive.org/web/20161216203848/https://robertsspaceindustries.com/pledge/Standalone-Ships/MISC-Razor-LTI
-  quote: 'RSI Site|the Razor was not constructed for the working pilot. Instead, it
-    was designed with a singular purpose: place in the 2947 Murray Cup.'
 - title: Cash sales only for new concept ships and top tier capital ships
   category: Shop
   status: Broken
@@ -252,23 +139,6 @@ promises:
   - https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/is-our-memory-so-very-short
   quote: Going forward, these cash sales will focus on newly introduced concept ships
     and top tier limited capital ships.
-- title: Leir III Sandworm
-  category: NPCs
-  status: Broken
-  sources:
-  - https://starcitizen.tools/Leir_III
-  - https://i.imgur.com/6EpWeDa.png
-  quote: Sure. We aren’t selling something that won’t be in the game. We are going
-    to have creatures on our planets. We’re going to have xenomorphs on wrecks, dangerous
-    alien creatures on planets and so on, probably even a space whale / leviathan.
-- title: RSI Polaris
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/15546-The-2946-RSI-Polaris
-  quote: RSI Site|The Polaris is being offered for the first time as a limited concept
-    sale. This means that the ship design meets our specifications, but it is not
-    yet ready to display in your Hangar, fight in Arena Commander or fly in the Alpha.
 - title: Runtime generation of planets
   category: Levels
   status: In alpha
@@ -334,11 +204,6 @@ promises:
   status: Not implemented
   sources:
   - http://imgur.com/a/1yjPK#BO07hBV
-- title: Diverse NPC actions
-  category: NPCs
-  status: Not implemented
-  sources:
-  - https://youtu.be/Z-3YBuFI3iI?t=1800
 - title: Walk anywhere on planets and moons
   category: Levels
   status: Completed
@@ -352,11 +217,6 @@ promises:
   status: Completed
   sources:
   - https://youtu.be/Z-3YBuFI3iI?t=43m45s
-- title: Immersive landing pad and traffic control from NPCs
-  category: NPCs
-  status: Completed
-  sources:
-  - https://youtu.be/Z-3YBuFI3iI?t=49m27s
 - title: Planetside module
   category: Levels
   status: Compromised
@@ -445,15 +305,6 @@ promises:
   - Official Stretch Goal
   sources:
   - https://robertsspaceindustries.com/community/citizen-spotlight/3804-XI-rsquo-AN-SPACE-PLANT-Star-Citizen-49M-Reward-Hangar-Flair
-- title: Esperia Blade
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/15248-Important-Announcement-From-Esperia-Inc
-  quote: RSI SITE|Originally designed as an aggressor for Squadron 42, this Blade
-    sale will allow it to be adapted for human flight in Star Citizen! The Blade is
-    the Vanduul armada’s lightest fighter, focusing on maneuverability over shields
-    and weapons.
 - title: Visual representation of items and comodoties in storage in stores
   category: Mechanics
   status: Not implemented
@@ -494,16 +345,6 @@ promises:
   - autopilot
   sources:
   - https://youtu.be/Uhra2SETLNs?t=2724
-- title: NPC managers replace destroyed items and fix up player caused damage
-  category: NPCs
-  status: Not implemented
-  sources:
-  - https://youtu.be/Uhra2SETLNs?t=1420
-- title: NPCs load and unload cargo
-  category: NPCs
-  status: Not implemented
-  sources:
-  - https://youtu.be/Uhra2SETLNs?t=1711
 - title: Farming
   category: Mechanics
   status: Not implemented
@@ -516,15 +357,6 @@ promises:
   status: Not implemented
   sources:
   - https://i.imgur.com/uayOega.png
-- title: Procedural wildlife and birds
-  category: NPCs
-  status: Not implemented
-  sources:
-  - https://youtu.be/DFkTG9YungQ?t=787
-  quote: ultimately, to take it to the level where you get a Crysis level, which includes
-    things like obviously the grass, which you mention the rocks, the vegetation,
-    trees, plants, water, oceans, streams, wildlife, alien wildlife, birds in the
-    sky, all that sort of stuff.
 - title: Procedural ecosystems
   category: Levels
   status: Not implemented
@@ -599,15 +431,6 @@ promises:
   status: Completed
   sources:
   - https://robertsspaceindustries.com/comm-link/transmission/13324-Letter-From-The-Chairman-23-Million
-- title: Aegis Sabre
-  category: Ships
-  status: In alpha
-  tags:
-  - Raven
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/sabre/Sabre
-  quote: RSI Site|the Sabre was designed as a space superiority fighter for those
-    situations where you need to leave a lighter footprint.
 - title: Manage Space Stations
   category: Mechanics
   status: Not implemented
@@ -874,13 +697,6 @@ promises:
   - http://www.saitek.com/uk/blog/index.php/could-be-the-best-new-hotas-concept-in-a-decade-polygon
   - https://www.polygon.com/2015/10/15/9540153/star-citizens-custom-joystick-looks-positively-stunning
   - https://www.reddit.com/r/starcitizen/comments/6cyc7c/star_citizen_hotas_prototype_sold_on_ebay/
-- title: 20 million AI agents
-  category: NPCs
-  status: Not implemented
-  sources:
-  - https://youtu.be/zt4r3ksHXng?t=435
-  quote: It just actually runs on one server, and it simulates about 20 million AI
-    agents
 - title: Interia for Players and NPCs
   category: Mechanics
   status: Not implemented
@@ -977,13 +793,6 @@ promises:
   - Kickstarter Stretch Goal
   sources:
   - http://starcitizen.wikia.com/wiki/Stretch_goals#.E2.80.9CHave_Starship_Will_Travel.E2.80.A6.E2.80.9D_.28Stretch_Goal_3.29
-- title: MISC Hull series
-  category: Ships
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/14661-A-Hull-For-Every-Job-The-MISC-Hull-Series
 - title: Person of Interest System
   category: Levels
   status: Not implemented
@@ -1017,15 +826,6 @@ promises:
   sources:
   - https://youtu.be/v8BL8gXjc54?t=40m31s
   quote: the end of this year is going to be Squadron 42
-- title: RSI Orion
-  category: Ships
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/orion/Orion
-  quote: RSI Site|The Orion’s features include high-grade turret-mounted tractor beam
-    arrays, plenty of mineral storage and a cabin
 - title: Shield management
   category: Mechanics
   status: In alpha
@@ -1054,72 +854,11 @@ promises:
   status: Completed
   sources:
   - http://youtu.be/Q4OB9Yfo-0Q?t=6m11s
-- title: Anvil Gladiator
-  category: Ships
-  status: In alpha
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/anvil-gladiator/Gladiator
-- title: Drake Cutlass
-  category: Ships
-  status: In alpha
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Black
-- title: Aegis Avenger
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Stalker
-- title: MISC Starfarer
-  category: Ships
-  status: In alpha
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/misc-starfarer/Starfarer
-- title: Mustang
-  category: Ships
-  status: In alpha
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Omega
-- title: Aegis Gladius
-  category: Ships
-  status: In alpha
-  tags:
-  - Official Stretch Goal
-  sources:
-  - http://youtu.be/Fn8qKAV2ATA?t=31m16s
-- title: Drake Herald
-  category: Ships
-  status: In alpha
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/herald/Herald
-- title: Drake Caterpillar
-  category: Ships
-  status: In alpha
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/drake-caterpillar/Caterpillar
 - title: Next Great Starship winner for sale
   category: Shop
   status: Completed
   sources:
   - http://youtu.be/RtyZzO5OrE0?t=8m35s
-- title: MISC Prospector
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/misc-prospector/Prospector
-  quote: RSI Site|The Prospector can store 128 SCU of mined resources in its dedicated
-    mining cargo pods
 - title: RSI Class II space suit
   category: Assets
   status: Completed
@@ -1136,13 +875,6 @@ promises:
   - https://robertsspaceindustries.com/comm-link/transmission/14099-Store-Update-Towels-And-Cards
   quote: And of course, everyone who backs before we hit $42 million will also receive
     a towel for their hangar. Don’t explore the galaxy without it!
-- title: Anvil Carrack
-  category: Ships
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://web.archive.org/web/20170614154705/http://starcitizen.wikia.com/wiki/Carrack
 - title: Large scale dynamic events
   category: Levels
   status: Not implemented
@@ -1166,7 +898,7 @@ promises:
   - https://www.kickstarter.com/projects/cig/star-citizen
   - https://youtu.be/nx1VCIH6sEo?t=36m33s
 - title: Flashfire specialty mount
-  category: Ships
+  category: Assets
   status: Broken
   sources:
   - https://robertsspaceindustries.com/electronic-access/Weapon-Roms/Hornet-Flashfire-Specialty-Mount
@@ -1176,51 +908,6 @@ promises:
     designed to provide additional handling capacity on specifically designated single-seater
     spacecraft. These carefully designed mounts will transform larger hardpoints on
     the Hornet and Cutlass-class platforms to allow them to attach large weaponry
-- title: MISC Reliant
-  category: Ships
-  status: In alpha
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/14730-MISC-Reliant-Now-Available/
-  - http://starcitizen.wikia.com/wiki/Reliant
-- title: Argo Multi Purpose Utility Vehicle (MPUV)
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Cargo
-  - https://robertsspaceindustries.com/comm-link/transmission/14335-Introducing-The-Javelin-Destroyer
-  quote: RSI Site|The ARGO Astronautics MPUV-1C (commonly ‘Argo Cargo’) is a dedicated
-    merchant transfer ship, a ubiquitous intergalactic stevedore. Vast numbers of
-    Argo Cargos are responsible for loading and unloading goods onto massive long-haul
-    transports and miners that cannot otherwise land on planets or drydocks, such
-    as the Hull D and the Orion. Some captains choose to own and operate their own
-    Argo, while others pay privately owned ships operating as port services a rental
-    fee for performing the unloading process.
-- title: UEE Javelin
-  category: Ships
-  status: Not implemented
-  tags:
-  - Kickstarter Stretch Goal
-  - Destroyer
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/14335-Introducing-The-Javelin-Destroyer
-- title: Ingame Pets
-  category: NPCs
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/14336-Letter-From-The-Chairman
-  quote: We have repair bots, we have fish… but we haven’t implemented a pet system
-    in Star Citizen yet. At $64 million, that changes.
-- title: Genesis Starliner
-  category: Ships
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/14801-Introducing-The-Genesis-Starliner
 - title: Enhanced Ship Modularity
   category: Mechanics
   status: Not implemented
@@ -1328,14 +1015,6 @@ promises:
   - https://robertsspaceindustries.com/comm-link/engineering/14318-Design-Healing-Your-Spacemen
   quote: RSI Site|Field tech are gadgets that can be carried by players or NPC’s that
     are capable of providing temporary healing for a variety of wounds.
-- title: Esperia Prowler
-  category: Ships
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/14283-Letter-From-The-Chairman
-  - http://starcitizen.wikia.com/wiki/Prowler
 - title: Weapons emit exactly from where barrel is pointing
   category: Mechanics
   status: Compromised
@@ -1357,16 +1036,6 @@ promises:
   - Official Stretch Goal
   sources:
   - http://youtu.be/XBVkhXGX8iI?t=10m50s
-- title: Aegis Vanguard
-  category: Ships
-  status: In alpha
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/14248-Letter-From-The-Chairman
-  - https://robertsspaceindustries.com/comm-link/transmission/14623-Relentless-Predator-The-Aegis-Vanguard
-  quote: At $59 million, you voted for the Twin-Engine Deep Space Fighter, the first
-    pure fighting ship we’ve seen added to the lineup in quite a while.
 - title: External Repair Structure
   category: Mechanics
   status: Not implemented
@@ -1376,15 +1045,6 @@ promises:
     drive units, called the Miller ERS (External Repair Structure), can be locked
     together to form a sort of scaffolding around a damaged starship, the next best
     thing to an orbital drydock.
-- title: Anvil Crucible
-  category: Ships
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://web.archive.org/web/20170614154820/http://starcitizen.wikia.com/wiki/Crucible
-  quote: 'Here’s the next ship winner, which you decided would be the repair platform:
-    Anvil Aerospace Crucible.'
 - title: Prision Stations
   category: Levels
   status: Not implemented
@@ -1412,13 +1072,6 @@ promises:
   - https://youtu.be/7mTLWkxEEeo?t=381
   quote: Definitely organisations will be able to have some sort of real estate, have
     a headquarters
-- title: Aegis Reclaimer
-  category: Ships
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/reclaimer/Reclaimer
 - title: Spectator Mode in Arena Commander
   category: Mechanics
   status: In alpha
@@ -1427,27 +1080,6 @@ promises:
   sources:
   - https://robertsspaceindustries.com/comm-link/transmission/15745-Star-Citizen-Alpha-261-Is-LIVE
   - https://youtu.be/j3N3ltgDE28
-- title: MISC Endeavor
-  category: Ships
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - http://starcitizen.wikia.com/wiki/Endeavor-class_Research_Platform
-  - https://robertsspaceindustries.com/comm-link/transmission/14209-Letter-From-The-Chairman
-  - https://robertsspaceindustries.com/comm-link/transmission/14972-Research-Unbound-The-MISC-Endeavor
-  quote: RSI Site|Moving past combat-oriented gameplay is a major goal for Star Citizen’s
-    persistent universe, and the Endeavor is a flagship for that cause! As part of
-    the Endeavor launch, we’ve crafted a design document explaining how many of the
-    ship’s systems will be used in the persistent universe.
-- title: Origin 890 Jump
-  category: Ships
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/890-jump/890-Jump
-  quote: RSI Site|Waiting for resources to start modeling
 - title: J-Span Cryo-Star
   category: Assets
   status: Not implemented
@@ -1462,11 +1094,6 @@ promises:
   sources:
   - http://youtu.be/Uyur8rqbEHc?t=7m
   - https://robertsspaceindustries.com/comm-link/transmission/12777-35-Million-Unlock
-- title: Forms of fictional corruption within the PU
-  category: NPCs
-  status: Not implemented
-  sources:
-  - http://youtu.be/Uyur8rqbEHc?t=4m15s
 - title: Cost of ships and numbers factored into frequency of ships in PU
   category: Mechanics
   status: Not implemented
@@ -1488,13 +1115,6 @@ promises:
   status: Not implemented
   sources:
   - http://youtu.be/Uyur8rqbEHc?t=11m15s
-- title: RSI Ursa rover
-  category: Ships
-  status: In alpha
-  sources:
-  - http://starcitizen.wikia.com/wiki/Ursa_rover
-  - https://robertsspaceindustries.com/pledge/Add-Ons/Ursa-Rover
-  - https://gfycat.com/KlutzyMaleAnemonecrab
 - title: Ship aging
   category: Mechanics
   status: Not implemented
@@ -1594,13 +1214,6 @@ promises:
   - http://youtu.be/NM0DVz1VcvY?t=10m42s
   quote: We'll definitely have that figured out - how you can loan ships for other
     people
-- title: Missle cruiser
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://youtu.be/NM0DVz1VcvY?t=424
-  quote: so yes there will be other ships that will be more firepower based or more
-    missile based, like a missile cruiser and stuff like that.
 - title: Racing - Game Mode
   category: Mechanics
   status: Completed
@@ -1629,11 +1242,6 @@ promises:
   status: Completed
   sources:
   - http://youtu.be/gMivc0BV7ng?t=6m9s
-- title: Space creatures
-  category: NPCs
-  status: Not implemented
-  sources:
-  - http://youtu.be/RpHGEtOXFvE?t=27m59s
 - title: PvE Encounters
   category: Mechanics
   status: In alpha
@@ -1827,11 +1435,6 @@ promises:
   - Kickstarter Stretch Goal
   sources:
   - https://robertsspaceindustries.com/comm-link/transmission/13951-Flight-Model-And-Input-Controls
-- title: Dynamic social interaction with NPCs
-  category: NPCs
-  status: Not implemented
-  sources:
-  - http://youtu.be/Wk9V1SUHi7w?t=13m10s
 - title: Cybernetic repair facilities
   category: Mechanics
   status: Not implemented
@@ -1876,12 +1479,6 @@ promises:
   status: Not implemented
   sources:
   - http://youtu.be/VK4wHImGNAQ?t=9m12s
-- title: Aegis Redeemer
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/redeemer/Redeemer
-  - https://robertsspaceindustries.com/comm-link/transmission/13933-Four-Horsemen-Wins
 - title: Character collaboration with Warhorse Studios
   category: Mechanics
   status: Completed
@@ -2121,14 +1718,6 @@ promises:
   quote: The answer is yes, you will be able to name your ships and we plan to have
     the ship's name on a decal, so you should see it on the hull, and also it should
     show up in the targeting information.
-- title: Give orders to NPCs
-  category: NPCs
-  status: Not implemented
-  sources:
-  - https://youtu.be/JMkePHE94-I?t=1019
-  quote: You can click here and say you attack here, or you defend this person, and
-    essentially you'll be tasking instructions and orders out to the ships. If they're
-    NPC runned, then obviously the NPCs will obey you
 - title: Hadesian Artifact
   category: Assets
   status: Not implemented
@@ -2216,13 +1805,6 @@ promises:
   quote: But the rule is essentially light or below to be piloting the small fighter
     ships, and then if there are bigger ships we might see medium armour or heavy,
     titan armour I doubt you'd be able to sit down and pilot ships in it.
-- title: Bribe NPCs
-  category: NPCs
-  status: Not implemented
-  sources:
-  - https://youtu.be/Uyur8rqbEHc?t=199
-  quote: you essentially have to sort of bribe your way out of prison, or do something
-    like that.
 - title: Highlight camera
   category: Mechanics
   status: Not implemented
@@ -2238,13 +1820,6 @@ promises:
   quote: But the rule is essentially light or below to be piloting the small fighter
     ships, and then if there are bigger ships we might see medium armour or heavy,
     titan armour I doubt you'd be able to sit down and pilot ships in it.
-- title: Banu Merchantman
-  category: Ships
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://t.co/gJDCwF4uY3
 - title: Detailed procedural ship destruction for large ships
   category: Mechanics
   status: Completed
@@ -2309,14 +1884,6 @@ promises:
     there's probably another relay station, it's collected, then the data gets beamed
     across to another relay station and so-on and so-forth if it has to go multiple
     systems.
-- title: Hireable NPCs
-  category: NPCs
-  status: Not implemented
-  sources:
-  - http://youtu.be/2jcCwDs2rbw?t=10m54s
-  - http://youtu.be/HKcVI1rNz44?t=3m58s
-  - https://youtu.be/ItuiYF_lRGc?t=690
-  quote: RSI Site|more likely, simply hiring NPC crew members to work alongside you.
 - title: Character aging
   category: Mechanics
   status: Not implemented
@@ -2351,18 +1918,6 @@ promises:
   sources:
   - https://www.youtube.com/watch?v=FYp38vTFpW8&t=21m48s
   - https://www.kickstarter.com/projects/cig/star-citizen/posts/342048
-- title: AI for Aliens
-  category: NPCs
-  status: Not implemented
-  sources:
-  - http://youtu.be/fuQ5nfzoOHg?t=6m19s
-  - http://youtu.be/XBVkhXGX8iI?t=6m29s
-- title: AI NPC's
-  category: NPCs
-  status: Not implemented
-  sources:
-  - http://youtu.be/fuQ5nfzoOHg?t=6m19s
-  - http://youtu.be/XBVkhXGX8iI?t=6m29s
 - title: Booby traps and trackers for cargo and their pirate countermeasures
   category: Mechanics
   status: Not implemented
@@ -2465,11 +2020,6 @@ promises:
   sources:
   - http://youtu.be/-3KIcnKf3O0?t=12m10s
   quote: we do plan for you to be able to loan your ships
-- title: Varied NPC skills
-  category: NPCs
-  status: Not implemented
-  sources:
-  - http://youtu.be/-3KIcnKf3O0?t=1m9s
 - title: Destroyed ships persist as derelicts and not despawn
   category: Mechanics
   status: Not implemented
@@ -2576,11 +2126,6 @@ promises:
   quote: there's a whole sort of matchmaking criteria and it's based on ping, friends
     list, associates, persons of interest, enemies, skill level, and it uses that
     criteria to match you up dynamically
-- title: Retired characters persist as NPCs
-  category: NPCs
-  status: Not implemented
-  sources:
-  - https://youtu.be/Q4OB9Yfo-0Q?t=1117
 - title: Inertia on objects not anchored down
   category: Mechanics
   status: Not implemented
@@ -2599,11 +2144,6 @@ promises:
   - Guilds
   sources:
   - https://youtu.be/wE_xZdeakEw?t=454
-- title: NPCs prevent conflict in safe zones
-  category: NPCs
-  status: Not implemented
-  sources:
-  - https://youtu.be/wE_xZdeakEw?t=531
 - title: Beam weapons for larger ships
   category: Mechanics
   status: Not implemented
@@ -2685,14 +2225,6 @@ promises:
   status: Completed
   sources:
   - https://youtu.be/NcRxuvQT3Ew?t=26
-- title: Immersive haggling with NPCs
-  category: NPCs
-  status: Stagnant
-  sources:
-  - http://youtu.be/NcRxuvQT3Ew?t=4m5s
-  quote: Most of the time it'll be handled in the background, and you'll negotiate
-    prices/amounts using your manifest with the local commodities broker, they'll
-    buy it then offload it from your ship.
 - title: Stellar Cartography
   category: Mechanics
   status: Stagnant
@@ -2705,16 +2237,6 @@ promises:
   status: Not implemented
   sources:
   - https://youtu.be/NcRxuvQT3Ew?t=122
-- title: Immersive buying of ships
-  category: NPCs
-  status: Stagnant
-  sources:
-  - https://youtu.be/NcRxuvQT3Ew?t=215
-  quote: So definitely in Star Citizen I kind of want the buying and selling to be
-    immersive so you walk into a showroom and there's actually an NPC sales guy there
-    and he's telling you why you should really be stepping up to this particular model
-    300i spaceship and sort of make it feel like you'd be buying something in the
-    real world.
 - title: Stock Market
   category: Mechanics
   status: Stagnant
@@ -2776,12 +2298,6 @@ promises:
   status: Stagnant
   sources:
   - https://youtu.be/RtyZzO5OrE0?t=455
-- title: Highly interactive NPCs
-  category: NPCs
-  status: Stagnant
-  sources:
-  - http://youtu.be/RtyZzO5OrE0?t=5m
-  - http://youtu.be/RtyZzO5OrE0?t=10m54s
 - title: Inter Org Job or Contract System
   category: Mechanics
   status: Stagnant
@@ -2797,16 +2313,6 @@ promises:
   status: Stagnant
   sources:
   - https://youtu.be/RtyZzO5OrE0?t=288
-- title: Randomly generated personalities for NPCs
-  category: NPCs
-  status: Stagnant
-  sources:
-  - https://youtu.be/RtyZzO5OrE0?t=288
-- title: Request assistance from NPC ships
-  category: NPCs
-  status: Stagnant
-  sources:
-  - https://youtu.be/RtyZzO5OrE0?t=647
 - title: Short range voice communication and ship hailing
   category: Mechanics
   status: Stagnant
@@ -2945,16 +2451,6 @@ promises:
   sources:
   - http://youtu.be/w5M5DXzcMmg?t=3m42s
   - https://www.youtube.com/watch?v=HEa7u7hf3Ro
-- title: Vanduul in persistant universe
-  category: NPCs
-  status: Stagnant
-- title: Origin M50
-  category: Ships
-  status: In alpha
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/origin-m50/M50
 - title: Chat shared between Hangar and transfer to Arena Commander
   category: Mechanics
   status: Broken
@@ -2996,17 +2492,6 @@ promises:
   - https://robertsspaceindustries.com/comm-link/engineering/14568-Design-Notes-New-Damage-System
   - https://youtu.be/qwbU9FG5XlQ?t=645
   - http://youtu.be/j0m_RZgB61E?t=54s
-- title: Hired NPCs can fly in your wing
-  category: NPCs
-  status: Stagnant
-  sources:
-  - https://youtu.be/qwbU9FG5XlQ?t=176
-- title: Hired NPCs can man your ship
-  category: NPCs
-  status: Stagnant
-  sources:
-  - https://youtu.be/qwbU9FG5XlQ?t=176
-  - https://youtu.be/-3KIcnKf3O0?t=49
 - title: Edit loadout between Arena Commander matches
   category: Mechanics
   status: Completed
@@ -3106,28 +2591,9 @@ promises:
   - https://robertsspaceindustries.com/comm-link/transmission/14184-Letter-From-The-Chairman
   quote: We want to make the Best Damn Space Sim Ever, and with your continued support
     I know we will.
-- title: Anvil Hornet
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-M-Super-Hornet
-  - https://vimeo.com/77480949
-  quote: RSI Site|The closest to the Military load-out as is legally possible for
-    a Civilian model, the F7C-M Super Hornet reattaches the ball turret and offers
-    near milspec parts under the hood. Proving that two heads are better than one,
-    a second seat has been added to split the logistic and combat duty, making the
-    Super Hornet a truly terrifying mark to engage.
 - title: Enhanced Capital Ship Systems (Multiple Players required for operation)
   category: Assets
   status: Stagnant
-- title: Customizable NPC crew
-  category: NPCs
-  status: Stagnant
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13288-Multiple-Package-Clarification
-  quote: RSI Site|The difference between a Game Character slot converted into a NPC
-    crew member and a regular NPC crew member is that you can customize the Game Character
-    NPC’s look, name and backstory.
 - title: Move Wingman out of the basement. (Move Austin team to larger office)
   category: Promo
   status: Completed
@@ -3152,18 +2618,6 @@ promises:
   - Official Stretch Goal
   sources:
   - https://forums.robertsspaceindustries.com/discussion/47104/know-your-foe-with-a-jane-s-fighting-ships-style-not-in-physical-form
-- title: Drake Buccaneer
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/drake-buccaneer/Buccaneer
-  - https://robertsspaceindustries.com/comm-link/transmission/15350-The-Drake-Buccaneer-Sets-Sail
-  - https://youtu.be/zysZle4YI5s
-  quote: 'RSI Site|The Buccaneer has been designed from the ground up to fly and fight
-    the way you live. No leather interiors or hyperpillows here: the ‘Bucc is a scrapper
-    designed to maneuver and fight above its weight class. This rough-and-tumble frontier
-    fighter can be maintained in the worst of conditions in order to keep real, working
-    space crews alive.'
 - title: Hull breaches
   category: Mechanics
   status: Broken
@@ -3175,27 +2629,12 @@ promises:
   quote: Generally the hull breaches are going to be limited to areas like an airlock
     or a hangar door or something. It's not practical for us to allow you to rip a
     hole anywhere in the side of a ship and then breach there.
-- title: Battlecruiser ship class
-  category: Ships
-  status: Stagnant
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - http://starcitizen.wikia.com/wiki/Stretch_goals#cite_ref-stretchgoals_9-1
 - title: 42-page Upgrade Handbook (pdf)
   category: Promo
   status: Stagnant
   tags:
   - Official Stretch Goal
   sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13159-15-Million
-- title: Pegasus (Escort Carrier)
-  category: Ships
-  status: Stagnant
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/13131-13-Million
   - https://robertsspaceindustries.com/comm-link/transmission/13159-15-Million
 - title: Behind the Scenes of Star Citizen (Professional feature length documentary)
   category: Promo
@@ -3227,14 +2666,6 @@ promises:
   - Official Stretch Goal
   sources:
   - https://robertsspaceindustries.com/comm-link/13099-RSI-Prime-Livestream
-- title: RSI Idris
-  category: Ships
-  status: Not implemented
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/aegis-idris/Idris-M
-  - https://www.twitch.tv/videos/236884786?t=49m50s
 - title: Accurate physics system
   category: Engine
   status: In alpha
@@ -3414,30 +2845,12 @@ promises:
   sources:
   - https://youtu.be/IRE2BBQR4tc?t=515
   quote: The Krell System is where the Kr'Thak come from.
-- title: Bengal carrier
-  category: Ships
-  status: Stagnant
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/engineering/13060-Bengal-Carrier-WIP
-  - https://youtu.be/Rp43tiIpi4Y?t=263
-  - https://www.youtube.com/watch?v=Odonq_FwKwQ
 - title: Never relinquish full creative control
   category: Promo
   status: Completed
   sources:
   - http://venturebeat.com/2013/02/12/with-7-7m-raised-via-crowdfunding-chris-roberts-makes-his-sci-fi-game-in-the-public-eye-interview/
   - http://i.imgur.com/gKP8b9W.jpg
-- title: Asset inheritance
-  category: NPCs
-  status: Stagnant
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13288-Multiple-Package-Clarification
-  quote: RSI Site|There is an additional bonus of being able to specify one of your
-    Game Character NPC crewmembers as your successor in the event of your main characters
-    death (See Death of a Spaceman), at which point the Game Character NPC will become
-    playable again, with the assets of your deceased old character conveying.
 - title: Wingman's Hangar (webcasts)
   category: Promo
   status: Completed
@@ -3447,53 +2860,6 @@ promises:
   sources:
   - https://forums.robertsspaceindustries.com/discussion/129651/wingman-s-hangar-ending-an-explanation
   - https://forums.robertsspaceindustries.com/discussion/294452/new-cig-office
-- title: RSI Aurora
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/rsi-aurora/Aurora-LX
-- title: Origin 300
-  category: Ships
-  status: In alpha
-  tags:
-  - 300i
-  - 315p
-  - 325a
-  - 85X
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/origin-300/300i
-  - https://youtu.be/JrQ0qMRZ_1Q
-- title: Vanduul Glaive
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/esperia-glaive/Glaive
-- title: Vanduul Scythe
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/scythe/Scythe
-- title: MISC Freelancer
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer
-- title: Kruger Merlin
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/p52-merlin/P-52-Merlin
-- title: Xi'an Khartu-Al
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/khartu/Khartu-Al
-  - https://robertsspaceindustries.com/comm-link/transmission/13954-XiAn-Scout-Available
-- title: RSI Constellation
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/rsi-constellation/Constellation-Aquila
 - title: Hibernation Mode
   category: Mechanics
   status: Stagnant
@@ -3502,23 +2868,6 @@ promises:
   sources:
   - https://robertsspaceindustries.com/comm-link//13130-Thank-You
   - https://robertsspaceindustries.com/funding-goals
-- title: Origin 85X
-  category: Ships
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/85x/85X
-- title: Banu Defender
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/defender/Defender
-- title: Anvil Terrapin
-  category: Ships
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/pledge/ships/terrapin/Terrapin
-  - http://starcitizen.wikia.com/wiki/Terrapin
-  - https://youtu.be/LEm7yKG5x_I?t=367
 - title: Full color map of the game universe
   category: Shop
   status: Completed
@@ -3659,11 +3008,6 @@ promises:
   - http://www.kickstarter.com/projects/cig/star-citizen/posts/361848
   - https://forums.robertsspaceindustries.com/categories/modding
   - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6v0x63/
-- title: Aegis Retaliator
-  category: Ships
-  status: In alpha
-  tags:
-  - Kickstarter Stretch Goal
 - title: 'Additional base type: Smuggler''s asteroid'
   category: Levels
   status: Stagnant
@@ -3908,11 +3252,6 @@ promises:
     are the very last thing on the development slate, and wouldn't even be looked
     into until after the persistent universe is up and running and stable ... it is
     still something we want to do.
-- title: Cruiser ship class
-  category: Ships
-  status: Stagnant
-  tags:
-  - Kickstarter Stretch Goal
 - title: Class I Repair Bot
   category: Assets
   status: Stagnant
