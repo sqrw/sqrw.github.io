@@ -1106,7 +1106,7 @@
   - http://youtu.be/2jcCwDs2rbw?t=7m44s
 - title: In depth non-FTL communication
   category: Mechanics
-  status: Broken
+  status: Not implemented
   sources:
   - http://youtu.be/Q4OB9Yfo-0Q?t=2m55s
   - http://youtu.be/PCG4dZ1mYRw?t=7m50s
@@ -1566,7 +1566,7 @@
   - https://forums.robertsspaceindustries.com/discussion/49257/pledger-engine-modifier-upgrade-package
 - title: Hull breaches
   category: Mechanics
-  status: Broken
+  status: Not implemented
   sources:
   - https://youtu.be/Wk9V1SUHi7w?t=61
   - https://youtu.be/H4Z2Fr9fHMc?t=217

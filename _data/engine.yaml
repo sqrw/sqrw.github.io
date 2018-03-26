@@ -80,10 +80,11 @@
     - http://youtu.be/2jcCwDs2rbw?t=5m26s
 - title: Linux Support
   category: Engine
-  status: Broken
+  status: Not implemented
   sources:
     - https://www.youtube.com/watch?v=FYp38vTFpW8&t=21m48s
     - https://www.kickstarter.com/projects/cig/star-citizen/posts/342048
+    - https://youtu.be/zm6KhET7Lmk?t=408
 - title: Take advantage of multi-core processors
   category: Engine
   status: Completed
@@ -113,7 +114,7 @@
     point."
 - title: Angle penetration damage
   category: Engine
-  status: Broken
+  status: Not implemented
   sources:
     - https://youtu.be/qwbU9FG5XlQ
   quote: So there will definitely be the angle of incidence of a projectile hitting

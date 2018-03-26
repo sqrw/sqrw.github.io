@@ -19,7 +19,7 @@
     - http://youtu.be/HKcVI1rNz44?t=10m57s
 - title: Pirate insurance for questionably obtained ships
   category: Economy
-  status: Broken
+  status: Not implemented
   tags:
     - steal
     - pirate
@@ -37,7 +37,7 @@
     expenses which will also include paying landing fees, trade tariffs
 - title: Fake hull IDs
   category: Economy
-  status: Broken
+  status: Not implemented
   tags:
     - steal
     - pirate
