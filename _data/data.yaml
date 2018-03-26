@@ -71,19 +71,6 @@ promises:
   quote: Around the Verse|Needing to go to the toilet, all the little things that
     can affect the player temporarily and then we can expand this even to stuff like
     long term diseases
-- title: Two or three big releases in 2017
-  category: Promo
-  status: Completed
-  sources:
-  - http://wccftech.com/star-citizen-exclusive-interview-erin-roberts/
-  - https://robertsspaceindustries.com/comm-link//15653-Star-Citizen-Alpha-260
-  - https://robertsspaceindustries.com/comm-link/transmission/16349-Star-Citizen-Alpha-300
-  quote: Erin Roberts|We’re still at the start of the year and there is a lot of scheduling
-    work going on so I’m obviously not giving dates today and of course we want to
-    give the juicy information to the community first, but we’re looking at putting
-    out perhaps 2 or 3 big releases this year which significantly push the amount
-    of locations, gameplay mechanics and content that the players will be able to
-    experience and give feedback on.
 - title: Thousands of players in the same area
   category: Engine
   status: Not implemented
@@ -289,11 +276,6 @@ promises:
   sources:
   - http://youtu.be/IIkeFs5xubw?t=3m23s
   - http://youtu.be/RpHGEtOXFvE?t=20m33s
-- title: Khartu spacecraft model  for players hangars
-  category: Promo
-  status: Completed
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13324-Letter-From-The-Chairman-23-Million
 - title: Manage Space Stations
   category: Mechanics
   status: Not implemented
@@ -495,14 +477,6 @@ promises:
   quote: RSI Site|some landing zones will offer storage facilities that you can purchase
     on a monthly basis. Rather than selling your cargo immediately, you might wish
     to hold on to it
-- title: Star Citizen HOTAS from Mad Catz
-  category: Promo
-  status: Broken
-  sources:
-  - http://i.imgur.com/takjQlJ.png
-  - http://www.saitek.com/uk/blog/index.php/could-be-the-best-new-hotas-concept-in-a-decade-polygon
-  - https://www.polygon.com/2015/10/15/9540153/star-citizens-custom-joystick-looks-positively-stunning
-  - https://www.reddit.com/r/starcitizen/comments/6cyc7c/star_citizen_hotas_prototype_sold_on_ebay/
 - title: Interia for Players and NPCs
   category: Mechanics
   status: Not implemented
@@ -733,18 +707,6 @@ promises:
     drive units, called the Miller ERS (External Repair Structure), can be locked
     together to form a sort of scaffolding around a damaged starship, the next best
     thing to an orbital drydock.
-- title: Scope creep will not delay the project
-  category: Promo
-  status: Broken
-  tags:
-  - Beer
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/14184-Letter-From-The-Chairman
-  - https://www.reddit.com/r/starcitizen/comments/5bh9rx/star_citizens_scope_schedule_and_funding_are/
-  quote: I know some people are afraid of “feature creep” and the game never being
-    finished as we keep adding functionality and content to the mix with increased
-    funding. I would say that this would be fair criticism if we were delivering this
-    game at retail and on disc.
 - title: Organization headquarters
   category: Mechanics
   status: Not implemented
@@ -878,12 +840,6 @@ promises:
   status: Not implemented
   sources:
   - http://youtu.be/QWWhhg56IoM?t=13m16s
-- title: The Next Great Starship conducted annually
-  category: Promo
-  status: Broken
-  sources:
-  - http://youtu.be/w5M5DXzcMmg?t=3m14s
-  quote: I think we will try to make this a sort of annual event
 - title: Customizable controls and keybindings
   category: Mechanics
   status: Completed
@@ -969,11 +925,6 @@ promises:
   status: Not implemented
   sources:
   - http://youtu.be/w5M5DXzcMmg?t=15m18s
-- title: Subscriptions maintained after release
-  category: Promo
-  status: Not implemented
-  sources:
-  - http://youtu.be/w5M5DXzcMmg?t=18m9s
 - title: Damage any item
   category: Mechanics
   status: Not implemented
@@ -1092,13 +1043,6 @@ promises:
     reputation with other organizations and in fact that's kind of the general reputation
     system. Even your own character, your reputations, are based on your reputations
     with other organizations.
-- title: Web based Known Universe Map
-  category: Promo
-  status: Completed
-  tags:
-  - Official Stretch Goal
-  quote: The platform web team priority will be shifted to making the Known Universe
-    Map available.
 - title: Nothing in-game you can only buy with real money
   category: Shop
   status: Compromised
@@ -1167,14 +1111,6 @@ promises:
   - Official Stretch Goal
   sources:
   - https://robertsspaceindustries.com/comm-link/transmission/13888-Letter-From-The-Chairman-44-Million
-- title: Team reporting player driven events as in-fiction news
-  category: Promo
-  status: Not implemented
-  sources:
-  - https://youtu.be/_cStwygPSFQ?t=966
-  - https://youtu.be/HKcVI1rNz44?t=1407
-  quote: Well we're definitely planning on having a in-fiction news show that you
-    would see in bars and stuff
 - title: Player designed ships (not in PU)
   category: Mechanics
   status: Not implemented
@@ -1376,13 +1312,6 @@ promises:
   status: Not implemented
   sources:
   - http://youtu.be/2jcCwDs2rbw?t=15m38s
-- title: Observist Guide
-  category: Promo
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13626-Letter-From-The-Chairman-40-Million
-  - https://robertsspaceindustries.com/comm-link/transmission/13812-Letter-From-The-Chairman-42-Million
-  - http://starcitizen.wikia.com/wiki/Observist_Guide
 - title: Linux Support
   category: Engine
   status: Broken
@@ -1455,11 +1384,6 @@ promises:
   status: Completed
   sources:
   - http://youtu.be/-3KIcnKf3O0?t=8m38s
-- title: Players test the alpha version
-  category: Promo
-  status: Completed
-  sources:
-  - https://youtu.be/-3KIcnKf3O0?t=308
 - title: Benefits for ejecting from a ship about to explode
   category: Mechanics
   status: Not implemented
@@ -1533,20 +1457,6 @@ promises:
   - Official Stretch Goal
   sources:
   - https://robertsspaceindustries.com/funding-goals
-- title: Explorer-class mobiGlas Rig
-  category: Assets
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13626-Letter-From-The-Chairman-40-Million
-  - http://starcitizen.wikia.com/wiki/ExoGlas
-- title: Bug tracking feedback system
-  category: Promo
-  status: Completed
-  sources:
-  - https://youtu.be/Q4OB9Yfo-0Q?t=987
-  - https://robertsspaceindustries.com/community/issue-council/star-citizen-alpha?sort=newest
 - title: Intelligent Flight Control System (IFCS)
   category: Mechanics
   status: In alpha
@@ -1645,21 +1555,6 @@ promises:
   status: Stagnant
   sources:
   - https://youtu.be/-y0GQV_Bx4U?t=388
-- title: Added content after final release
-  category: Assets
-  status: Not implemented
-  sources:
-  - https://youtu.be/-y0GQV_Bx4U?t=877
-- title: Graphical updates after final release
-  category: Assets
-  status: Not implemented
-  sources:
-  - https://youtu.be/-y0GQV_Bx4U?t=877
-- title: CIG will not ask Youtube to take down Star Citizen related videos
-  category: Promo
-  status: Completed
-  sources:
-  - https://youtu.be/NcRxuvQT3Ew?t=26
 - title: Stellar Cartography
   category: Mechanics
   status: Stagnant
@@ -1693,14 +1588,6 @@ promises:
   sources:
   - https://youtu.be/NcRxuvQT3Ew?t=394
   - https://youtu.be/VK4wHImGNAQ?t=657
-- title: Procedurally generated asteroid fields
-  category: Assets
-  status: Stagnant
-  sources:
-  - https://youtu.be/NcRxuvQT3Ew?t=546
-  quote: We definitely have quite a few different asteroids, but we're actually doing
-    R&D right now into a bunch of procedural generation of asteroids and asteroid
-    fields
 - title: 3D Starmap inside ships
   category: Mechanics
   status: In alpha
@@ -1772,11 +1659,6 @@ promises:
   - https://youtu.be/FsWDLHVYNHI?t=205
   - https://youtu.be/NcRxuvQT3Ew?t=500
   - https://youtu.be/0pxlhEUFUPw?t=907
-- title: 'Squadron 42: short funerals for fallen wingmen'
-  category: Assets
-  status: Stagnant
-  sources:
-  - https://youtu.be/FsWDLHVYNHI?t=414
 - title: Ground Stealth
   category: Mechanics
   status: Stagnant
@@ -1793,9 +1675,6 @@ promises:
   - https://youtu.be/qqcN6UkKfog?t=402
   - https://youtu.be/KQypVFvpW2o?t=3901
   quote: We want to have a fair amount of stealth and tactical aspects
-- title: Ship specific Manuals
-  category: Promo
-  status: Stagnant
 - title: Manned Maneuvering Unit
   category: Mechanics
   status: Stagnant
@@ -1824,35 +1703,6 @@ promises:
   quote: But having said that there will definitely be different equipment; g-suits,
     and that kind of stuff that you could buy or upgrade that would potentially increase
     your g-force limitation.
-- title: Retaliator Commercial
-  category: Promo
-  status: Completed
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://youtu.be/fxEWc6IvtQc
-- title: Dogfighting manual
-  category: Promo
-  status: Completed
-  sources:
-  - http://youtu.be&t=10m16s
-- title: Revamp of RSI front page
-  category: Promo
-  status: Completed
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/14089-Letter-From-The-Chairman
-- title: Celebrity voice-acting
-  category: Assets
-  status: Completed
-  sources:
-  - https://youtu.be/ZrKQn8u3gGk?t=695
-- title: Laser pistols
-  category: Assets
-  status: Completed
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://youtu.be/E8Euwh_fPeg?t=213
 - title: Double precision for CryEngine
   category: Engine
   status: Completed
@@ -1861,15 +1711,6 @@ promises:
   quote: one of the reasons why we're moving to double precision on the system, so
     that we don't really have the same kind of position issues that we have in floating
     point.
-- title: RSI Museum
-  category: Promo
-  status: Compromised
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13266-Letter-From-The-Chairman-19-Million
-  - https://robertsspaceindustries.com/comm-link/spectrum-dispatch/14501-RSI-Museum-Underworld-1-2
-  - https://forums.robertsspaceindustries.com/discussion/117024/what-is-where-is-the-rsi-museum
 - title: Constellation multicrew
   category: Mechanics
   status: In alpha
@@ -1885,11 +1726,6 @@ promises:
   status: Broken
   sources:
   - https://youtu.be/gmevVmaLizw?t=200
-- title: More weapons available when Arena Commander comes available
-  category: Assets
-  status: Completed
-  sources:
-  - https://youtu.be/gmevVmaLizw?t=431
 - title: Co-Op in Arena Commander when bigger ships are added
   category: Mechanics
   status: Stagnant
@@ -1930,12 +1766,6 @@ promises:
   - https://robertsspaceindustries.com/comm-link/transmission/12802-Unlock-Stanton-System-Stretch-Goals-amp-Name-A-System
   - http://scqa.info/?show=10FTC&episode=1&qid=9
   - https://robertsspaceindustries.com/comm-link/engineering/14559-WIP-ArcCorp
-- title: CIG is 100% focused on Star Citizen and will not start any other projects
-  category: Promo
-  status: In alpha
-  sources:
-  - https://youtu.be/QACEabB_8lA?t=117
-  - https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q9jci/
 - title: Radar shadow a feature of detecting and identifying other ships
   category: Mechanics
   status: Stagnant
@@ -1958,26 +1788,6 @@ promises:
   - https://robertsspaceindustries.com/comm-link/transmission/13362-Star-Citizen-To-Include-Mantle-Support
   - https://en.wikipedia.org/wiki/Mantle_(API)
   quote: Wikipedia|Vulkan is derived from and built upon components of AMD's Mantle API
-- title: Be the Best Damn Space Sim Ever (BDSSE)
-  category: Promo
-  status: In alpha
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13345-Letter-From-The-Chairman-25-Million
-  - https://robertsspaceindustries.com/comm-link/transmission/14184-Letter-From-The-Chairman
-  quote: We want to make the Best Damn Space Sim Ever, and with your continued support
-    I know we will.
-- title: Enhanced Capital Ship Systems (Multiple Players required for operation)
-  category: Assets
-  status: Stagnant
-- title: Move Wingman out of the basement. (Move Austin team to larger office)
-  category: Promo
-  status: Completed
-  tags:
-  - Wingman
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/funding-goals
-  - https://forums.robertsspaceindustries.com/discussion/294452/new-cig-office
 - title: Ship upgrade package containing an engine modifier
   category: Mechanics
   status: Stagnant
@@ -1986,13 +1796,6 @@ promises:
   sources:
   - https://robertsspaceindustries.com/funding-goals
   - https://forums.robertsspaceindustries.com/discussion/49257/pledger-engine-modifier-upgrade-package
-- title: Jane’s Fighting Ships style manual
-  category: Promo
-  status: Stagnant
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://forums.robertsspaceindustries.com/discussion/47104/know-your-foe-with-a-jane-s-fighting-ships-style-not-in-physical-form
 - title: Hull breaches
   category: Mechanics
   status: Broken
@@ -2004,26 +1807,6 @@ promises:
   quote: Generally the hull breaches are going to be limited to areas like an airlock
     or a hangar door or something. It's not practical for us to allow you to rip a
     hole anywhere in the side of a ship and then breach there.
-- title: 42-page Upgrade Handbook (pdf)
-  category: Promo
-  status: Stagnant
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13159-15-Million
-- title: Behind the Scenes of Star Citizen (Professional feature length documentary)
-  category: Promo
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://www.facebook.com/215475438505750/photos/a.429027047150587.107566.215475438505750/998323386887614/
-  - http://www.imdb.com/title/tt5561564/
-- title: Procedural Generation R&D Team
-  category: Promo
-  status: Completed
-  tags:
-  - Official Stretch Goal
 - title: Accurate physics system
   category: Engine
   status: In alpha
@@ -2063,30 +1846,11 @@ promises:
   - Official Stretch Goal
   sources:
   - http://starcitizen.wikia.com/wiki/Stretch_goals#cite_ref-ID13284_13-0
-- title: Female player character
-  category: Assets
-  status: Stagnant
-  sources:
-  - https://giant.gfycat.com/LeanPoisedJohndory.gif
-  - https://www.youtube.com/watch?v=Jzde-PSVvcE
-  - https://youtu.be/qE7TFnSl9y4?t=126
-  - https://youtu.be/j02lrXo3fXA?t=1603
 - title: Invite other players to Hangar
   category: Mechanics
   status: Stagnant
   sources:
   - https://www.reddit.com/r/IAmA/comments/1d5z5j/im_chris_roberts_creator_of_wing_commander_and/c9n7ti5/
-- title: Shroud of the Avatar Crossbow
-  category: Promo
-  status: Stagnant
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/12951-Back-SotA-Get-A-Crossbow-In-Star-Citizen
-  - https://robertsspaceindustries.com/comm-link/transmission/13571-Shroud-Of-The-Avatar-Crossbow-Update
-- title: Exclusive Record Breaker ship skin
-  category: Assets
-  status: Stagnant
 - title: Real-time facial motion capture for ingame avatar annimation (Live Driver/FaceOverIP)
   category: MoCap
   status: Not implemented
@@ -2094,29 +1858,6 @@ promises:
   - https://youtu.be/OBAb-lska_I?t=38
   - https://youtu.be/ItuiYF_lRGc?t=976
   - https://www.youtube.com/watch?v=2zQCrvsmzzI&t=804
-- title: Kr’Thak (Alien Race)
-  category: Assets
-  status: Stagnant
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - https://youtu.be/IRE2BBQR4tc?t=515
-  quote: The Krell System is where the Kr'Thak come from.
-- title: Never relinquish full creative control
-  category: Promo
-  status: Completed
-  sources:
-  - http://venturebeat.com/2013/02/12/with-7-7m-raised-via-crowdfunding-chris-roberts-makes-his-sci-fi-game-in-the-public-eye-interview/
-  - http://i.imgur.com/gKP8b9W.jpg
-- title: Wingman's Hangar (webcasts)
-  category: Promo
-  status: Completed
-  tags:
-  - Wingman
-  - Kickstarter Stretch Goal
-  sources:
-  - https://forums.robertsspaceindustries.com/discussion/129651/wingman-s-hangar-ending-an-explanation
-  - https://forums.robertsspaceindustries.com/discussion/294452/new-cig-office
 - title: Hibernation Mode
   category: Mechanics
   status: Stagnant
@@ -2147,14 +1888,6 @@ promises:
     - http://archive.is/OLbEi#5%
     - https://www.youtube.com/watch?v=aaoGxOxzAwc&feature=youtu.be&t=1h50m50s
   quote: 'Kickstarter Campaign|Star Citizen is: Mod-able multiplayer'
-- title: No Pay to Win
-  category: Promo
-  status: Not implemented
-  sources:
-  - http://archive.is/OLbEi#5%
-  - https://youtu.be/LtQsyKsr4-c?t=1800
-  - https://robertsspaceindustries.com/voyager-direct/BEHR-M-Series/M4A-Laser-Cannon
-  quote: 'Kickstarter Campaign|Star Citizen is: No Pay to Win'
 - title: Engineering manual for modders (Hardback)
   category: Mods
   status: Not implemented
@@ -2162,12 +1895,6 @@ promises:
   - https://robertsspaceindustries.com/pledge/Add-Ons/Engineering-Manual-For-Modders-Digital
   quote: RSI Site|Learn the ins and outs of modding Star Citizens’ private servers
     with this helpful guide.
-- title: No Subscriptions
-  category: Promo
-  status: Compromised
-  sources:
-  - http://archive.is/OLbEi#5%
-  quote: 'Kickstarter Campaign|Star Citizen is: No Subscriptions'
 - title: Star Citizen novella written by Dave Haddock
   category: Shop
   status: Stagnant
@@ -2209,23 +1936,6 @@ promises:
     to the game’s development with this collection of concept art, design notes and
     stories… some of which you, the readers, will be helping to write over the next
     two years!
-- title: No publisher
-  category: Promo
-  status: Completed
-  sources:
-  - https://robertsspaceindustries.com/the-pledge
-  quote: We, the Star Citizen team at Cloud Imperium, hereby promise to deliver the
-    game you expect. You, the tens of thousands of pledgers, have allowed us to cut
-    out the big publisher and build the game on our terms.
-- title: Build the game backers are dreaming of
-  category: Promo
-  status: Stagnant
-  tags:
-  - Pledge
-  sources:
-  - https://robertsspaceindustries.com/the-pledge
-  quote: Chris Roberts and the Cloud Imperium Team|We will build you the game you
-    are dreaming about.
 - title: Increased ship customization
   category: Mechanics
   status: Stagnant
@@ -2265,11 +1975,6 @@ promises:
   - http://www.kickstarter.com/projects/cig/star-citizen/posts/361848
   - https://forums.robertsspaceindustries.com/categories/modding
   - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6v0x63/
-- title: Start with additional credits
-  category: Promo
-  status: Completed
-  tags:
-  - Kickstarter Stretch Goal
 - title: Drag other players
   category: Mechanics
   status: Stagnant
@@ -2293,11 +1998,6 @@ promises:
   - Kickstarter Stretch Goal
   sources:
   - http://archive.is/hJEIw
-- title: Regular community updates
-  category: Promo
-  status: Completed
-  tags:
-  - Kickstarter Stretch Goal
 - title: 6 Degrees of Freedom
   category: Mechanics
   status: Completed
@@ -2319,32 +2019,6 @@ promises:
   - https://youtu.be/-3KIcnKf3O0?t=618
   - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uwzxk/
   - https://www.youtube.com/watch?v=OeItEJPb5jE
-- title: Cockpit decorations - bobbleheads, photographs, dinosaurs, fuzzy dice, nose
-    art, posters
-  category: Assets
-  status: Stagnant
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uzsab/
-  quote: I know a lot of people don't think this is a 'big' stretch goal, but there's
-    a lot of systems work that goes into supporting player items / flare - especially
-    in handling it for all the potential millions of players...
-- title: Build professional sound studio
-  category: Assets
-  status: Stagnant
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/14814-Monthly-Report
-  - https://youtu.be/y2OVeUxfjuM?&t=3278
-- title: Full orchestral music sound track
-  category: Assets
-  status: Stagnant
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - http://bit.ly/2pU4MEt
 - title: Tablet companion application
   category: Mechanics
   status: Stagnant
@@ -2406,21 +2080,6 @@ promises:
     of which that have individual damaged versions and can break off. Its also not
     just visual, losing or damaging parts affects how you fly, what systems work and
     so on.
-- title: Monthly Town Hall Q&A with Chris Roberts
-  category: Promo
-  status: Compromised
-  tags:
-  - Kickstarter Stretch Goal
-- title: LifeTime Insurance (LTI) limited to kickstarter backers
-  category: Promo
-  status: Broken
-  sources:
-  - https://www.facebook.com/RobertsSpaceIndustries/posts/542889172419776
-  - https://www.kickstarter.com/projects/cig/star-citizen/posts/351480
-  - https://www.kickstarter.com/projects/cig/star-citizen/posts/361848
-  - https://www.reddit.com/r/starcitizen/comments/35x00z/at_bens_request_how_should_future_lti_sales_be/cr91o85/
-  quote: What’s more, every current pledger will get Lifetime Insurance! This will
-    be your last opportunity to get LTI before the game launches.
 - title: Player hosted private servers
   category: Engine
   status: Not implemented
@@ -2435,18 +2094,3 @@ promises:
     are the very last thing on the development slate, and wouldn't even be looked
     into until after the persistent universe is up and running and stable ... it is
     still something we want to do.
-- title: More funds will ensure delivery of functionality sooner rather than later
-  category: Promo
-  status: Broken
-  tags:
-  - Beer
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13266-Letter-From-The-Chairman-19-Million
-  - https://youtu.be/aQNueDa6QKw?t=2880
-  - https://www.kickstarter.com/projects/cig/star-citizen/posts/345150
-  - https://www.reddit.com/r/starcitizen/comments/5bh9rx/star_citizens_scope_schedule_and_funding_are/
-  quote: Finally there is one very important element – the more funds we can raise
-    in the pre-launch phase, the more we can invest in additional content (more ships,
-    characters etc.) and perhaps more importantly we can apply greater number of resources
-    to the various tasks to ensure we deliver the full functionality sooner rather
-    than later.
