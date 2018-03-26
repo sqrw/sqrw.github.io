@@ -76,14 +76,6 @@ promises:
   status: Not implemented
   sources:
   - https://i.imgur.com/oGVrBAI.png
-- title: Cash sales only for new concept ships and top tier capital ships
-  category: Shop
-  status: Broken
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/15603-Letter-From-The-Chairman
-  - https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/is-our-memory-so-very-short
-  quote: Going forward, these cash sales will focus on newly introduced concept ships
-    and top tier limited capital ships.
 - title: Artist driven and procedurally enchanced eco systems
   category: Mechanics
   status: Not implemented
@@ -152,12 +144,6 @@ promises:
   status: Not implemented
   sources:
   - http://i.imgur.com/Q6hq3zG.png
-- title: Animal motion capture
-  category: MoCap
-  status: Not implemented
-  sources:
-  - https://youtu.be/vJoHlCc4Y7E?t=1606
-  quote: I think we probably would do some animal motion capture. It's always fun.
 - title: Visual representation of items and comodoties in storage in stores
   category: Mechanics
   status: Not implemented
@@ -526,20 +512,6 @@ promises:
   status: Completed
   sources:
   - http://youtu.be/Q4OB9Yfo-0Q?t=6m11s
-- title: Next Great Starship winner for sale
-  category: Shop
-  status: Completed
-  sources:
-  - http://youtu.be/RtyZzO5OrE0?t=8m35s
-- title: Towel
-  category: Shop
-  status: Completed
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/14099-Store-Update-Towels-And-Cards
-  quote: And of course, everyone who backs before we hit $42 million will also receive
-    a towel for their hangar. Don’t explore the galaxy without it!
 - title: Schematic View
   category: Mechanics
   status: Not implemented
@@ -975,15 +947,6 @@ promises:
     reputation with other organizations and in fact that's kind of the general reputation
     system. Even your own character, your reputations, are based on your reputations
     with other organizations.
-- title: Nothing in-game you can only buy with real money
-  category: Shop
-  status: Compromised
-  sources:
-  - https://youtu.be/HKcVI1rNz44?t=645
-  - https://forums.robertsspaceindustries.com/discussion/230401/speaking-about-things-exclusive-to-backers
-  - https://i.imgur.com/UpPwOjp.png
-  quote: The philosophy of the game is that there is nothing in the game that you
-    can only buy with money. You can earn everything playing the game
 - title: Player generated missions
   category: Mechanics
   status: Not implemented
@@ -1248,11 +1211,6 @@ promises:
     just gonna be a much bigger, more detailed version of that were you can see all
     the different ships, their holograms, the actual ships themselves flying around,
     and you can click on them and get information on them.
-- title: 'Squadron 42: Mission disks'
-  category: Shop
-  status: Not implemented
-  sources:
-  - http://youtu.be/PCG4dZ1mYRw?t=13m53s
 - title: Group mining operations
   category: Mechanics
   status: Not implemented
@@ -1674,50 +1632,11 @@ promises:
   quote: Generally the hull breaches are going to be limited to areas like an airlock
     or a hangar door or something. It's not practical for us to allow you to rip a
     hole anywhere in the side of a ship and then breach there.
-- title: Capture Backers faces for ingame characters
-  category: MoCap
-  status: Completed
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13305-Letter-From-The-Chairman-21-Million
-  - http://starcitizen.wikia.com/wiki/Stretch_goals#cite_ref-ID13284_13-0
-  - https://www.youtube.com/watch?v=2zQCrvsmzzI&feature=youtu.be&t=804
-  - https://forums.robertsspaceindustries.com/discussion/33152/facial-tracking-a-possibility/p1
-  - https://swetrust.com/forum/topic/311-do-you-want-your-face-in-the-verse/?tab=comments#comment-996
-  - https://www.facebook.com/Foundry42Derby/videos/190883468141025/
-  - https://imgur.com/ffWLyhh
-  quote: the technology is mobile enough to allow us to take it on the road and capture
-    select fans during special events!
-- title: Build own motion capture studio
-  category: MoCap
-  status: Completed
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13048-10-Million
-  - https://www.youtube.com/watch?v=y78PPfs1NXc#t=303s
-  quote: "$10 million would allow Cloud Imperium to build our own mocap studio rather
-    than hiring out time from someone else. "
-- title: 'Squadron 42: Capture faces for characters'
-  category: MoCap
-  status: Completed
-  tags:
-  - Official Stretch Goal
-  sources:
-  - http://starcitizen.wikia.com/wiki/Stretch_goals#cite_ref-ID13284_13-0
 - title: Invite other players to Hangar
   category: Mechanics
   status: Stagnant
   sources:
   - https://www.reddit.com/r/IAmA/comments/1d5z5j/im_chris_roberts_creator_of_wing_commander_and/c9n7ti5/
-- title: Real-time facial motion capture for ingame avatar annimation (Live Driver/FaceOverIP)
-  category: MoCap
-  status: Not implemented
-  sources:
-  - https://youtu.be/OBAb-lska_I?t=38
-  - https://youtu.be/ItuiYF_lRGc?t=976
-  - https://www.youtube.com/watch?v=2zQCrvsmzzI&t=804
 - title: Hibernation Mode
   category: Mechanics
   status: Stagnant
@@ -1726,14 +1645,6 @@ promises:
   sources:
   - https://robertsspaceindustries.com/comm-link//13130-Thank-You
   - https://robertsspaceindustries.com/funding-goals
-- title: Full color map of the game universe
-  category: Shop
-  status: Completed
-  sources:
-  - http://web.archive.org/web/20130429140101/http://robertsspaceindustries.com/add-ons/
-  quote: RSI Site|this handy full-color map of the Star Citizen world, which will
-    display all “known” systems and their jump points as well as information about
-    their resources, alliances and more!
 - title: Modable multiplayer
   category: Mods
   status: Not implemented
@@ -1748,47 +1659,6 @@ promises:
   - https://robertsspaceindustries.com/pledge/Add-Ons/Engineering-Manual-For-Modders-Digital
   quote: RSI Site|Learn the ins and outs of modding Star Citizens’ private servers
     with this helpful guide.
-- title: Star Citizen novella written by Dave Haddock
-  category: Shop
-  status: Stagnant
-  sources:
-  - https://robertsspaceindustries.com/pledge/Add-Ons/Star-Citizen-Novella
-  quote: RSI Site|An all-new adventure in the Star Citizen universe from Dave Haddock,
-    author of the Time Capsule and the Spectrum Dispatches.
-- title: Spaceship shaped USB stick
-  category: Shop
-  status: Stagnant
-  sources:
-  - http://web.archive.org/web/20121126203456/http://www.robertsspaceindustries.com/add-ons/
-  quote: RSI Site|A 16 GB USB stick made in the shape of one of Star Citizen’s classic
-    spacecraft designs. Store your copy of the game on it… or anything else!
-- title: 42 page book “Squadron 42 Manual” (Hardback)
-  category: Shop
-  status: Stagnant
-  sources:
-  - http://web.archive.org/web/20121126203456/http://www.robertsspaceindustries.com/add-ons/
-  quote: RSI Site|The Squadron 42 manual will introduce you to the world of the Bengal-class
-    carrier Steed.
-- title: 42 page book “The Making of Star Citizen” (digital)
-  category: Shop
-  status: Stagnant
-  sources:
-  - http://web.archive.org/web/20121126203456/http://www.robertsspaceindustries.com/add-ons/
-  quote: RSI Site|We’re living this story right now, and we’re taking pictures! Relive
-    Star Citizen’s development, from the 10/10 announcement through the pledge campaign
-    to the game’s development with this collection of concept art, design notes and
-    stories… some of which you, the readers, will be helping to write over the next
-    two years!
-- title: 42 page book “The Making of Star Citizen” (Hardback)
-  category: Shop
-  status: Stagnant
-  sources:
-  - http://web.archive.org/web/20121126203456/http://www.robertsspaceindustries.com/add-ons/
-  quote: RSI Site|We’re living this story right now, and we’re taking pictures! Relive
-    Star Citizen’s development, from the 10/10 announcement through the pledge campaign
-    to the game’s development with this collection of concept art, design notes and
-    stories… some of which you, the readers, will be helping to write over the next
-    two years!
 - title: Increased ship customization
   category: Mechanics
   status: Stagnant
@@ -1859,12 +1729,6 @@ promises:
   sources:
   - https://youtu.be/y4wAP1fWe8c?t=709
   quote: We are definitely going to be doing a full 6 degrees of freedom control mode
-- title: Professional motion capture shoot
-  category: MoCap
-  status: Completed
-  sources:
-  - https://youtu.be/ZrKQn8u3gGk?t=695
-  quote: We're gonna do a full motion capture performance capture
 - title: Using inertia for flight rather than burning fuel all the time
   category: Mechanics
   status: Completed
