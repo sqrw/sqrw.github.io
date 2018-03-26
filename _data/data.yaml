@@ -3454,7 +3454,7 @@ promises:
   status: Stagnant
 - title: Real-time facial motion capture for ingame avatar annimation (Live Driver/FaceOverIP)
   category: MoCap
-  status: Stagnant
+  status: Not implemented
   sources:
   - https://youtu.be/OBAb-lska_I?t=38
   - https://youtu.be/ItuiYF_lRGc?t=976
