@@ -1,0 +1,315 @@
+- title: Customize and personalize mobiGlas (not on initial release)
+  category: Assets
+  status: Not implemented
+  sources:
+    - https://youtu.be/djT7zF2WQVo?t=928
+- title: Clothing physics
+  category: Assets
+  status: Completed
+  sources:
+    - http://www.youtube.com/watch?v=PbTQWmXFuM0&t=16m43s
+    - http://youtu.be/PbTQWmXFuM0
+  quote: "Developer|It's not set in stone yet, we will definitely be getting simulated
+    clothing eventually"
+- title: Xi’An Space Plant
+  category: Assets
+  status: Completed
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://robertsspaceindustries.com/community/citizen-spotlight/3804-XI-rsquo-AN-SPACE-PLANT-Star-Citizen-49M-Reward-Hangar-Flair
+- title: Science pod
+  category: Assets
+  status: Not implemented
+  tags:
+    - Endeavor
+  sources:
+    - https://youtu.be/rGeq21LKB78?t=2036
+    - https://i.imgur.com/22Od76R.png
+- title: Service equipment and crew pod
+  category: Assets
+  status: Not implemented
+  tags:
+    - Endeavor
+  sources:
+    - https://youtu.be/rGeq21LKB78?t=2036
+    - https://i.imgur.com/22Od76R.png
+- title: Research pod
+  category: Assets
+  status: Not implemented
+  tags:
+    - Endeavor
+  sources:
+    - https://youtu.be/rGeq21LKB78?t=2036
+    - https://i.imgur.com/22Od76R.png
+- title: Fuel pod
+  category: Assets
+  status: Not implemented
+  tags:
+    - Endeavor
+  sources:
+    - https://youtu.be/rGeq21LKB78?t=2036
+    - https://i.imgur.com/22Od76R.png
+- title: Salvagable debris fields
+  category: Assets
+  status: Not implemented
+  sources:
+    - https://youtu.be/zt4r3ksHXng?t=1372
+  quote: So there will definitely be debris fields you can salvage and there will
+    just be some that will be seeded out there similar to asteroid fields
+- title: Richer Storyline
+  category: Assets
+  status: Not implemented
+  tags:
+    - Kickstarter Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/Stretch_goals#.E2.80.9CHave_Starship_Will_Travel.E2.80.A6.E2.80.9D_.28Stretch_Goal_3.29
+- title: RSI Class II space suit
+  category: Assets
+  status: Completed
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://starcitizen.tools/Odyssey_Flight_Suit
+
+- title: Flashfire specialty mount
+  category: Assets
+  status: Broken
+  sources:
+    - https://robertsspaceindustries.com/electronic-access/Weapon-Roms/Hornet-Flashfire-Specialty-Mount
+    - https://i.imgur.com/l6NbZFm.png
+  quote: RSI Site|Want some bigger bang for your credit… literally? Flashfire Systems
+    is proud to offer a new selection of ‘special mission’ VariPuck weapon mounts
+    designed to provide additional handling capacity on specifically designated single-seater
+    spacecraft. These carefully designed mounts will transform larger hardpoints on
+    the Hornet and Cutlass-class platforms to allow them to attach large weaponry
+- title: Visual limb damage
+  category: Assets
+  status: Not implemented
+  sources:
+    - https://robertsspaceindustries.com/comm-link/engineering/14318-Design-Healing-Your-Spacemen
+  quote: RSI Site|Damage to limbs will normally be observable by players; taking a
+    hit will call out a damage state in much the same way as our ships.
+- title: Alien Languages
+  category: Assets
+  status: Not implemented
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://youtu.be/XBVkhXGX8iI?t=10m50s
+- title: J-Span Cryo-Star
+  category: Assets
+  status: Not implemented
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://robertsspaceindustries.com/voyager-direct/Coolers/J-Span-Cryo-Star-Cooler
+    - http://i.imgur.com/11v1sD9.jpg
+- title: Accurate skybox
+  category: Assets
+  status: Not implemented
+  sources:
+    - https://youtu.be/VK4wHImGNAQ?t=545
+  quote: "we wouldn't necessarily render in real-time, but use that to build the background
+    'space sphere' you may want to say, for when you're inside a system it shows stuff
+    off in the distance."
+- title: No sound in space preference setting
+  category: Assets
+  status: Not implemented
+  sources:
+    - https://youtu.be/QWWhhg56IoM?t=735
+  quote: we probably would want to do for the people that want to feel the sound in
+    space is realistic.
+- title: 'Squadron 42: Chris Roberts cameo'
+  category: Assets
+  status: Not implemented
+  sources:
+    - http://youtu.be/RpHGEtOXFvE?t=31m18s
+  quote: I'm pretty confident that we'll be putting myself, and Sandi, and Eric, and
+    probably a few other people in the universe.
+- title: Different HUDs for different ships
+  category: Assets
+  status: Completed
+  sources:
+    - https://youtu.be/RSWDk8K46CI?t=221
+    - http://youtu.be/RSWDk8K46CI?t=3m53s
+    - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6v1mul/
+- title: Repair crews
+  category: Assets
+  status: Not implemented
+  sources:
+    - https://youtu.be/gMivc0BV7ng?t=166
+  quote: definitely having sort of ambient animations happening when your ship is
+    getting repaired or retrofitted and stuff.
+- title: In-game monument to subscribers
+  category: Assets
+  status: Not implemented
+  sources:
+    - https://youtu.be/_9zJm8pK48E?t=482
+  quote: "We've got a pretty cool and obvious place for everyone's name, so I guess
+    it's not necessarily going to be something that's hidden, you'll just have to
+    go and visit is, and it's in a pretty important area, a monument"
+- title: Decals to decorate hull
+  category: Assets
+  status: Not implemented
+  sources:
+    - https://youtu.be/JMkePHE94-I?t=533
+    - https://youtu.be/HKcVI1rNz44?t=1325
+  quote: "The answer is yes, you will be able to name your ships and we plan to have
+    the ship's name on a decal, so you should see it on the hull, and also it should
+    show up in the targeting information."
+- title: Hadesian Artifact
+  category: Assets
+  status: Not implemented
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://robertsspaceindustries.com/comm-link/transmission/13840-Letter-From-The-Chairman-43-Million
+- title: 'Squadron 42: Fully voice acted'
+  category: Assets
+  status: Not implemented
+  sources:
+    - https://youtu.be/ZrKQn8u3gGk?t=695
+    - https://youtu.be/H4Z2Fr9fHMc?t=566
+  quote: "Ok, so there's two things here, Squadron 42 obviously is going to be full,
+    we're actually in the process of planning it right now."
+- title: Light armor
+  category: Assets
+  status: In alpha
+  sources:
+  - https://youtu.be/joKjDdKcOMQ?t=810
+  - https://youtu.be/SL3-Z4OPWis?t=2189
+  quote: "But the rule is essentially light or below to be piloting the small fighter
+    ships, and then if there are bigger ships we might see medium armour or heavy,
+    titan armour I doubt you'd be able to sit down and pilot ships in it."
+- title: Medium Armor
+  category: Assets
+  status: In alpha
+  sources:
+    - https://youtu.be/joKjDdKcOMQ?t=810
+    - https://youtu.be/SL3-Z4OPWis?t=2189
+  quote: "But the rule is essentially light or below to be piloting the small fighter
+    ships, and then if there are bigger ships we might see medium armour or heavy,
+    titan armour I doubt you'd be able to sit down and pilot ships in it."
+- title: Titan Armor
+  category: Assets
+  status: Not implemented
+  sources:
+    - https://youtu.be/joKjDdKcOMQ?t=810
+    - https://youtu.be/SL3-Z4OPWis?t=2189
+  quote: "But the rule is essentially light or below to be piloting the small fighter
+    ships, and then if there are bigger ships we might see medium armour or heavy,
+    titan armour I doubt you'd be able to sit down and pilot ships in it."
+- title: Omni Role Combat Armor
+  category: Assets
+  status: In alpha
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/Development_promises
+- title: Class I Repair Bot
+  category: Assets
+  status: Stagnant
+  tags:
+    - Kickstarter Stretch Goal
+  sources:
+    - https://www.kickstarter.com/projects/cig/star-citizen/posts/338340
+    - http://starcitizen.wikia.com/wiki/AMX-1_Repair_Droid
+    - https://robertsspaceindustries.com/funding-goals
+    - http://starcitizen.wikia.com/wiki/Stretch_goals
+- title: 'Squadron 42: short funerals for fallen wingmen'
+  category: Assets
+  status: Stagnant
+  sources:
+    - https://youtu.be/FsWDLHVYNHI?t=414
+- title: Celebrity voice-acting
+  category: Assets
+  status: Completed
+  sources:
+    - https://youtu.be/ZrKQn8u3gGk?t=695
+- title: Laser pistols
+  category: Assets
+  status: Completed
+  tags:
+  - Official Stretch Goal
+  sources:
+    - https://youtu.be/E8Euwh_fPeg?t=213
+- title: Enhanced Capital Ship Systems (Multiple Players required for operation)
+  category: Assets
+  status: Stagnant
+- title: Exclusive Record Breaker ship skin
+  category: Assets
+  status: Stagnant
+- title: Kr’Thak (Alien Race)
+  category: Assets
+  status: Stagnant
+  tags:
+    - Kickstarter Stretch Goal
+  sources:
+    - https://youtu.be/IRE2BBQR4tc?t=515
+  quote: "The Krell System is where the Kr'Thak come from."
+- title: Explorer-class mobiGlas Rig
+  category: Assets
+  status: Not implemented
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://robertsspaceindustries.com/comm-link/transmission/13626-Letter-From-The-Chairman-40-Million
+    - http://starcitizen.wikia.com/wiki/ExoGlas
+- title: Added content after final release
+  category: Assets
+  status: Not implemented
+  sources:
+    - https://youtu.be/-y0GQV_Bx4U?t=877
+- title: Graphical updates after final release
+  category: Assets
+  status: Not implemented
+  sources:
+    - https://youtu.be/-y0GQV_Bx4U?t=877
+- title: Procedurally generated asteroid fields
+  category: Assets
+  status: Stagnant
+  sources:
+  - https://youtu.be/NcRxuvQT3Ew?t=546
+  quote: "We definitely have quite a few different asteroids, but we're actually doing
+    R&D right now into a bunch of procedural generation of asteroids and asteroid
+    fields"
+- title: More weapons available when Arena Commander comes available
+  category: Assets
+  status: Completed
+  sources:
+    - https://youtu.be/gmevVmaLizw?t=431
+- title: Female player character
+  category: Assets
+  status: Stagnant
+  sources:
+    - https://giant.gfycat.com/LeanPoisedJohndory.gif
+    - https://www.youtube.com/watch?v=Jzde-PSVvcE
+    - https://youtu.be/qE7TFnSl9y4?t=126
+    - https://youtu.be/j02lrXo3fXA?t=1603
+- title: Cockpit decorations - bobbleheads, photographs, dinosaurs, fuzzy dice, nose
+    art, posters
+  category: Assets
+  status: Stagnant
+  tags:
+    - Kickstarter Stretch Goal
+  sources:
+    - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uzsab/
+  quote: "I know a lot of people don't think this is a 'big' stretch goal, but there's
+    a lot of systems work that goes into supporting player items / flare - especially
+    in handling it for all the potential millions of players..."
+- title: Build professional sound studio
+  category: Assets
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://robertsspaceindustries.com/comm-link/transmission/14814-Monthly-Report
+    - https://youtu.be/y2OVeUxfjuM?&t=3278
+- title: Full orchestral music sound track
+  category: Assets
+  status: Stagnant
+  tags:
+    - Kickstarter Stretch Goal
+  sources:
+    - http://bit.ly/2pU4MEt

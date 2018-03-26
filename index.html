@@ -2,7 +2,8 @@
 layout: page
 ---
 
-{% assign promises = site.data.data.promises %}
+{% assign promises = site.data.data.promises | concat: site.data.ships | concat: site.data.npcs | concat: site.data.levels | concat: site.data.economy | concat: site.data.assets | concat: site.data.promo | concat: site.data.engine | concat: site.data.shop | concat: site.data.mocap | concat: site.data.mods | concat: site.data.mechanics | sort:"category" %}
+
 {% assign icons = site.data.data.icons %}
 {% assign statuses = site.data.data.statuses %}
 {% assign confidence = site.data.data.confidence %}
@@ -27,8 +28,8 @@ layout: page
                     {% assign status_data = status[1] %}
                     <li class="list-group-item list-group-item-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
                         <i class="fa fa-fw fa-{{ status_data['icon'] }} "></i>
-                        {% assign category_total = (promises | where: "status",status_name | size) %}
-                        {% assign category_percent = (promises | where: "status",status_name | size | times: 100 | divided_by: total) %}
+                        {% assign category_total = promises | where: "status",status_name | size %}
+                        {% assign category_percent = promises | where: "status",status_name | size | times: 100 | divided_by: total %}
                         {% if category_percent == 0 %}
                             {% assign category_percent = 1 %}
                         {% endif %}

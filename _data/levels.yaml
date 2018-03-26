@@ -1,0 +1,463 @@
+- title: Single shard
+  category: Levels
+  status: Not implemented
+  sources:
+    - https://www.twitch.tv/videos/236884786?t=36m51s
+    - https://youtu.be/qkteNWutOz8?t=1084
+    - https://youtu.be/FsWDLHVYNHI?t=534
+    - https://youtu.be/g4UaUmJ8Ho8?t=294
+  quote: CIG Developer|We are planning on attempting a single shard
+- title: Procedural generation missions
+  category: Levels
+  status: Not implemented
+  sources:
+    - https://youtu.be/VK4wHImGNAQ?t=424
+  quote: "So we're gonna combine some scripted missions with procedural generation
+    missions."
+- title: Runtime generation of planets
+  category: Levels
+  status: In alpha
+  sources:
+    - http://i.imgur.com/8wEBHGy.png
+    - https://youtu.be/qqcN6UkKfog?t=1070
+- title: Handcrafted missions supplemented by algorithmic content
+  category: Levels
+  status: Not implemented
+  sources:
+    - http://i.imgur.com/8wEBHGy.png
+- title: Biomes
+  category: Levels
+  status: Not implemented
+  sources:
+    - http://www.gamersnexus.net/gg/2613-chris-roberts-on-star-citizen-procedural-planets-alpha3-citizencon
+    - https://youtu.be/LEm7yKG5x_I?t=844
+  quote: "biomes ultimately will contain much more data than just here's the rocks,
+    here's the trees, here's what the mountain looks like. It will contain the rules
+    for wildlife and all the rest of the stuff."
+- title: Biome edge blending
+  category: Levels
+  status: Not implemented
+  sources:
+    - http://www.gamersnexus.net/gg/2613-chris-roberts-on-star-citizen-procedural-planets-alpha3-citizencon
+  quote: "Depending on which biome is next to the other biome, there's blending rules
+    that happen. And there's blending on multiple levels too, so there's different
+    levels of detail and they all get blended."
+- title: Day and night cycles
+  category: Levels
+  status: Completed
+  sources:
+    - https://youtu.be/Z-3YBuFI3iI?t=1800
+    - https://www.youtube.com/watch?v=HEa7u7hf3Ro
+    - https://www.youtube.com/watch?v=X33yUEUlGGI
+- title: Walk anywhere on planets and moons
+  category: Levels
+  status: Completed
+  sources:
+    - https://youtu.be/Z-3YBuFI3iI?t=43m45s
+  quote: "In 3.0 as we're demonstrating; every planet, every moon, um will be fully
+    done rendered physicalized, you can land on any part of em, walk all the way around
+    it if you want, if you've got uh months to do that cause they're quite large."
+- title: Seamless planetary/lunar landing
+  category: Levels
+  status: Completed
+  sources:
+    - https://youtu.be/Z-3YBuFI3iI?t=43m45s
+- title: Planetside module
+  category: Levels
+  status: Compromised
+  sources:
+    - https://youtu.be/hYFCfRK4e6Y?t=1451
+    - https://www.mmorpg.com/gamelist.cfm/game/883/feature/7539/Star-Citizen-E3-2013-Chatting-Star-Citizen-with-Chris-Roberts.html
+    - https://youtu.be/kD2aVH053cM?t=269
+- title: Expand the Stanton System
+  category: Levels
+  status: In alpha
+  sources:
+    - http://imgur.com/a/1yjPK#BO07hBV
+- title: Procedural ecosystems
+  category: Levels
+  status: Not implemented
+  sources:
+    - https://youtu.be/DFkTG9YungQ?t=787
+  quote: "We'll also try to have some ecosystems with some of the wildlife, and allow
+    us to place down a lot of emergent gameplay"
+- title: Procedural weather
+  category: Levels
+  status: Not implemented
+  sources:
+    - https://youtu.be/DFkTG9YungQ?t=787
+  quote: Ultimately, our goal will be to create ecosystems and some certain level
+    of weather and stuff like that on these planets.
+- title: Procedural massive play areas
+  category: Levels
+  status: In alpha
+  sources:
+    - https://youtu.be/DFkTG9YungQ?t=787
+  quote: "So that's sort of our roadmap and what our goal is to use the procedural
+    tools to sort of generate massive play areas cause an artist can't do that by
+    hand"
+- title: Deterministic procedural generation
+  category: Levels
+  status: In alpha
+  sources:
+    - https://youtu.be/sw5N3ivfkds?t=412
+  quote: "What we are doing with procedural generation is that it's deterministic and
+    deterministic is that it will always deliver the same outcome every time that
+    you visit that location."
+- title: Nyx Landing Zone
+  category: Levels
+  status: Not implemented
+  sources:
+    - https://www.youtube.com/watch?v=Z2YMlnn4Ngk
+    - https://youtu.be/L844Rj4mfik?t=549
+- title: Person of Interest System
+  category: Levels
+  status: Not implemented
+  sources:
+    - http://youtu.be/2jcCwDs2rbw?t=9m13s
+    - https://www.youtube.com/watch?v=yq5ucbglkCM
+  quote: "When you're tracking someone like that, you'll find that you can mark them
+    as a person of interest in your mobiglas/ship systems, which will mean you drop
+    into their instance every time."
+- title: Astro Arena
+  category: Levels
+  status: Broken
+  tags:
+    - zero-g
+    - sataball
+  sources:
+    - https://youtu.be/v8BL8gXjc54?t=28m37s
+    - https://youtu.be/g4UaUmJ8Ho8?t=432
+- title: 'Squadron 42: First episiode in 2015'
+  category: Levels
+  status: Broken
+  sources:
+    - https://youtu.be/v8BL8gXjc54?t=40m31s
+  quote: the end of this year is going to be Squadron 42
+- title: Star Marine - Game Mode
+  category: Levels
+  status: Completed
+  sources:
+    - https://robertsspaceindustries.com/comm-link/transmission/15646-Star-Citizen-Alpha-26-With-Star-Marine-Available
+- title: Arena Commander - Game Mode
+  category: Levels
+  status: Completed
+  sources:
+    - https://robertsspaceindustries.com/module/arena-commander
+- title: Large scale dynamic events
+  category: Levels
+  status: Not implemented
+  sources:
+    - https://youtu.be/2jcCwDs2rbw?t=883
+  quote: We are definitely going to do large scale dynamic events in the game, some
+    of them will involve military conflict, or something smaller… It could be perhaps
+    a natural disaster on a planet or a system and people have to bring aid in.
+- title: Accurate planet models
+  category: Levels
+  status: Not implemented
+  sources:
+    - http://imgur.com/zjqR5bE
+- title: Prision Stations
+  category: Levels
+  status: Not implemented
+  sources:
+    - https://youtu.be/paE5gpEdltI?t=1456
+  quote: So there definitely will be prison stations, perhaps some prison planets,
+    but those are the kinds of things we want to do to make the universe liveable
+    and breathable.
+- title: Jail & prisons
+  category: Levels
+  status: Not implemented
+  sources:
+    - https://youtu.be/y4wAP1fWe8c?t=995
+    - https://youtu.be/paE5gpEdltI?t=1456
+  quote: "we may have areas where you're not allowed to whip out your gun, and if you
+    do, you're in trouble and you'll get put in jail or kill by the local police."
+- title: Different starting planets
+  category: Levels
+  status: Not implemented
+  sources:
+  - https://youtu.be/RSWDk8K46CI?t=650
+  quote: "We're not going to start everybody on the same planet."
+- title: Black holes
+  category: Levels
+  status: Not implemented
+  sources:
+    - https://youtu.be/VK4wHImGNAQ?t=1010
+  quote: obviously being close to a black hole would be one of those environments.
+- title: Gas giants
+  category: Levels
+  status: Not implemented
+  sources:
+    - https://youtu.be/VK4wHImGNAQ?t=1010
+  quote: or into a deep gas cloud inside the rings of a planet.
+- title: Accurately see large cities on planet surfaces
+  category: Levels
+  status: Not implemented
+  sources:
+    - http://youtu.be/VK4wHImGNAQ?t=9m12s
+- title: Deep sky objects
+  category: Levels
+  status: Not implemented
+  sources:
+    - http://youtu.be/VK4wHImGNAQ?t=16m57s
+- title: Unregulated border worlds
+  category: Levels
+  status: Not implemented
+  sources:
+    - https://youtu.be/H4Z2Fr9fHMc?t=656
+  quote: "Maybe that's the sort of stuff that can only happen in the unregulated
+    border worlds, wherein you couldn't do that in the UEE say on Earth or on Terra
+    because on Terra, you would have to go through an official broker, and then you
+    can't cheat in that case."
+- title: Missions that span both space and ground
+  category: Levels
+  status: Not implemented
+  sources:
+    - http://youtu.be/JMkePHE94-I?t=9m27s
+- title: Combined arms missions
+  category: Levels
+  status: Not implemented
+  sources:
+    - http://youtu.be/_9zJm8pK48E?t=3m51s
+- title: Asteroid rings
+  category: Levels
+  status: In alpha
+  sources:
+    - https://youtu.be/ZrKQn8u3gGk?t=406
+    - https://youtu.be/VdY7OXDWBYg?t=30
+  quote: "they're really always going to be in a ring or some broken up ring around
+    the central star."
+- title: Spaceports
+  category: Levels
+  status: In alpha
+  sources:
+    - https://youtu.be/-y0GQV_Bx4U?t=242
+    - https://www.twitch.tv/videos/203592426?t=02h43m20s
+- title: Alien Spaceports
+  category: Levels
+  status: Stagnant
+  sources:
+    - https://youtu.be/-y0GQV_Bx4U?t=242
+- title: Entire Alien areas mapped out (not on initial release)
+  category: Levels
+  status: Stagnant
+  sources:
+    - https://youtu.be/-y0GQV_Bx4U?t=242
+- title: Planet day/night cycle
+  category: Levels
+  status: Completed
+  sources:
+    - http://youtu.be/w5M5DXzcMmg?t=3m42s
+    - https://www.youtube.com/watch?v=HEa7u7hf3Ro
+- title: Arena Commander starts as 20 cubic kilometers
+  category: Levels
+  status: Completed
+  sources:
+    - https://youtu.be/gmevVmaLizw?t=309
+- title: 'Squadron 42: Enhanced Mission Design'
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://robertsspaceindustries.com/comm-link/transmission/13389-Letter-From-The-Chairman-29-Million-Squadron-42
+- title: Tamsa System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Tanga System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Cano System
+  category: Levels
+  status: Stagnant
+  tags:
+  - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: UDS-2943-01-22 System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Kabal System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Oretani System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Tiber system
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://robertsspaceindustries.com/comm-link/13099-RSI-Prime-Livestream
+- title: Odin System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Tyrol System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Kellog System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Goss System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Orion System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Ellis System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Cathcart System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Tal System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Geddon System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: Chronos System
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - http://starcitizen.wikia.com/wiki/List_of_star_systems
+- title: First landout option on Earth (New York)
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://robertsspaceindustries.com/comm-link/engineering/12942-New-York-Concept-Art
+    - https://robertsspaceindustries.com/comm-link/spectrum-dispatch/13017-Observist-Guide-New-York
+    - https://robertsspaceindustries.com/comm-link//13130-Thank-You
+  quote: RSI Site|we’ll need to create specific ship dealers, guild halls and bars
+    that you can visit when you land in New York.
+- title: Second landout option on Earth (Moscow)
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://robertsspaceindustries.com/comm-link/engineering/12933-Moscow-Concept-Art
+    - https://robertsspaceindustries.com/comm-link//13130-Thank-You
+  quote: 'RSI Site|New York is a good place to buy ships and see the sights, Moscow
+    is a good place for upgrades… and Beijing is the home to Earth’s black market'
+- title: Third landout option on Earth (Shanghai)
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://robertsspaceindustries.com/comm-link/engineering/12981-New-Concept-Art-amp-Fan-Spotlight
+    - https://robertsspaceindustries.com/comm-link//13130-Thank-You
+  quote: 'RSI Site|New York is a good place to buy ships and see the sights, Moscow
+    is a good place for upgrades… and Beijing is the home to Earth’s black market'
+- title: Fourth landout option on Earth
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://robertsspaceindustries.com/comm-link//13130-Thank-You
+  quote: We will also be putting together a professional-quality “Behind the Scenes
+    of Star Citizen” documentary and adding the much-discussed fourth land out option
+    on Earth (city TBA.)
+- title: "Additional base type: Smugglers asteroid"
+  category: Levels
+  status: Stagnant
+  tags:
+    - Kickstarter Stretch Goal
+  sources:
+    - https://www.robertsspaceindustries.com/comm-link/transmission/12781-Asteroid-Bases-Unlocked
+  quote: 'RSI Site|The asteroid bases will take on two forms: the first is active
+    smugglers bases with trading and the seediest bars in the galaxy offering some
+    of the most dangerous—and lucrative—missions outside the law. The second is secret
+    supply depots that you can discover, raid and contest yourself.'
+- title: 100 Star Systems to explore on launch
+  category: Levels
+  status: Broken
+  tags:
+    - Kickstarter Stretch Goal
+  sources:
+    - https://www.kickstarter.com/projects/cig/star-citizen/posts/351977
+    - http://starcitizen.wikia.com/wiki/Stretch_goals#.E2.80.9CHave_Starship_Will_Travel.E2.80.A6.E2.80.9D_.28Stretch_Goal_3.29
+    - http://www.robertsspaceindustries.com/comprehensive-stretch-goals/
+    - https://www.youtube.com/watch?v=VGTj2iWkS-8&t=14m14s
+    - https://web.archive.org/web/20161001062026/http://www.gamersnexus.net/gg/2613-chris-roberts-on-star-citizen-procedural-planets-alpha3-citizencon
+  quote: "Just to let you know, when it says 100 complete star systems, we don't mean
+    we're delivering 100 complete star systems tomorrow or all in one day because
+    you know, we got to a bunch of our star systems in our stretch goals, and also
+    some of these star systems are to be explored and found."
+- title: Exclusive star system for pre-launch backers
+  category: Levels
+  status: Stagnant
+  tags:
+    - Official Stretch Goal
+- title: 'Squadron 42: Mission disk "Behind Enemy Lines" available for free to all
+    backers upon release'
+  category: Levels
+  status: Stagnant
+  tags:
+    - Kickstarter Stretch Goal
+  sources:
+    - http://bit.ly/2pU4MEt

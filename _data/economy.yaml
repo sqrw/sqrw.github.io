@@ -1,0 +1,146 @@
+- title: Dynamic inventory pricing
+  category: Economy
+  status: In alpha
+  sources:
+    - https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/star-citizen-alpha-3-0-0ap-ptu-693170-patch-notes
+  quote: 'RSI Site|First implementation of dynamic inventory and pricing. Locations
+    now have variable pricing that will fluctuate over-time based on stock levels
+    and restock rates. Note: Still a work in progress and implemented at major spawn
+    locations (GrimHex, Port Olisar, and Levski) only.'
+- title: Economy driven missions
+  category: Economy
+  status: Not implemented
+  sources:
+    - https://youtu.be/Z-3YBuFI3iI?t=1800
+- title: UEC purchasable with real money
+  category: Economy
+  status: Completed
+  sources:
+    - http://youtu.be/HKcVI1rNz44?t=10m57s
+- title: Pirate insurance for questionably obtained ships
+  category: Economy
+  status: Broken
+  tags:
+    - steal
+    - pirate
+  sources:
+    - https://youtu.be/QNGq1BkPINU?t=1060
+    - https://youtu.be/gmtpMCh97D0?t=510
+  quote: insurance for pirates will not be too dissimilar for insurance for people
+    inside the UEE it will just be the sort of pirate version of that
+- title: Insurance policies
+  category: Economy
+  status: In alpha
+  sources:
+    - http://archive.is/CFC5L
+  quote: RSI Site|insurance should be a relatively small part of your regular in game
+    expenses which will also include paying landing fees, trade tariffs
+- title: Fake hull IDs
+  category: Economy
+  status: Broken
+  tags:
+    - steal
+    - pirate
+    - forge
+    - VIN
+  sources:
+    - http://archive.is/CFC5L
+    - https://i.imgur.com/orXQvMZ.png
+    - https://i.imgur.com/Uahe70d.png
+    - https://www.reddit.com/r/Games/comments/7tkmc3/star_citizen_dev_you_cannot_collect_ships_by/dte0j2i/
+    - https://youtu.be/gmtpMCh97D0?t=510
+  quote: RSI Site|You will be able to fly a “hot” ship to the less savory parts of
+    the Star Citizen universe, where you will probably be able to land and may be
+    able to purchase a fake hull id code, but it will take effort and not necessarily
+    be cheap.
+- title: Economic disparity between systems
+  category: Economy
+  status: Not implemented
+  sources:
+    - https://youtu.be/y4wAP1fWe8c?t=466
+  quote: So it sort of encourages people to go around and explore, and take advantage
+    of economic disparity between one system and another system. So one of the ways
+    would be potentially in one area of the galaxy it would be more expensive to borrow
+    money than another area.
+- title: Private mission boards
+  category: Economy
+  status: Not implemented
+  sources:
+    - https://youtu.be/XBVkhXGX8iI?t=838
+  quote: "You can, when you set up a mission, you'll be able to publish it as a public
+    mission, or you'll be able to publish it to your organization, or a subset of
+    your organization - that's kind of the way it should work."
+- title: Transfer fees
+  category: Economy
+  status: Not implemented
+  sources:
+    - https://youtu.be/RSWDk8K46CI?t=313
+  quote: We haven't made all the full rules, but in our universe it will be like the
+    real world, so you just can't willy nilly transfer money and transfer items and
+    equipment to other people without having to pay some form of… you know, like in
+    the real world, you have to transfer title and it costs you to transfer title
+    on a car, and if you give people something they have to pay taxes.
+- title: Landing fees
+  category: Economy
+  status: Not implemented
+  sources:
+    - https://youtu.be/vRR1eIGnT04?t=814
+  quote: We actually do have, whether you want to call it money sinks, I call it running
+    costs, of things like repairing your ship, keeping up to date, we have taxes in
+    the form of landing fees or trade tariffs depending on where you are.
+- title: Trade tariffs
+  category: Economy
+  status: Not implemented
+  sources:
+    - https://youtu.be/vRR1eIGnT04?t=814
+  quote: We actually do have, whether you want to call it money sinks, I call it running
+    costs, of things like repairing your ship, keeping up to date, we have taxes in
+    the form of landing fees or trade tariffs depending on where you are.
+- title: Player owned factories
+  category: Economy
+  status: Not implemented
+  sources:
+    - https://youtu.be/IIkeFs5xubw?t=302
+  quote: "I'm not sure about alien tech, but you'll definitely be able to own and operate
+    factories, which will be limited. A lot of the economic nodes will be NPC controlled,
+    then say 10% might have the potential to be player controlled"
+- title: Player influenced politics
+  category: Economy
+  status: Not implemented
+  sources:
+    - http://youtu.be/ItuiYF_lRGc?t=3m15s
+- title: In-depth economy
+  category: Economy
+  status: Stagnant
+  quote: "So the Universe simulation keeps track of all the NPC's. It's the one that's
+    dealing with the goods and the markets, the economy nodes, so on various planets
+    there'll be things that produce, things that consume, so there's sort of a very
+    high-level meta AI that's running on the economy simulation. And from that high-level
+    simulation we can track the sort of movement, the populations, the progress of
+    AI, in a sort of much higher-level, abstracted way, and of course since that doesn't
+    need to be real time, like you flying around, we can time slice it, which is why
+    we can simulate so many agents."
+- title: Only one ingame currency
+  category: Economy
+  status: Completed
+  sources:
+    - https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q8u88/
+- title: Trade
+  category: Economy
+  status: In alpha
+  sources:
+    - https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q9tze/
+    - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6v1oju/
+- title: Crafting
+  category: Economy
+  status: Stagnant
+  sources:
+    - https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6qa10k/
+    - https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q9tze/
+- title: Supply and Demand
+  category: Economy
+  status: Stagnant
+  sources:
+    - https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q7kqy/
+  quote: Players will have the ability to trade amongst themselves and [there] will
+    be supply and demand on goods.

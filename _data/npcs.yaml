@@ -1,0 +1,192 @@
+- title: Cleaning and Mopping
+  category: NPCs
+  status: Not implemented
+  tags:
+    - mopping
+  sources:
+    - https://youtu.be/qcHAfaQh3QE?t=1089
+    - https://youtu.be/JMkePHE94-I?t=672
+- title: Leir III Sandworm
+  category: NPCs
+  status: Broken
+  sources:
+    - https://starcitizen.tools/Leir_III
+    - https://i.imgur.com/6EpWeDa.png
+  quote: Sure. We aren’t selling something that won’t be in the game. We are going
+    to have creatures on our planets. We’re going to have xenomorphs on wrecks, dangerous
+    alien creatures on planets and so on, probably even a space whale / leviathan.
+- title: Diverse NPC actions
+  category: NPCs
+  status: Not implemented
+  sources:
+    - https://youtu.be/Z-3YBuFI3iI?t=1800
+- title: Immersive landing pad and traffic control from NPCs
+  category: NPCs
+  status: Completed
+  sources:
+    - https://youtu.be/Z-3YBuFI3iI?t=49m27s
+- title: NPC managers replace destroyed items and fix up player caused damage
+  category: NPCs
+  status: Not implemented
+  sources:
+    - https://youtu.be/Uhra2SETLNs?t=1420
+- title: NPCs load and unload cargo
+  category: NPCs
+  status: Not implemented
+  sources:
+    - https://youtu.be/Uhra2SETLNs?t=1711
+- title: Procedural wildlife and birds
+  category: NPCs
+  status: Not implemented
+  sources:
+    - https://youtu.be/DFkTG9YungQ?t=787
+  quote: ultimately, to take it to the level where you get a Crysis level, which includes
+    things like obviously the grass, which you mention the rocks, the vegetation,
+    trees, plants, water, oceans, streams, wildlife, alien wildlife, birds in the
+    sky, all that sort of stuff.
+- title: 20 million AI agents
+  category: NPCs
+  status: Not implemented
+  sources:
+    - https://youtu.be/zt4r3ksHXng?t=435
+  quote: It just actually runs on one server, and it simulates about 20 million AI
+    agents
+- title: Ingame Pets
+  category: NPCs
+  status: Not implemented
+  tags:
+    - Official Stretch Goal
+  sources:
+    - https://robertsspaceindustries.com/comm-link/transmission/14336-Letter-From-The-Chairman
+  quote: We have repair bots, we have fish… but we haven’t implemented a pet system
+    in Star Citizen yet. At $64 million, that changes.
+- title: Forms of fictional corruption within the PU
+  category: NPCs
+  status: Not implemented
+  sources:
+    - http://youtu.be/Uyur8rqbEHc?t=4m15s
+- title: Space creatures
+  category: NPCs
+  status: Not implemented
+  sources:
+    - http://youtu.be/RpHGEtOXFvE?t=27m59s
+- title: Dynamic social interaction with NPCs
+  category: NPCs
+  status: Not implemented
+  sources:
+    - http://youtu.be/Wk9V1SUHi7w?t=13m10s
+- title: Give orders to NPCs
+  category: NPCs
+  status: Not implemented
+  sources:
+    - https://youtu.be/JMkePHE94-I?t=1019
+  quote: "You can click here and say you attack here, or you defend this person, and
+    essentially you'll be tasking instructions and orders out to the ships. If they're
+    NPC runned, then obviously the NPCs will obey you"
+- title: Bribe NPCs
+  category: NPCs
+  status: Not implemented
+  sources:
+    - https://youtu.be/Uyur8rqbEHc?t=199
+  quote: you essentially have to sort of bribe your way out of prison, or do something
+    like that.
+- title: Hireable NPCs
+  category: NPCs
+  status: Not implemented
+  sources:
+    - http://youtu.be/2jcCwDs2rbw?t=10m54s
+    - http://youtu.be/HKcVI1rNz44?t=3m58s
+    - https://youtu.be/ItuiYF_lRGc?t=690
+  quote: RSI Site|more likely, simply hiring NPC crew members to work alongside you.
+- title: AI for Aliens
+  category: NPCs
+  status: Not implemented
+  sources:
+    - http://youtu.be/fuQ5nfzoOHg?t=6m19s
+    - http://youtu.be/XBVkhXGX8iI?t=6m29s
+- title: "AI NPC's"
+  category: NPCs
+  status: Not implemented
+  sources:
+    - http://youtu.be/fuQ5nfzoOHg?t=6m19s
+    - http://youtu.be/XBVkhXGX8iI?t=6m29s
+- title: Varied NPC skills
+  category: NPCs
+  status: Not implemented
+  sources:
+    - http://youtu.be/-3KIcnKf3O0?t=1m9s
+- title: Retired characters persist as NPCs
+  category: NPCs
+  status: Not implemented
+  sources:
+    - https://youtu.be/Q4OB9Yfo-0Q?t=1117
+- title: NPCs prevent conflict in safe zones
+  category: NPCs
+  status: Not implemented
+  sources:
+    - https://youtu.be/wE_xZdeakEw?t=531
+- title: Immersive haggling with NPCs
+  category: NPCs
+  status: Stagnant
+  sources:
+  - http://youtu.be/NcRxuvQT3Ew?t=4m5s
+  quote: "Most of the time it'll be handled in the background, and you'll negotiate
+    prices/amounts using your manifest with the local commodities broker, they'll
+    buy it then offload it from your ship."
+- title: Immersive buying of ships
+  category: NPCs
+  status: Stagnant
+  sources:
+  - https://youtu.be/NcRxuvQT3Ew?t=215
+  quote: "So definitely in Star Citizen I kind of want the buying and selling to be
+    immersive so you walk into a showroom and there's actually an NPC sales guy there
+    and he's telling you why you should really be stepping up to this particular model
+    300i spaceship and sort of make it feel like you'd be buying something in the
+    real world."
+- title: Highly interactive NPCs
+  category: NPCs
+  status: Stagnant
+  sources:
+    - http://youtu.be/RtyZzO5OrE0?t=5m
+    - http://youtu.be/RtyZzO5OrE0?t=10m54s
+- title: Randomly generated personalities for NPCs
+  category: NPCs
+  status: Stagnant
+  sources:
+    - https://youtu.be/RtyZzO5OrE0?t=288
+- title: Request assistance from NPC ships
+  category: NPCs
+  status: Stagnant
+  sources:
+    - https://youtu.be/RtyZzO5OrE0?t=647
+- title: Vanduul in persistant universe
+  category: NPCs
+  status: Stagnant
+- title: Hired NPCs can fly in your wing
+  category: NPCs
+  status: Stagnant
+  sources:
+    - https://youtu.be/qwbU9FG5XlQ?t=176
+- title: Hired NPCs can man your ship
+  category: NPCs
+  status: Stagnant
+  sources:
+    - https://youtu.be/qwbU9FG5XlQ?t=176
+    - https://youtu.be/-3KIcnKf3O0?t=49
+- title: Customizable NPC crew
+  category: NPCs
+  status: Stagnant
+  sources:
+    - https://robertsspaceindustries.com/comm-link/transmission/13288-Multiple-Package-Clarification
+  quote: RSI Site|The difference between a Game Character slot converted into a NPC
+    crew member and a regular NPC crew member is that you can customize the Game Character
+    NPC’s look, name and backstory.
+- title: Asset inheritance
+  category: NPCs
+  status: Stagnant
+  sources:
+    - https://robertsspaceindustries.com/comm-link/transmission/13288-Multiple-Package-Clarification
+  quote: RSI Site|There is an additional bonus of being able to specify one of your
+    Game Character NPC crewmembers as your successor in the event of your main characters
+    death (See Death of a Spaceman), at which point the Game Character NPC will become
+    playable again, with the assets of your deceased old character conveying.
