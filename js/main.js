@@ -153,7 +153,7 @@ function Build_and_fill_Chart(para_Type) {
     if (para_Type === void 0) { para_Type = "all"; }
     var History = [
         {"Not_implemented":0,"Completed":0,"date":"2012-10-01T07:00:00.000Z"},
-        {"Completed":2,"In_alpha":1,"Not_implemented":13,"date":"2012-11-01T07:00:00.000Z"}
+        {"Completed":2,"In_alpha":1,"Not_implemented":13,"date":"2012-11-01T07:00:00.000Z"},
         {"Not_implemented":45,"Compromised":1,"Completed":8,"In_alpha":1,"date":"2012-12-01T08:00:00.000Z"},
         {"Not_implemented":45,"Compromised":1,"Completed":8,"In_alpha":1,"date":"2013-01-01T08:00:00.000Z"},
         {"Completed":9,"Not_implemented":55,"Compromised":1,"In_alpha":1,"date":"2013-02-01T08:00:00.000Z"},
