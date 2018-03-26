@@ -60,11 +60,6 @@ promises:
   - https://robertsspaceindustries.com/comm-link/transmission/16200-Consolidated-Outland-Pioneer
   quote: RSI Site|the Pioneer opens up exciting opportunities for planetary settlement
     by allowing you to create your own modular structures.
-- title: Customize and personalize mobiGlas (not on initial release)
-  category: Assets
-  status: Not implemented
-  sources:
-  - https://youtu.be/djT7zF2WQVo?t=928
 - title: Pooping
   category: Mechanics
   status: Not implemented
@@ -194,27 +189,12 @@ promises:
   - https://youtu.be/oZIzExVmZMo?t=418
   - https://youtu.be/i-CZrmCtqdk?t=2103
   - https://youtu.be/RQLRvB9LAlo?t=648
-- title: Clothing physics
-  category: Assets
-  status: Completed
-  sources:
-  - http://www.youtube.com/watch?v=PbTQWmXFuM0&t=16m43s
-  - http://youtu.be/PbTQWmXFuM0
-  quote: Developer|It's not set in stone yet, we will definitely be getting simulated
-    clothing eventually
 - title: Animal motion capture
   category: MoCap
   status: Not implemented
   sources:
   - https://youtu.be/vJoHlCc4Y7E?t=1606
   quote: I think we probably would do some animal motion capture. It's always fun.
-- title: Xi’An Space Plant
-  category: Assets
-  status: Completed
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/community/citizen-spotlight/3804-XI-rsquo-AN-SPACE-PLANT-Star-Citizen-49M-Reward-Hangar-Flair
 - title: Visual representation of items and comodoties in storage in stores
   category: Mechanics
   status: Not implemented
@@ -338,38 +318,6 @@ promises:
     job, not a merge-this-file job), making a game properly VR compliant takes a lot
     of work at the design and testing level regardless of the engine used. We’d probably
     need to get the framerate up a bit higher too, come to think of it.
-- title: Science pod
-  category: Assets
-  status: Not implemented
-  tags:
-  - Endeavor
-  sources:
-  - https://youtu.be/rGeq21LKB78?t=2036
-  - https://i.imgur.com/22Od76R.png
-- title: Service equipment and crew pod
-  category: Assets
-  status: Not implemented
-  tags:
-  - Endeavor
-  sources:
-  - https://youtu.be/rGeq21LKB78?t=2036
-  - https://i.imgur.com/22Od76R.png
-- title: Research pod
-  category: Assets
-  status: Not implemented
-  tags:
-  - Endeavor
-  sources:
-  - https://youtu.be/rGeq21LKB78?t=2036
-  - https://i.imgur.com/22Od76R.png
-- title: Fuel pod
-  category: Mechanics
-  status: Assets
-  tags:
-  - Endeavor
-  sources:
-  - https://youtu.be/rGeq21LKB78?t=2036
-  - https://i.imgur.com/22Od76R.png
 - title: Vulkan graphic engine support
   category: Engine
   status: Not implemented
@@ -584,13 +532,6 @@ promises:
     I sorta feel like modern games have gotten away from what made games in the old
     days sorta work, cause if nothing's a challenge to achieve then there's no satisfaction
     from finishing it.
-- title: Salvagable debris fields
-  category: Assets
-  status: Not implemented
-  sources:
-  - https://youtu.be/zt4r3ksHXng?t=1372
-  quote: So there will definitely be debris fields you can salvage and there will
-    just be some that will be seeded out there similar to asteroid fields
 - title: Public Transportation System
   category: Mechanics
   status: Not implemented
@@ -644,13 +585,6 @@ promises:
   quote: you will be able to name your ships and we plan to have the ship's name on
     a decal, so you should see it on the hull, and also it should show up in the targeting
     information.
-- title: Richer Storyline
-  category: Assets
-  status: Not implemented
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - http://starcitizen.wikia.com/wiki/Stretch_goals#.E2.80.9CHave_Starship_Will_Travel.E2.80.A6.E2.80.9D_.28Stretch_Goal_3.29
 - title: Ship signature spoofing
   category: Mechanics
   status: Stagnant
@@ -683,13 +617,6 @@ promises:
   status: Completed
   sources:
   - http://youtu.be/RtyZzO5OrE0?t=8m35s
-- title: RSI Class II space suit
-  category: Assets
-  status: Completed
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://starcitizen.tools/Odyssey_Flight_Suit
 - title: Towel
   category: Shop
   status: Completed
@@ -713,17 +640,6 @@ promises:
   sources:
   - https://www.kickstarter.com/projects/cig/star-citizen
   - https://youtu.be/nx1VCIH6sEo?t=36m33s
-- title: Flashfire specialty mount
-  category: Assets
-  status: Broken
-  sources:
-  - https://robertsspaceindustries.com/electronic-access/Weapon-Roms/Hornet-Flashfire-Specialty-Mount
-  - https://i.imgur.com/l6NbZFm.png
-  quote: RSI Site|Want some bigger bang for your credit… literally? Flashfire Systems
-    is proud to offer a new selection of ‘special mission’ VariPuck weapon mounts
-    designed to provide additional handling capacity on specifically designated single-seater
-    spacecraft. These carefully designed mounts will transform larger hardpoints on
-    the Hornet and Cutlass-class platforms to allow them to attach large weaponry
 - title: Enhanced Ship Modularity
   category: Mechanics
   status: Not implemented
@@ -792,13 +708,6 @@ promises:
   - https://youtu.be/v3zWV0u_ZOw?t=129
   quote: RSI Site|Damaged limbs are useless and the player cannot use them unless
     they get them patched up in the field or taken to a mobile trauma system
-- title: Visual limb damage
-  category: Assets
-  status: Not implemented
-  sources:
-  - https://robertsspaceindustries.com/comm-link/engineering/14318-Design-Healing-Your-Spacemen
-  quote: RSI Site|Damage to limbs will normally be observable by players; taking a
-    hit will call out a damage state in much the same way as our ships.
 - title: Field medical devices
   category: Mechanics
   status: Not implemented
@@ -815,13 +724,6 @@ promises:
   - https://i.imgur.com/Us8rc40.png
   - https://gfycat.com/unfortunatephonygoldenmantledgroundsquirrel
   quote: the gun shoots where the barrel is pointing
-- title: Alien Languages
-  category: Assets
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - http://youtu.be/XBVkhXGX8iI?t=10m50s
 - title: External Repair Structure
   category: Mechanics
   status: Not implemented
@@ -858,14 +760,6 @@ promises:
   sources:
   - https://robertsspaceindustries.com/comm-link/transmission/15745-Star-Citizen-Alpha-261-Is-LIVE
   - https://youtu.be/j3N3ltgDE28
-- title: J-Span Cryo-Star
-  category: Assets
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/voyager-direct/Coolers/J-Span-Cryo-Star-Cooler
-  - http://i.imgur.com/11v1sD9.jpg
 - title: Ship boarding
   category: Mechanics
   status: Not implemented
@@ -1008,14 +902,6 @@ promises:
   quote: It's kinda interesting because in the engine right now we allow you to switch
     between first and third person, mainly because we really think the ships look
     great and the characters look great, and we like to show off the cool graphics.
-- title: Accurate skybox
-  category: Assets
-  status: Not implemented
-  sources:
-  - https://youtu.be/VK4wHImGNAQ?t=545
-  quote: we wouldn't necessarily render in real-time, but use that to build the background
-    'space sphere' you may want to say, for when you're inside a system it shows stuff
-    off in the distance.
 - title: Ship tuning and component overclocking
   category: Mechanics
   status: Not implemented
@@ -1053,13 +939,6 @@ promises:
   quote: we are planning on having you, like, if you want to turn on your engines,
     and turn them off, and turn on your HUD, you have to hit the switches to turn
     the stuff on on your dashboard
-- title: No sound in space preference setting
-  category: Assets
-  status: Not implemented
-  sources:
-  - https://youtu.be/QWWhhg56IoM?t=735
-  quote: we probably would want to do for the people that want to feel the sound in
-    space is realistic.
 - title: Plastic surgery
   category: Mechanics
   status: Not implemented
@@ -1085,13 +964,6 @@ promises:
   - http://youtu.be/RpHGEtOXFvE?t=31m18s
   quote: We're definitely gonna have the ability to have different voices for your
     HUD or computer AI.
-- title: 'Squadron 42: Chris Roberts cameo'
-  category: Assets
-  status: Not implemented
-  sources:
-  - http://youtu.be/RpHGEtOXFvE?t=31m18s
-  quote: I'm pretty confident that we'll be putting myself, and Sandi, and Eric, and
-    probably a few other people in the universe.
 - title: Cargo damage becomes item damage
   category: Mechanics
   status: Not implemented
@@ -1109,25 +981,11 @@ promises:
   - https://youtu.be/w5M5DXzcMmg?t=914
   quote: But we definitely do have damage modeled on all items, so it's really just
     a matter of doing the art and the effects once it gets damaged.
-- title: Different HUDs for different ships
-  category: Assets
-  status: Completed
-  sources:
-  - https://youtu.be/RSWDk8K46CI?t=221
-  - http://youtu.be/RSWDk8K46CI?t=3m53s
-  - https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6v1mul/
 - title: G-suits
   category: Mechanics
   status: Not implemented
   sources:
   - http://youtu.be/gMivc0BV7ng?t=16m16s
-- title: Repair crews
-  category: Assets
-  status: Not implemented
-  sources:
-  - https://youtu.be/gMivc0BV7ng?t=166
-  quote: definitely having sort of ambient animations happening when your ship is
-    getting repaired or retrofitted and stuff.
 - title: Separate keybind profiles
   category: Mechanics
   status: Not implemented
@@ -1234,14 +1092,6 @@ promises:
     reputation with other organizations and in fact that's kind of the general reputation
     system. Even your own character, your reputations, are based on your reputations
     with other organizations.
-- title: In-game monument to subscribers
-  category: Assets
-  status: Not implemented
-  sources:
-  - https://youtu.be/_9zJm8pK48E?t=482
-  quote: We've got a pretty cool and obvious place for everyone's name, so I guess
-    it's not necessarily going to be something that's hidden, you'll just have to
-    go and visit is, and it's in a pretty important area, a monument
 - title: Web based Known Universe Map
   category: Promo
   status: Completed
@@ -1405,22 +1255,6 @@ promises:
   status: Not implemented
   sources:
   - http://youtu.be/JMkePHE94-I?t=5m26s
-- title: Decals to decorate hull
-  category: Assets
-  status: Not implemented
-  sources:
-  - https://youtu.be/JMkePHE94-I?t=533
-  - https://youtu.be/HKcVI1rNz44?t=1325
-  quote: The answer is yes, you will be able to name your ships and we plan to have
-    the ship's name on a decal, so you should see it on the hull, and also it should
-    show up in the targeting information.
-- title: Hadesian Artifact
-  category: Assets
-  status: Not implemented
-  tags:
-  - Official Stretch Goal
-  sources:
-  - https://robertsspaceindustries.com/comm-link/transmission/13840-Letter-From-The-Chairman-43-Million
 - title: Dangerous deep space evniornments
   category: Mechanics
   status: Not implemented
@@ -1460,14 +1294,6 @@ promises:
     I'm ready to be respawned back on my closest friendly planet or last location
     I was on. Then we'll cut to an in-game cinematic with you getting rescued by search
     and recovery or something like that.
-- title: 'Squadron 42: Fully voice acted'
-  category: Assets
-  status: Not implemented
-  sources:
-  - https://youtu.be/ZrKQn8u3gGk?t=695
-  - https://youtu.be/H4Z2Fr9fHMc?t=566
-  quote: Ok, so there's two things here, Squadron 42 obviously is going to be full,
-    we're actually in the process of planning it right now.
 - title: Revive wounded or incapacitated players
   category: Mechanics
   status: Not implemented
@@ -1475,39 +1301,12 @@ promises:
   - https://youtu.be/ZrKQn8u3gGk?t=823
   quote: it would be a nice gameplay element that would encourage people to try and
     recover either the wounded or incapacitated bodies of friends to get them back.
-- title: Light armor
-  category: Assets
-  status: In alpha
-  sources:
-  - https://youtu.be/joKjDdKcOMQ?t=810
-  - https://youtu.be/SL3-Z4OPWis?t=2189
-  quote: But the rule is essentially light or below to be piloting the small fighter
-    ships, and then if there are bigger ships we might see medium armour or heavy,
-    titan armour I doubt you'd be able to sit down and pilot ships in it.
-- title: Medium Armor
-  category: Assets
-  status: In alpha
-  sources:
-  - https://youtu.be/joKjDdKcOMQ?t=810
-  - https://youtu.be/SL3-Z4OPWis?t=2189
-  quote: But the rule is essentially light or below to be piloting the small fighter
-    ships, and then if there are bigger ships we might see medium armour or heavy,
-    titan armour I doubt you'd be able to sit down and pilot ships in it.
 - title: Highlight camera
   category: Mechanics
   status: Not implemented
   sources:
   - https://www.youtube.com/watch?v=SL3-Z4OPWis#t=1746
   quote: We built a whole like we got a what we call a 'highlight camera' system
-- title: Titan Armor
-  category: Assets
-  status: Not implemented
-  sources:
-  - https://youtu.be/joKjDdKcOMQ?t=810
-  - https://youtu.be/SL3-Z4OPWis?t=2189
-  quote: But the rule is essentially light or below to be piloting the small fighter
-    ships, and then if there are bigger ships we might see medium armour or heavy,
-    titan armour I doubt you'd be able to sit down and pilot ships in it.
 - title: Detailed procedural ship destruction for large ships
   category: Mechanics
   status: Completed
@@ -1611,13 +1410,6 @@ promises:
   status: Not implemented
   sources:
   - http://youtu.be/PCG4dZ1mYRw?t=13m53s
-- title: Omni Role Combat Armor
-  category: Assets
-  status: In alpha
-  tags:
-  - Official Stretch Goal
-  sources:
-  - http://starcitizen.wikia.com/wiki/Development_promises
 - title: Group mining operations
   category: Mechanics
   status: Not implemented
@@ -2643,16 +2435,6 @@ promises:
     are the very last thing on the development slate, and wouldn't even be looked
     into until after the persistent universe is up and running and stable ... it is
     still something we want to do.
-- title: Class I Repair Bot
-  category: Assets
-  status: Stagnant
-  tags:
-  - Kickstarter Stretch Goal
-  sources:
-  - https://www.kickstarter.com/projects/cig/star-citizen/posts/338340
-  - http://starcitizen.wikia.com/wiki/AMX-1_Repair_Droid
-  - https://robertsspaceindustries.com/funding-goals
-  - http://starcitizen.wikia.com/wiki/Stretch_goals
 - title: More funds will ensure delivery of functionality sooner rather than later
   category: Promo
   status: Broken
