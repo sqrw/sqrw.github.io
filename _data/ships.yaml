@@ -66,7 +66,7 @@
     equipment is making its debut on the civilian market for 2947."
 - title: Tumbril Cyclone
   category: Ships
-  status: Not implemented
+  status: In alpha
   sources:
     - https://robertsspaceindustries.com/comm-link/transmission/16019-Rough-And-Tumbril
   quote: RSI Site|A future patch will add a Cyclone poster and then once the in-game
@@ -97,7 +97,7 @@
     be able to blast anything that gets in its way out of the sky."
 - title: MISC Razor
   category: Ships
-  status: Not implemented
+  status: In alpha
   sources:
     - https://robertsspaceindustries.com/comm-link/transmission/15634-MISC-Razor
     - http://web.archive.org/web/20161216203848/https://robertsspaceindustries.com/pledge/Standalone-Ships/MISC-Razor-LTI
@@ -271,7 +271,7 @@
     Anvil Aerospace Crucible.'
 - title: Aegis Reclaimer
   category: Ships
-  status: Not implemented
+  status: In alpha
   tags:
     - Official Stretch Goal
   sources:
@@ -439,7 +439,7 @@
     - https://robertsspaceindustries.com/pledge/ships/defender/Defender
 - title: Anvil Terrapin
   category: Ships
-  status: Not implemented
+  status: In alpha
   sources:
     - https://robertsspaceindustries.com/pledge/ships/terrapin/Terrapin
     - http://starcitizen.wikia.com/wiki/Terrapin
