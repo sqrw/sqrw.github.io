@@ -217,7 +217,8 @@ function Build_and_fill_Chart(para_Type) {
         {"Not_implemented":314,"Broken":40,"Completed":92,"Compromised":6,"In_alpha":27,"Stagnant":67,"date":"2017-12-01T08:00:00.000Z"},
         {"In_alpha":28,"Not_implemented":302,"Completed":96,"Broken":43,"Compromised":6,"Stagnant":74,"date":"2018-01-01T08:00:00.000Z"},
         {"In_alpha":28,"Not_implemented":295,"Completed":96,"Broken":43,"Compromised":6,"Stagnant":81,"date":"2018-02-01T08:00:00.000Z"},
-        {"Not_implemented":270,"In_alpha":28,"Completed":96,"Broken":46,"Compromised":6,"Stagnant":104,"date":"2018-03-01T08:00:00.000Z"}
+        {"Not_implemented":270,"In_alpha":28,"Completed":96,"Broken":46,"Compromised":6,"Stagnant":104,"date":"2018-03-01T08:00:00.000Z"},
+        {"Not_implemented":272,"In_alpha":65,"Completed":70,"Broken":23,"Compromised":8,"Stagnant":99,"date":"2018-04-01T08:00:00.000Z"}
     ];
     var brokenArray = [], stagnantArray = [], notimplementedArray = [], inalphaArray = [], compromisedArray = [], completedArray = [], labels = [];
     //build data arrays
